@@ -1559,7 +1559,7 @@ Restringir los nombres de usuario a caracteres ASCII restringe los nombres de us
 		<item name="wcf.acp.option.url_omit_index_php"><![CDATA[Habilitar la reescritura de URLs]]></item>
 		<item name="wcf.acp.option.url_omit_index_php.button.runTestAgain"><![CDATA[Repetir la prueba]]></item>
 		<item name="wcf.acp.option.url_omit_index_php.description"><![CDATA[Al activar esta opción, las URL se reescribirán en una representación más legible, “https://example.com/index.php?thread/1-hello-i-am-john-doe/” se convertirá en “https://example.com/thread/1-hello-i-am-john-doe/”.
-<strong>Atención</strong>: Esta opción requiere un módulo de reescritura instalado en su servidor web y una configuración adecuada. No funcionará sin una configuración previa aplicada por usted.<br>
+<strong>Atención</strong>: Esta opción requiere un módulo de reescritura instalado en tu servidor web y una configuración adecuada. No funcionará sin una configuración previa aplicada por tu parte.<br>
 Por favor, lee el manual de instrucciones: <a href="https://manual.woltlab.com/en/url-rewrites/" class="externalURL">Ajuste de URLs amigables</a>.]]></item>
 		<item name="wcf.acp.option.url_omit_index_php.test.failure"><![CDATA[La prueba ha fallado.]]></item>
 		<item name="wcf.acp.option.url_omit_index_php.test.failure.description"><![CDATA[El servidor web no puede gestionar reescrituras o no se ha configurado correctamente.<br>
