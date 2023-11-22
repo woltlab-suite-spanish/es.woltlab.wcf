@@ -5119,7 +5119,7 @@ También has recibido una lista de códigos de recuperación para utilizar cuand
 		<item name="wcf.user.usersOnline"><![CDATA[Usuarios en línea]]></item>
 		<item name="wcf.user.usersOnline.detail"><![CDATA[{*
 *}{if $usersOnlineList->stats[members] > 0}{#$usersOnlineList->stats[members]} miembro{if $usersOnlineList->stats[members] != 1}s{/if}{/if}{*
-*}{if $usersOnlineList->stats[invisible] > 0} ({#$usersOnlineList->stats[invisible]} invisibles){/if}{*
+*}{if $usersOnlineList->stats[invisible] > 0} ({#$usersOnlineList->stats[invisible]} invisible{if $usersOnlineList->stats[invisible] != 1}s{/if}){/if}{*
 *}{if $usersOnlineList->stats[guests] > 0 && $usersOnlineList->stats[members] > 0} y {/if}{*
 *}{if $usersOnlineList->stats[guests] > 0}{#$usersOnlineList->stats[guests]} invitado{if $usersOnlineList->stats[guests] != 1}s{/if}{/if}]]></item>
 		<item name="wcf.user.usersOnline.invisible"><![CDATA[ (invisible)]]></item>
