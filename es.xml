@@ -23,7 +23,7 @@
 		<item name="wcf.acl.option.com.woltlab.wcf.article.category.canReadArticle"><![CDATA[Puede leer artículos]]></item>
 	</category>
 	<category name="wcf.acp.ad">
-		<item name="wcf.acp.ad.ad"><![CDATA[Anuncios]]></item>
+		<item name="wcf.acp.ad.ad"><![CDATA[Anuncio]]></item>
 		<item name="wcf.acp.ad.ad.description"><![CDATA[Introduce aquí el código HTML del anuncio. Las siguientes expresiones se sustituirán automáticamente en el código HTML:
 <ul class="nativeList">
 	<li class="jsDefaultItem"><kbd>{literal}{$username}{/literal}</kbd> con el nombre del usuario activo o "Invitado".</li>
@@ -157,7 +157,7 @@
 		<item name="wcf.acp.bbcode.mediaProvider.title"><![CDATA[Proveedor de medios]]></item>
 		<item name="wcf.acp.bbcode.showButton"><![CDATA[Mostrar botón en el editor WYSIWYG]]></item>
 		<item name="wcf.acp.bbcode.wysiwygIcon"><![CDATA[Imagen del botón]]></item>
-		<item name="wcf.acp.bbcode.wysiwygIcon.description"><![CDATA[La imagen debe colocarse dentro del directorio wcf/icon/ o utilizar un icono <a href="https://fontawesome.com/icons">FontAwesome</a>.]]></item>
+		<item name="wcf.acp.bbcode.wysiwygIcon.description"><![CDATA[La imagen debe colocarse dentro del directorio <kbd>wcf/icon/</kbd> o utilizar un icono <a href="https://fontawesome.com/icons">FontAwesome</a>.]]></item>
 	</category>
 	<category name="wcf.acp.box">
 		<item name="wcf.acp.box.add"><![CDATA[Añadir caja]]></item>
@@ -178,7 +178,7 @@
 		<item name="wcf.acp.box.linkType.external"><![CDATA[Enlace externo]]></item>
 		<item name="wcf.acp.box.link.externalURL"><![CDATA[URL externa]]></item>
 		<item name="wcf.acp.box.list"><![CDATA[Cajas]]></item>
-		<item name="wcf.acp.box.name.error.notUnique"><![CDATA[El nombre ya está en uso.]]></item>
+		<item name="wcf.acp.box.name.error.notUnique"><![CDATA[Este nombre ya está en uso.]]></item>
 		<item name="wcf.acp.box.position"><![CDATA[Posición]]></item>
 		<item name="wcf.acp.box.position.error.invalid"><![CDATA[La posición seleccionada no es válida.]]></item>
 		<item name="wcf.acp.box.position.hero"><![CDATA[Hero]]></item>
@@ -566,11 +566,11 @@
 		<item name="wcf.acp.devtools.project.instruction.edit"><![CDATA[Editar instrucción]]></item>
 		<item name="wcf.acp.devtools.project.instruction.language.error.missingFiles"><![CDATA[El directorio <kbd>{$directory}<kdb> no contiene archivos XML.]]></item>
 		<item name="wcf.acp.devtools.project.instruction.error.noXmlFile"><![CDATA[El archivo introducido no es un archivo XML.]]></item>
-		<item name="wcf.acp.devtools.project.instruction.delete.confirmMessages"><![CDATA[¿Realmente quieres borrar la instrucción?]]></item>
+		<item name="wcf.acp.devtools.project.instruction.delete.confirmMessages"><![CDATA[¿Realmente quieres borrar esta instrucción?]]></item>
 		<item name="wcf.acp.devtools.project.add.info"><![CDATA[Los paquetes en conflicto, las instrucciones de instalación y las instrucciones de actualización sólo pueden añadirse al editar un proyecto existente.]]></item>
 		<item name="wcf.acp.devtools.project.optionalPackage.error.missingFiles"><![CDATA[Faltan los siguientes archivos de paquete: {implode from=$missingFiles item=missingFile}<kbd>{$missingFile}</kbd>{/implode}.]]></item>
 		<item name="wcf.acp.devtools.project.requiredPackage.error.missingFiles"><![CDATA[Faltan los siguientes archivos de paquete: {implode from=$missingFiles item=missingFile}<kbd>{$missingFile}</kbd>{/implode}.]]></item>
-		<item name="wcf.acp.devtools.project.pip.entry.delete.confirmMessage"><![CDATA[D¿Realmente quieres eliminar la entrada?]]></item>
+		<item name="wcf.acp.devtools.project.pip.entry.delete.confirmMessage"><![CDATA[¿Realmente quieres eliminar esta entrada?]]></item>
 		<item name="wcf.acp.devtools.project.pip.entry.delete.addDeleteInstruction"><![CDATA[Añadir instrucción de borrado]]></item>
 		<item name="wcf.acp.devtools.project.pip.entry.delete.addDeleteInstruction.description"><![CDATA[La entrada no sólo se borrará de la base de datos y se eliminará su instrucción de instalación, sino que también se añadirá explícitamente una instrucción de borrado.]]></item>
 		<item name="wcf.acp.devtools.project.edit.error.brokenPath"><![CDATA[No hay un <kbd>package.xml</kbd> en el directorio introducido. Los archivos del paquete han sido eliminados o movidos.]]></item>
@@ -782,12 +782,12 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.group.option.user.profile.canRename"><![CDATA[Puede cambiar su nombre de usuario]]></item>
 		<item name="wcf.acp.group.option.user.profile.canViewMembersList"><![CDATA[Puede ver la lista de miembros]]></item>
 		<item name="wcf.acp.group.option.user.profile.canViewUserProfile"><![CDATA[Puede ver perfiles de usuarios]]></item>
-		<item name="wcf.acp.group.option.user.profile.canViewUsersOnlineList"><![CDATA[Puede ver la lista de usuarios en línea]]></item>
+		<item name="wcf.acp.group.option.user.profile.canViewUsersOnlineList"><![CDATA[Puede ver la lista “Usuarios en línea”]]></item>
 		<item name="wcf.acp.group.option.user.profile.canViewStatistics"><![CDATA[Puede ver estadísticas]]></item>
 		<item name="wcf.acp.group.option.user.signature.disallowedBBCodes"><![CDATA[BBCodes no permitidos]]></item>
 		<item name="wcf.acp.group.option.user.signature.disallowedBBCodes.description"><![CDATA[Los BBCodes seleccionados <em>no pueden</em> ser utilizados en las firmas.]]></item>
 		<item name="wcf.acp.group.priority"><![CDATA[Prioridad]]></item>
-		<item name="wcf.acp.group.priority.description"><![CDATA[Determina el orden de visualización en la página del equipo, el rango de usuarios y el marcado de "usuarios en línea" en función de la prioridad más alta.]]></item>
+		<item name="wcf.acp.group.priority.description"><![CDATA[Determina el orden de visualización en la página del equipo, el rango de usuarios y el marcado de "Usuarios en línea" en función de la prioridad más alta.]]></item>
 		<item name="wcf.acp.group.userOnlineMarking"><![CDATA[Marca de usuario]]></item>
 		<item name="wcf.acp.group.userOnlineMarking.description"><![CDATA[Ajusta el formato HTML para los miembros de este grupo de usuarios. <em>&lt;strong&gt;%s&lt;/strong&gt;</em> muestra el nombre en negrita.]]></item>
 		<item name="wcf.acp.group.userOnlineMarking.error.invalid"><![CDATA[Debe aparecer “%s”.]]></item>
@@ -1412,8 +1412,8 @@ La licencia de desarrollador permite exclusivamente el uso durante el desarrollo
 		<item name="wcf.acp.option.censored_words"><![CDATA[Palabras censuradas]]></item>
 		<item name="wcf.acp.option.censored_words.description"><![CDATA[Puedes especificar qué palabras serán censuradas. El uso de al menos una de estas palabras en un mensaje provoca un rechazo inmediato. Ejemplos:
 <ul class="nativeList">
-<li>“*” para encontrar partes de palabras: “wolt*” coincide con “woltlab”</li>
-<li>“~” para encontrar separaciones de palabras: “wolt~” coincide con “wolt-lab”</li>
+<li>“*” para encontrar partes de palabras: “wolt*” coincide con “woltlab”.</li>
+<li>“~” para encontrar separaciones de palabras: “wolt~” coincide con “wolt-lab”.</li>
 </ul>]]></item>
 		<item name="wcf.acp.option.category.message.general.share"><![CDATA[Compartir contenido]]></item>
 		<item name="wcf.acp.option.enable_share_buttons"><![CDATA[Mostrar botón para compartir contenidos]]></item>
@@ -1449,7 +1449,7 @@ La licencia de desarrollador permite exclusivamente el uso durante el desarrollo
 		<item name="wcf.acp.option.category.user.password"><![CDATA[Contraseña]]></item>
 		<item name="wcf.acp.option.category.user.ban"><![CDATA[Filtro]]></item>
 		<item name="wcf.acp.option.category.user.3rdPartyAuth"><![CDATA[Autenticación de terceros]]></item>
-		<item name="wcf.acp.option.module_users_online"><![CDATA[Lista de usuarios en línea]]></item>
+		<item name="wcf.acp.option.module_users_online"><![CDATA[Lista de “Usuarios en línea”]]></item>
 		<item name="wcf.acp.option.module_user_rank"><![CDATA[Rangos de usuarios]]></item>
 		<item name="wcf.acp.option.module_user_signature"><![CDATA[Firmas]]></item>
 		<item name="wcf.acp.option.module_team_page"><![CDATA[Lista de equipo]]></item>
@@ -1503,8 +1503,8 @@ Restringir los nombres de usuario a caracteres ASCII restringe los nombres de us
 		<item name="wcf.acp.option.users_online_default_sort_field.description"><![CDATA[Elige la opción de ordenación por defecto de la lista “Usuarios en línea”.]]></item>
 		<item name="wcf.acp.option.users_online_default_sort_order"><![CDATA[Orden de clasificación]]></item>
 		<item name="wcf.acp.option.users_online_default_sort_order.description"><![CDATA[Elige el orden por defecto de la lista “Usuarios en línea”.]]></item>
-		<item name="wcf.acp.option.users_online_page_refresh"><![CDATA[Refrescar página]]></item>
-		<item name="wcf.acp.option.users_online_page_refresh.description"><![CDATA[Refresca la lista de “Usuarios en línea” en los siguientes segundos. Utiliza 0 para desactivar.]]></item>
+		<item name="wcf.acp.option.users_online_page_refresh"><![CDATA[Actualizar página]]></item>
+		<item name="wcf.acp.option.users_online_page_refresh.description"><![CDATA[Actualiza la lista de “Usuarios en línea” en los siguientes segundos. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.users_online_record_no_guests"><![CDATA[Excluir a los invitados del récord de usuarios en línea]]></item>
 		<item name="wcf.acp.option.user_cleanup_notification_lifetime"><![CDATA[Notificaciones]]></item>
 		<item name="wcf.acp.option.user_cleanup_notification_lifetime.description"><![CDATA[Las notificaciones se eliminarán después de los siguientes días.]]></item>
@@ -1549,7 +1549,7 @@ Restringir los nombres de usuario a caracteres ASCII restringe los nombres de us
 <li>“WBB=WoltLab Burning Board”</li>
 <li>“GmbH=Gesellschaft mit beschränkter Haftung”</li>
 </ul>]]></item>
-		<item name="wcf.acp.option.users_online_enable_legend"><![CDATA[Mostrar la leyenda de la lista de usuarios en línea]]></item>
+		<item name="wcf.acp.option.users_online_enable_legend"><![CDATA[Mostrar la leyenda de la lista de “Usuarios en línea”]]></item>
 		<item name="wcf.acp.option.category.general.system.googleMaps"><![CDATA[Google Maps]]></item>
 		<item name="wcf.acp.option.google_maps_zoom"><![CDATA[Zoom del mapa]]></item>
 		<item name="wcf.acp.option.google_maps_zoom.description"><![CDATA[El zoom del mapa por defecto.]]></item>
@@ -1821,7 +1821,7 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.package.install.confirmMessage"><![CDATA[¿Realmente quieres instalar el paquete <span class="confirmationObject">{@$package->getName()}</span>?]]></item>
 		<item name="wcf.acp.package.install.error.excludedPackages"><![CDATA[Este paquete no puede instalarse porque los siguientes paquetes ya están instalados:]]></item>
 		<item name="wcf.acp.package.install.error.excludedPackages.excludedPackage"><![CDATA[“{$excludedPackage}” ({$excludedPackage->package}){if $excludedPackage->excludedPackageVersion} (versión excluida: {$excludedPackage->excludedPackageVersion}, versión instalada: {$excludedPackage->packageVersion}){/if}.]]></item>
-		<item name="wcf.acp.package.install.error.excludingPackages"><![CDATA[Los siguientes paquetes instalados actualmente prohíben la instalación de este paquete:]]></item>
+		<item name="wcf.acp.package.install.error.excludingPackages"><![CDATA[Los siguientes paquetes instalados actualmente impiden la instalación de este paquete:]]></item>
 		<item name="wcf.acp.package.install.error.excludingPackages.excludingPackage"><![CDATA[“{$excludingPackage}” ({$excludingPackage->package}){if $excludingPackage->excludedPackageVersion} (versión excluida: {$excludingPackage->excludedPackageVersion}){/if}.]]></item>
 		<item name="wcf.acp.package.install.error.missingRequirements"><![CDATA[No se han podido resolver los requisitos de este paquete.]]></item>
 		<item name="wcf.acp.package.install.installingImportedStyle"><![CDATA[El archivo subido es un paquete que contiene un estilo.]]></item>
@@ -1889,6 +1889,8 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.package.update.purchaseRequired"><![CDATA[Paquete de pago]]></item>
 		<item name="wcf.acp.package.update.purchaseRequired.button.purchase"><![CDATA[Mostrar en la Plugin-Store]]></item>
 		<item name="wcf.acp.package.update.purchaseRequired.description"><![CDATA[El paquete de pago “{$packageName}” debe adquirirse en la Plugin-Store antes de poder instalarlo.]]></item>
+		<item name="wcf.acp.package.update.purchaseRequired"><![CDATA[Actualización de pago]]></item>
+		<item name="wcf.acp.package.update.purchaseRequired.description"><![CDATA[La actualización del paquete “{$packageName}” debe adquirirse en la Plugin-Store antes de poder instalarla.]]></item>
 		<item name="wcf.acp.package.update.installUpdate"><![CDATA[Instalar esta actualización]]></item>
 		<item name="wcf.acp.package.update.upgrade"><![CDATA[Este paquete será actualizado.]]></item>
 		<item name="wcf.acp.package.update.newVersion"><![CDATA[{$currentVersion} → <span class="packageUpdateNewVersion">{$newVersion}</span>]]></item>
@@ -1988,12 +1990,10 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 {/implode}]]></item>
 		<item name="wcf.acp.package.application.isTainted"><![CDATA[La aplicación{if $taintedApplication|isset} <strong>{$taintedApplication->getPackage()->getTitle()}</strong>{/if} no está completamente instalada. Es necesario desinstalar y volver a instalar la aplicación para poder utilizarla.]]></item>
 		<item name="wcf.acp.package.enableUpgradeOverride"><![CDATA[Actualizar a WoltLab Suite {$version}]]></item>
-		<item name="wcf.acp.package.enableUpgradeOverride.enable"><![CDATA[Habilitar la actualización a la versión de evaluación]]></item>
+		<item name="wcf.acp.package.enableUpgradeOverride.enable"><![CDATA[Habilitar la actualización a la nueva versión]]></item>
 		<item name="wcf.acp.package.enableUpgradeOverride.issues"><![CDATA[Los siguientes problemas impiden actualmente la actualización:]]></item>
 		<item name="wcf.acp.package.enableUpgradeOverride.success"><![CDATA[No se ha detectado ningún problema, se cumplen todos los requisitos del sistema para realizar la actualización.]]></item>
 		<item name="wcf.acp.package.availableUpgradeVersion"><![CDATA[La nueva WoltLab Suite {$version} está disponible para su instalación. Hemos proporcionado una guía con las instrucciones para la actualización en nuestro <a href="https://manual.woltlab.com/en/updates/#upgrading-woltlab-suite-55-to-60" class="externalURL">manual</a>.<br>
-<br>
-ADVERTENCIA: Esta es una versión inestable destinada únicamente a fines de prueba, no actualice su sitio en producción en este momento.<br>
 <br>
 <a href="{link controller='PackageEnableUpgradeOverride' application='wcf'}{/link}">Validar los requisitos del sistema para iniciar la actualización</a>]]></item>
 		<item name="wcf.acp.package.upgradeOverrideEnabled"><![CDATA[La actualización a WoltLab Suite {$version} ya está lista. Por favor, haz click en el botón “Buscar actualizaciones” para iniciar la actualización.<br>
@@ -3010,7 +3010,7 @@ ADVERTENCIA: Esta es una versión inestable destinada únicamente a fines de pru
 		<item name="wcf.acp.user.merge.destination"><![CDATA[Destino]]></item>
 		<item name="wcf.acp.user.merge.destination.description"><![CDATA[Los usuarios seleccionados se fusionarán en esta cuenta de usuario.]]></item>
 		<item name="wcf.acp.user.merge.markedUsers"><![CDATA[Fusionar los siguientes usuarios]]></item>
-		<item name="wcf.acp.user.merge.warning"><![CDATA[El proceso de fusión de usuarios no actualiza todos los contadores y referencias debido a limitaciones técnicas. A continuación, deberás ejecutar manualmente las tareas de reconstrucción de datos en la sección de mantenimiento para resolver cualquier conflicto o incoherencia.]]></item>
+		<item name="wcf.acp.user.merge.warning"><![CDATA[El proceso de fusión de usuarios no actualiza todos los contadores y referencias debido a limitaciones técnicas. A continuación, deberás ejecutar manualmente las tareas de <a href="{link controller='RebuildData'}{/link}">reconstrucción de datos</a> en la sección de mantenimiento para resolver cualquier conflicto o incoherencia.]]></item>
 		<item name="wcf.acp.user.revertChanges"><![CDATA[Revertir cambios en los contenidos]]></item>
 		<item name="wcf.acp.user.revertChanges.timeframe"><![CDATA[Periodo de tiempo]]></item>
 		<item name="wcf.acp.user.revertChanges.timeframe.description"><![CDATA[Los cambios realizados en los días anteriores se revertirán a la versión más reciente, que sea anterior al número de días introducido o sea realizada por un usuario no relacionado.]]></item>
@@ -3734,6 +3734,8 @@ Archivos adjuntos:
 		<item name="wcf.dialog.confirmation.softDelete.indeterminate"><![CDATA[¿Realmente quieres mover esto a la papelera?]]></item>
 		<item name="wcf.dialog.confirmation.restore"><![CDATA[¿Realmente quieres restaurar “{$title}”?]]></item>
 		<item name="wcf.dialog.confirmation.restore.indeterminate"><![CDATA[¿Realmente quieres restaurar esto?]]></item>
+		<item name="wcf.dialog.confirmation.reason.optional"><![CDATA[Motivo (opcional)]]></item>
+		<item name="wcf.dialog.confirmation.reason"><![CDATA[Motivo]]></item>
 	</category>
 	<category name="wcf.edit">
 		<item name="wcf.edit.version"><![CDATA[Versión]]></item>
@@ -4922,7 +4924,6 @@ Se te enviará una notificación una vez que tu cuenta haya sido aprobada.]]></i
 		<item name="wcf.user.register.disclaimer.decline"><![CDATA[Rechazar]]></item>
 		<item name="wcf.user.register.disclaimer.text"><![CDATA[<h2>Limitación de responsabilidad por contenidos internos</h2>
 <p>El contenido de nuestro sitio web se ha recopilado con meticuloso cuidado y según nuestro leal saber y entender. Sin embargo, no podemos asumir ninguna responsabilidad por la actualización, integridad o exactitud de ninguna de las páginas.</p>
-<p><br></p>
 <p>De conformidad con el art. 7, párr. 1 de la TMG (Telemediengesetz - Ley de Telecomunicaciones según la legislación alemana), nosotros como proveedores de servicios somos responsables de nuestros propios contenidos en estas páginas de acuerdo con las leyes generales. No obstante, de conformidad con los artículos 8 a 10 de la TMG, como proveedores de servicios no estamos obligados a supervisar la información externa facilitada o almacenada en nuestro sitio web. En cuanto tengamos conocimiento de una infracción concreta de la ley, eliminaremos inmediatamente el contenido en cuestión. Cualquier responsabilidad al respecto sólo podrá asumirse a partir del momento en que tengamos conocimiento de la infracción.</p>
 <h2>Limitación de responsabilidad por enlaces externos</h2>
 <p>Nuestro sitio web contiene enlaces a sitios web de terceros (“enlaces externos”). Dado que el contenido de estos sitios web no está bajo nuestro control, no podemos asumir ninguna responsabilidad por dicho contenido externo. En todos los casos, el proveedor de la información de los sitios web enlazados es responsable del contenido y la exactitud de la información facilitada. En el momento en que se colocaron los enlaces, no teníamos constancia de ninguna infracción de la ley. En cuanto tengamos conocimiento de una infracción legal, eliminaremos inmediatamente el enlace en cuestión.</p>
@@ -4930,11 +4931,8 @@ Se te enviará una notificación una vez que tu cuenta haya sido aprobada.]]></i
 <p>El contenido y las obras publicadas en este sitio web se rigen por la legislación sobre derechos de autor del país en el que está alojado. Cualquier duplicación, procesamiento, distribución o cualquier forma de utilización fuera del ámbito de la ley de derechos de autor requerirá el consentimiento previo por escrito del autor o autores en cuestión.</p>
 <h2>Protección de datos</h2>
 <p>Una visita a nuestro sitio web puede dar lugar al almacenamiento en nuestro servidor de información sobre el acceso (fecha, hora, página consultada). Esto no representa ningún análisis de datos personales (por ejemplo, nombre, dirección o dirección de correo electrónico). Si se recopilan datos personales, esto sólo ocurre -en la medida de lo posible- con el consentimiento previo del usuario del sitio web. No se realizará ninguna transmisión de los datos a terceros sin el consentimiento expreso del usuario.</p>
-<p><br></p>
 <p>Queremos señalar expresamente que la transmisión de datos a través de Internet (por ejemplo, por correo electrónico) puede ofrecer vulnerabilidades de seguridad. Por lo tanto, es imposible proteger completamente los datos contra el acceso de terceros. No podemos asumir ninguna responsabilidad por los daños derivados de dichas vulnerabilidades de seguridad.</p>
-<p><br></p>
 <p>Queda expresamente excluido el uso por parte de terceros de todos los datos de contacto publicados con fines publicitarios. Nos reservamos el derecho a tomar medidas legales en caso de envío no solicitado de información publicitaria; por ejemplo, mediante correo basura.</p>
-<p><br></p>
 <p><small><em>Fuente: <a href="http://www.mustervorlage.net/disclaimer-muster" class="externalURL">Mustervorlage.net</a></em></small></p>]]></item>
 		<item name="wcf.user.register.error.blacklistMatches"><![CDATA[El registro no ha podido completarse debido a restricciones activas, por favor, contacta con el administrador del sitio.]]></item>
 	</category>
@@ -5298,7 +5296,6 @@ También has recibido una lista de códigos de recuperación para utilizar cuand
 		<item name="wcf.user.notification.notifications.enabled"><![CDATA[Activado]]></item>
 		<item name="wcf.user.notification.settings"><![CDATA[Ajustes]]></item>
 		<item name="wcf.user.notification.showAll"><![CDATA[Mostrar todas las notificaciones]]></item>
-		<item name="wcf.user.notification.mail.disabled"><![CDATA[Se ha desactivado la notificación por correo electrónico.]]></item>
 		<item name="wcf.user.notification.mail.disabled"><![CDATA[Las notificaciones por correo electrónico seleccionadas se han dado de baja.]]></item>
 		<item name="wcf.user.notification.mail.unsubscribe.confirm"><![CDATA[Darse de baja de las notificaciones por correo electrónico seleccionadas]]></item>
 		<item name="wcf.user.notification.mail.unsubscribe.description"><![CDATA[Por favor, selecciona las notificaciones por correo electrónico de las que deseas darte de baja.]]></item>
