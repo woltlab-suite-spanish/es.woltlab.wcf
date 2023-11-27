@@ -1491,7 +1491,7 @@ Restringir los nombres de usuario a caracteres ASCII restringe los nombres de us
 		<item name="wcf.acp.option.user_forbidden_titles"><![CDATA[Títulos de usuario reservados]]></item>
 		<item name="wcf.acp.option.user_forbidden_titles.description"><![CDATA[Puedes especificar títulos de usuario no disponibles para los usuarios.]]></item>
 		<item name="wcf.acp.option.profile_show_old_username"><![CDATA[Mostrar nombre de usuario anterior]]></item>
-		<item name="wcf.acp.option.profile_show_old_username.description"><![CDATA[Los nombres de usuario anteriores se mostrarán durante los días siguientes.]]></item>
+		<item name="wcf.acp.option.profile_show_old_username.description"><![CDATA[Los nombres de usuario anteriores se mostrarán durante los siguientes días.]]></item>
 		<item name="wcf.acp.option.members_list_users_per_page"><![CDATA[Miembros por página]]></item>
 		<item name="wcf.acp.option.members_list_default_sort_field"><![CDATA[Ordenar por]]></item>
 		<item name="wcf.acp.option.members_list_default_sort_field.description"><![CDATA[Selecciona la opción de ordenación por defecto de la lista de miembros.]]></item>
