@@ -924,7 +924,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.index.credits.developedBy"><![CDATA[Software desarrollado por]]></item>
 		<item name="wcf.acp.index.credits.developer"><![CDATA[Desarrollador]]></item>
 		<item name="wcf.acp.index.credits.productManager"><![CDATA[Jefe de producto]]></item>
-		<item name="wcf.acp.index.credits.trademarks"><![CDATA[“WoltLab&reg;” y “Burning Board&reg;” son Marcas de la Unión Europea registradas en Oficina de Propiedad Intelectual de la Unión Europea (EUIPO) en Alicante, España.]]></item>
+		<item name="wcf.acp.index.credits.trademarks"><![CDATA[“WoltLab&reg;” y “Burning Board&reg;” son Marcas de la Unión Europea registradas en la Oficina de Propiedad Intelectual de la Unión Europea (EUIPO) en Alicante, España.]]></item>
 		<item name="wcf.acp.index.credits.contributor.more"><![CDATA[Más]]></item>
 		<item name="wcf.acp.index.inRescueMode"><![CDATA[Estás accediendo a esta instalación desde un dominio desconocido, posiblemente debido al traslado a un nuevo host. Por favor, actualiza los ajustes en <a href="{link controller='ApplicationManagement'}{/link}">Gestionar aplicaciones</a>.]]></item>
 		<item name="wcf.acp.index.news"><![CDATA[Noticias]]></item>
