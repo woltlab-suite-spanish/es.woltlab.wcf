@@ -1494,9 +1494,9 @@ Restringir los nombres de usuario a caracteres ASCII restringe los nombres de us
 		<item name="wcf.acp.option.profile_show_old_username.description"><![CDATA[Los nombres de usuario anteriores se mostrarán durante los siguientes días.]]></item>
 		<item name="wcf.acp.option.members_list_users_per_page"><![CDATA[Miembros por página]]></item>
 		<item name="wcf.acp.option.members_list_default_sort_field"><![CDATA[Ordenar por]]></item>
-		<item name="wcf.acp.option.members_list_default_sort_field.description"><![CDATA[Selecciona la opción de ordenación por defecto de la lista de miembros.]]></item>
+		<item name="wcf.acp.option.members_list_default_sort_field.description"><![CDATA[Elige la opción de ordenación por defecto de la lista de miembros.]]></item>
 		<item name="wcf.acp.option.members_list_default_sort_order"><![CDATA[Orden de clasificación]]></item>
-		<item name="wcf.acp.option.members_list_default_sort_order.description"><![CDATA[Selecciona el orden de clasificación por defecto de la lista de miembros.]]></item>
+		<item name="wcf.acp.option.members_list_default_sort_order.description"><![CDATA[Elige el orden de clasificación por defecto de la lista de miembros.]]></item>
 		<item name="wcf.acp.option.users_online_show_guests"><![CDATA[Mostrar invitados]]></item>
 		<item name="wcf.acp.option.users_online_show_robots"><![CDATA[Mostrar arañas de motores de búsqueda]]></item>
 		<item name="wcf.acp.option.users_online_default_sort_field"><![CDATA[Ordenar por]]></item>
