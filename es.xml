@@ -2659,7 +2659,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.sitemap.rebuildTime.description"><![CDATA[Intervalo de tiempo tras el cual debe reconstruirse el mapa del sitio.]]></item>
 		<item name="wcf.acp.sitemap.isDisabled"><![CDATA[Desactivar mapa del sitio]]></item>
 		<item name="wcf.acp.sitemap.edit"><![CDATA[Editar mapa del sitio]]></item>
-		<item name="wcf.acp.sitemap.cliInfo"><![CDATA[Puedes reconstruir el mapa del sitio utilizando la interfaz de línea de comandos (CLI). Para ello, ejecute <kbd>worker wcf\\system\\worker\\SitemapRebuildWorker</kbd> en una sesión de la interfaz de línea de comandos.]]></item>
+		<item name="wcf.acp.sitemap.cliInfo"><![CDATA[Puedes reconstruir el mapa del sitio utilizando la interfaz de línea de comandos (CLI). Para ello, ejecuta <kbd>worker wcf\\system\\worker\\SitemapRebuildWorker</kbd> en una sesión de la interfaz de línea de comandos.]]></item>
 		<item name="wcf.acp.sitemap.submitToSearchEngines"><![CDATA[<p>El mapa del sitio generado debe ser enviado una vez a los motores de búsqueda, por favor proporcione este enlace: <kbd>{$__wcf->getPath()}sitemaps/sitemap.xml</kbd>.</p>
 <p><br></p>
 <p>Instrucciones para enviar el mapa del sitio:</p>
