@@ -3254,7 +3254,7 @@ Tu cuenta en {@PAGE_TITLE|phrase} [URL:{link isEmail=true}{/link}] ha sido aprob
 		<item name="wcf.article.convertToI18n.description"><![CDATA[Esto hará que los valores actuales se copien a todos los demás idiomas y que se descarte el historial de edición de este artículo.<br><br>Por favor, envía cualquier cambio no guardado antes de ejecutar esta acción.]]></item>
 		<item name="wcf.article.convertFromI18n.question"><![CDATA[¿Estás seguro de que quieres deshabilitar la internacionalización para este artículo?]]></item>
 		<item name="wcf.article.convertFromI18n.description"><![CDATA[Todos los valores excepto los del idioma seleccionado serán descartados, esto también borrará el historial de edición de este artículo.<br><br>Por favor, envía cualquier cambio no guardado antes de ejecutar esta acción.]]></item>
-		<item name="wcf.article.category.delete.sure"><![CDATA[¿Realmente quieres eliminar esta categoría? Todas las categorías secundarias de esta categoría se moverán a la categoría principal de esta categoría. Los artículos de esta categoría serán eliminados.]]></item>
+		<item name="wcf.article.category.delete.sure"><![CDATA[¿Realmente quieres eliminar esta categoría? Todas las categorías secundarias de esta categoría se moverán a la categoría principal. Los artículos de esta categoría serán eliminados.]]></item>
 	</category>
 	<category name="wcf.attachment">
 		<item name="wcf.attachment.file.info"><![CDATA[{@$attachment->filesize|filesize} – {plural value=$attachment->downloads 1="1 descarga" other="# descargas"}]]></item>
