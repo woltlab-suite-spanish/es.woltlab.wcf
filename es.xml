@@ -3486,7 +3486,7 @@ Archivos adjuntos:
 		<item name="wcf.contact.recipient.name1"><![CDATA[Administrador]]></item>
 		<item name="wcf.contact.recipientID"><![CDATA[Destinatario]]></item>
 		<item name="wcf.contact.sender"><![CDATA[Remitente]]></item>
-		<item name="wcf.contact.sender.information"><![CDATA[Sus datos]]></item>
+		<item name="wcf.contact.sender.information"><![CDATA[Tus datos]]></item>
 		<item name="wcf.contact.success"><![CDATA[El mensaje ha sido enviado.]]></item>
 		<item name="wcf.contact.confirmPrivacyPolicy"><![CDATA[He leído la <a href="{page}com.woltlab.wcf.PrivacyPolicy{/page}">política de privacidad</a> y la acepto expresamente. <span class="customOptionRequired">*</span>]]></item>
 	</category>
