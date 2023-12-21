@@ -380,13 +380,13 @@
 		<item name="wcf.acp.devtools.project.introduction"><![CDATA[Por favor, lee las <a href="https://docs.woltlab.com/latest/getting-started/#developer-tools" class="externalURL">instrucciones de uso</a> en la documentación para desarrolladores.]]></item>
 		<item name="wcf.acp.devtools.project.list"><![CDATA[Proyectos]]></item>
 		<item name="wcf.acp.devtools.project.name"><![CDATA[Nombre]]></item>
-		<item name="wcf.acp.devtools.project.name.error.notUnique"><![CDATA[El nombre ya está en uso por otro proyecto.]]></item>
+		<item name="wcf.acp.devtools.project.name.error.notUnique"><![CDATA[Este nombre ya está en uso por otro proyecto.]]></item>
 		<item name="wcf.acp.devtools.project.path"><![CDATA[Ruta]]></item>
 		<item name="wcf.acp.devtools.project.path.description"><![CDATA[La ruta absoluta al paquete dentro del sistema de archivos. El marcador de posición muestra la ruta absoluta de WoltLab Suite Core de esta instalación.]]></item>
 		<item name="wcf.acp.devtools.project.path.error.notInstalled"><![CDATA[El paquete aún no ha sido instalado. <a href="#" {if $project->getPackageArchive()->getOpenRequirements()|empty}class="jsDevtoolsInstallPackage"{else}class="jsStaticDialog" data-dialog-id="openPackageRequirements"{/if}>¿Quieres instalar el paquete?</a>]]></item>
 		<item name="wcf.acp.devtools.project.path.error.notFound"><![CDATA[La ruta no es válida.]]></item>
-		<item name="wcf.acp.devtools.project.path.error.notUnique"><![CDATA[La ruta ya está siendo utilizada por otro proyecto.]]></item>
-		<item name="wcf.acp.devtools.project.path.error.packageXml"><![CDATA[La ruta no contiene un <kbd>package.xml</kbd> válido.]]></item>
+		<item name="wcf.acp.devtools.project.path.error.notUnique"><![CDATA[Esta ruta ya está siendo utilizada por otro proyecto.]]></item>
+		<item name="wcf.acp.devtools.project.path.error.packageXml"><![CDATA[Esta ruta no contiene un <kbd>package.xml</kbd> válido.]]></item>
 		<item name="wcf.acp.devtools.project.path.error.versionMismatch"><![CDATA[La versión mostrada en el <kbd>package.xml</kbd> no coincide con la versión instalada, puede que hayas seleccionado la ruta incorrecta.]]></item>
 		<item name="wcf.acp.devtools.project.sync"><![CDATA[Sincronizar datos]]></item>
 		<item name="wcf.acp.devtools.project.sync.pageTitle"><![CDATA[Sincronizar datos - {$object->name}]]></item>
@@ -979,7 +979,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 	</category>
 	<category name="wcf.acp.language">
 		<item name="wcf.acp.language.add"><![CDATA[Añadir idioma]]></item>
-		<item name="wcf.acp.language.add.languageCode.error.notUnique"><![CDATA[El código de idioma ya está en uso por un idioma instalado.]]></item>
+		<item name="wcf.acp.language.add.languageCode.error.notUnique"><![CDATA[Este código de idioma ya está en uso por un idioma instalado.]]></item>
 		<item name="wcf.acp.language.add.locale.error.languageCodeMismatch"><![CDATA[La región seleccionada (<kbd>{$locale}</kbd>) no coincide con el código de idioma.]]></item>
 		<item name="wcf.acp.language.add.source"><![CDATA[Idioma base]]></item>
 		<item name="wcf.acp.language.code"><![CDATA[Código ISO de idioma]]></item>
@@ -1031,13 +1031,13 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.language.item.languageItem.error.format"><![CDATA[El identificador introducido no es válido.]]></item>
 		<item name="wcf.acp.language.item.languageCategoryID.mode.error.automaticImpossible"><![CDATA[La categoría de idioma no puede determinarse automáticamente para el identificador de frase introducido. Debes cambiar el identificador de frase o seleccionar manualmente una categoría de idioma.]]></item>
 		<item name="wcf.acp.language.item.languageItem.error.prefixMismatch"><![CDATA[El identificador introducido no empieza por la categoría de idioma seleccionada.]]></item>
-		<item name="wcf.acp.language.item.languageItem.error.notUnique"><![CDATA[El identificador introducido ya está siendo utilizado por otra frase.]]></item>
+		<item name="wcf.acp.language.item.languageItem.error.notUnique"><![CDATA[Este identificador ya está siendo utilizado por otra frase.]]></item>
 		<item name="wcf.acp.language.item.isCustomLanguageItem"><![CDATA[Frases añadidas manualmente]]></item>
 		<item name="wcf.acp.language.item.delete.confirmMessage"><![CDATA[¿Realmente quieres eliminar esta frase? Se eliminará para todos los idiomas.]]></item>
 		<item name="wcf.acp.language.item.languageCategory"><![CDATA[Identificador de categoría de idioma]]></item>
 		<item name="wcf.acp.language.item.languageCategory.description"><![CDATA[El identificador de categoría de idioma introducido se utiliza para agrupar las frases.]]></item>
-		<item name="wcf.acp.language.item.languageCategory.error.notUnique"><![CDATA[El identificador introducido ya está siendo utilizado por una categoría de idioma existente.]]></item>
-		<item name="wcf.acp.language.item.languageCategory.error.tooFewSegments"><![CDATA[La categoría introducida contiene {#$segmentCount} segmento{if $segmentCount > 1}s{/if}.]]></item>
+		<item name="wcf.acp.language.item.languageCategory.error.notUnique"><![CDATA[Este identificador ya está siendo utilizado por una categoría de idioma existente.]]></item>
+		<item name="wcf.acp.language.item.languageCategory.error.tooFewSegments"><![CDATA[Esta categoría sólo contiene {#$segmentCount} segmento{if $segmentCount > 1}s{/if}.]]></item>
 		<item name="wcf.acp.language.add.package"><![CDATA[Paquete]]></item>
 		<item name="wcf.acp.language.add.package.description"><![CDATA[Las frases importadas se asignarán al paquete seleccionado.]]></item>
 		<item name="wcf.acp.language.locale"><![CDATA[Región]]></item>
@@ -1486,7 +1486,7 @@ Restringir los nombres de usuario a caracteres ASCII restringe los nombres de us
 		<item name="wcf.acp.option.register_activation_method.disabled"><![CDATA[No se requiere autorización para los registros]]></item>
 		<item name="wcf.acp.option.signature_max_image_height"><![CDATA[Altura máxima de la imagen]]></item>
 		<item name="wcf.acp.option.sitemap_index_time_frame"><![CDATA[Plazo de indexación]]></item>
-		<item name="wcf.acp.option.sitemap_index_time_frame.description"><![CDATA[Antigüedad máxima de los objetos a incluir en el mapa del sitio. Utiliza 0 para desactivar el intervalo de tiempo.]]></item>
+		<item name="wcf.acp.option.sitemap_index_time_frame.description"><![CDATA[Antigüedad máxima de los objetos a incluir en el mapa del sitio. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.user_title_max_length"><![CDATA[Longitud máxima del título de usuario]]></item>
 		<item name="wcf.acp.option.user_forbidden_titles"><![CDATA[Títulos de usuario reservados]]></item>
 		<item name="wcf.acp.option.user_forbidden_titles.description"><![CDATA[Puedes especificar títulos de usuario no disponibles para los usuarios.]]></item>
@@ -1624,7 +1624,7 @@ Cuando se le solicite la URL de notificación para las notificaciones de pago in
 		<item name="wcf.acp.option.article_enable_comments_default_value"><![CDATA[Activar comentarios (valor por defecto)]]></item>
 		<item name="wcf.acp.option.article_enable_like"><![CDATA[Activar reacciones]]></item>
 		<item name="wcf.acp.option.article_related_articles"><![CDATA[Número de “Artículos relacionados”]]></item>
-		<item name="wcf.acp.option.article_related_articles_match_threshold"><![CDATA[Similitud de artículos relacionados]]></item>
+		<item name="wcf.acp.option.article_related_articles_match_threshold"><![CDATA[Similitud de “Artículos relacionados”]]></item>
 		<item name="wcf.acp.option.article_related_articles_match_threshold.description"><![CDATA[La cantidad mínima de etiquetas que ambos artículos tienen en común.]]></item>
 		<item name="wcf.acp.option.article_show_about_author"><![CDATA[Mostrar caja “Acerca del autor”]]></item>
 		<item name="wcf.acp.option.category.message.general.image"><![CDATA[Imágenes]]></item>
@@ -2188,28 +2188,28 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.objectType.definitionName.com.woltlab.wcf.article.discussionProvider.description"><![CDATA[This object type definition is used to register different providers for where discussions on articles take place.]]></item>
 		<item name="wcf.acp.pip.objectType.objectType"><![CDATA[Object Type Identifier]]></item>
 		<item name="wcf.acp.pip.objectType.objectType.description"><![CDATA[Textual identifier of the object type that is primarily used in PHP code. The identifier consists of at least four segments that are separated by dots. Each segment must not be empty and may only contain the following characters: <kbd>[A-z0-9-_]</kbd>.]]></item>
-		<item name="wcf.acp.pip.objectType.objectType.error.notUnique"><![CDATA[The entered name is already used by another object type of the same object type definition.]]></item>
-		<item name="wcf.acp.pip.objectType.objectType.error.tooFewSegments"><![CDATA[The entered identifier only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
+		<item name="wcf.acp.pip.objectType.objectType.error.notUnique"><![CDATA[This name is already used by another object type of the same object type definition.]]></item>
+		<item name="wcf.acp.pip.objectType.objectType.error.tooFewSegments"><![CDATA[This identifier only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
 		<item name="wcf.acp.pip.objectTypeDefinition.definitionName"><![CDATA[Definition Name]]></item>
 		<item name="wcf.acp.pip.objectTypeDefinition.definitionName.description"><![CDATA[The name of an object type definitions consists of least four segments separated by dots. Each segment must not be empty and may only contain the following characters: <kbd>[A-z0-9-_]</kbd>. In general, the first part of the definition name matches the package identifier. Example: <kbd>{$project->getPackage()->package}.type</kbd>]]></item>
-		<item name="wcf.acp.pip.objectTypeDefinition.definitionName.error.notUnique"><![CDATA[The entered name is already used by another definition.]]></item>
-		<item name="wcf.acp.pip.objectTypeDefinition.definitionName.error.tooFewSegments"><![CDATA[The entered name only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
+		<item name="wcf.acp.pip.objectTypeDefinition.definitionName.error.notUnique"><![CDATA[This name is already used by another definition.]]></item>
+		<item name="wcf.acp.pip.objectTypeDefinition.definitionName.error.tooFewSegments"><![CDATA[This name only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
 		<item name="wcf.acp.pip.objectTypeDefinition.interfaceName"><![CDATA[PHP Interface]]></item>
 		<item name="wcf.acp.pip.objectTypeDefinition.interfaceName.description"><![CDATA[If a PHP interface is entered, every object type of this definition must provide the name of a PHP class that implements the interface.]]></item>
 		<item name="wcf.acp.pip.objectTypeDefinition.interfaceName.error.nonExistent"><![CDATA[The entered interface does not exist.]]></item>
 		<item name="wcf.acp.pip.pip.pluginName"><![CDATA[Package Installation Plugin Name]]></item>
 		<item name="wcf.acp.pip.pip.pluginName.description"><![CDATA[The name of the package installation plugin is used as the value of the <kbd>type</kbd> attribute of <kbd>instruction</kbd> elements in a <kbd>package.xml</kbd> file. The name may only consist of letters and must begin with a lowercase letter.]]></item>
 		<item name="wcf.acp.pip.pip.pluginName.error.format"><![CDATA[The entered name is invalid.]]></item>
-		<item name="wcf.acp.pip.pip.pluginName.error.notUnique"><![CDATA[The entered name is already used by another package installation plugin.]]></item>
+		<item name="wcf.acp.pip.pip.pluginName.error.notUnique"><![CDATA[This name is already used by another package installation plugin.]]></item>
 		<item name="wcf.acp.pip.userProfileMenu.menuItem"><![CDATA[Menu Item Name]]></item>
 		<item name="wcf.acp.pip.userProfileMenu.menuItem.description"><![CDATA[The name of the user profile may only contain letters and must begin with a lowercase letter.]]></item>
 		<item name="wcf.acp.pip.userProfileMenu.menuItem.error.format"><![CDATA[The entered name is invalid.]]></item>
-		<item name="wcf.acp.pip.userProfileMenu.menuItem.error.notUnique"><![CDATA[The entered name is already used by another user profile menu item.]]></item>
+		<item name="wcf.acp.pip.userProfileMenu.menuItem.error.notUnique"><![CDATA[This name is already used by another user profile menu item.]]></item>
 		<item name="wcf.acp.pip.userProfileMenu.showOrder.description"><![CDATA[The entered value determines in which order the user profile menu items are shown.]]></item>
 		<item name="wcf.acp.pip.userNotificationEvent.eventName"><![CDATA[Event Name]]></item>
 		<item name="wcf.acp.pip.userNotificationEvent.eventName.description"><![CDATA[The name of the event may only contain letters and must begin with a lowercase letter.]]></item>
 		<item name="wcf.acp.pip.userNotificationEvent.eventName.error.format"><![CDATA[The entered name is invalid.]]></item>
-		<item name="wcf.acp.pip.userNotificationEvent.eventName.error.notUnique"><![CDATA[The entered name is already used by another event for the same event object type.]]></item>
+		<item name="wcf.acp.pip.userNotificationEvent.eventName.error.notUnique"><![CDATA[This name is already used by another event for the same event object type.]]></item>
 		<item name="wcf.acp.pip.userNotificationEvent.objectType"><![CDATA[Event Object Type]]></item>
 		<item name="wcf.acp.pip.userNotificationEvent.objectType.description"><![CDATA[Determines the type of object the notification event belongs to.]]></item>
 		<item name="wcf.acp.pip.userNotificationEvent.preset"><![CDATA[Enable By Default]]></item>
@@ -2225,16 +2225,16 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.templateListener.name"><![CDATA[Template Listener Name]]></item>
 		<item name="wcf.acp.pip.templateListener.name.description"><![CDATA[The name of the template listener may only contain letters and must begin with a lowercase letter.]]></item>
 		<item name="wcf.acp.pip.templateListener.name.error.format"><![CDATA[The entered name is invalid.]]></item>
-		<item name="wcf.acp.pip.templateListener.name.error.notUnique"><![CDATA[The entered name is already used by another template listener for the same event.]]></item>
+		<item name="wcf.acp.pip.templateListener.name.error.notUnique"><![CDATA[This name is already used by another template listener for the same event.]]></item>
 		<item name="wcf.acp.pip.templateListener.templateCode"><![CDATA[Template Code]]></item>
 		<item name="wcf.acp.pip.templateListener.templateCode.description"><![CDATA[The entered template code is inserted at the location of the selected event into the template.]]></item>
 		<item name="wcf.acp.pip.templateListener.templateName"><![CDATA[Template]]></item>
 		<item name="wcf.acp.pip.templateListener.templateName.description"><![CDATA[The template listeners’ code will be inserted into the selected template.]]></item>
-		<item name="wcf.acp.pip.coreObject.objectName.error.notUnique"><![CDATA[The entered class is already registered as a core object.]]></item>
+		<item name="wcf.acp.pip.coreObject.objectName.error.notUnique"><![CDATA[This class is already registered as a core object.]]></item>
 		<item name="wcf.acp.pip.acpSearchProvider.providerName"><![CDATA[Provider Name]]></item>
 		<item name="wcf.acp.pip.acpSearchProvider.providerName.description"><![CDATA[The name of an ACP search result provider consists of least four segments separated by dots. Each segment must not be empty and may only contain the following characters: <kbd>[A-z0-9-_]</kbd>. In general, the first part of the definition name matches the package identifier. Example: <kbd>{$project->getPackage()->package}.searchedObject</kbd>]]></item>
-		<item name="wcf.acp.pip.acpSearchProvider.providerName.error.notUnique"><![CDATA[The entered name is already used by another acp search result provider.]]></item>
-		<item name="wcf.acp.pip.acpSearchProvider.providerName.error.tooFewSegments"><![CDATA[The entered provider name only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
+		<item name="wcf.acp.pip.acpSearchProvider.providerName.error.notUnique"><![CDATA[This name is already used by another acp search result provider.]]></item>
+		<item name="wcf.acp.pip.acpSearchProvider.providerName.error.tooFewSegments"><![CDATA[This provider name only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
 		<item name="wcf.acp.pip.acpSearchProvider.showOrder.description"><![CDATA[The entered value determines in which order the different types of search results are shown.]]></item>
 		<item name="wcf.acp.pip.mediaProvider.name"><![CDATA[Provider Name]]></item>
 		<item name="wcf.acp.pip.mediaProvider.name.description"><![CDATA[The name of the media provider may only contain letters, numbers and dashes and must begin with a lowercase letter.]]></item>
@@ -2255,11 +2255,11 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.aclOption.options.name.error.format"><![CDATA[The entered option name is invalid.]]></item>
 		<item name="wcf.acp.pip.aclOption.objectType"><![CDATA[ACL Object Type]]></item>
 		<item name="wcf.acp.pip.aclOption.objectType.categories.description"><![CDATA[The ACL object type determines to which type of objects the category belongs to. Note that only ACL object types of the package itself or its required packages are available.]]></item>
-		<item name="wcf.acp.pip.aclOption.categories.name.error.notUnique"><![CDATA[The entered name is already used by another ACL option category for the same ACL object type.]]></item>
+		<item name="wcf.acp.pip.aclOption.categories.name.error.notUnique"><![CDATA[This name is already used by another ACL option category for the same ACL object type.]]></item>
 		<item name="wcf.acp.pip.aclOption.objectType.options.description"><![CDATA[The ACL object type determines to which type of objects the option belongs to. Note that only ACL object types of the package itself or its required packages are available.]]></item>
-		<item name="wcf.acp.pip.aclOption.options.name.error.notUnique"><![CDATA[The entered name is already used by another ACL option for the same ACL object type.]]></item>
+		<item name="wcf.acp.pip.aclOption.options.name.error.notUnique"><![CDATA[This name is already used by another ACL option for the same ACL object type.]]></item>
 		<item name="wcf.acp.pip.abstractMenu.menuItem"><![CDATA[Menu Item Identifier]]></item>
-		<item name="wcf.acp.pip.abstractMenu.menuItem.error.notUnique"><![CDATA[The entered identifier is already used by another menu item.]]></item>
+		<item name="wcf.acp.pip.abstractMenu.menuItem.error.notUnique"><![CDATA[This identifier is already used by another menu item.]]></item>
 		<item name="wcf.acp.pip.abstractMenu.parentMenuItem"><![CDATA[Parent Menu Item]]></item>
 		<item name="wcf.acp.pip.abstractMenu.parentMenuItem.error.childAsParent"><![CDATA[You cannot select a child menu item of the menu item as its parent.]]></item>
 		<item name="wcf.acp.pip.abstractMenu.parentMenuItem.error.selfParent"><![CDATA[You cannot select the menu item itself as its own parent.]]></item>
@@ -2297,8 +2297,8 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.cronjob.startMonth.error.format"><![CDATA[The entered format is invalid. You have to entered a valid month or a list of valid months.]]></item>
 		<item name="wcf.acp.pip.menu.identifier"><![CDATA[Menu Identifier]]></item>
 		<item name="wcf.acp.pip.menu.identifier.description"><![CDATA[The menu identifier is used to update menus and for menu-related language item names. The identifier consists of least four segments separated by dots. Each segment must not be empty and may only contain the following characters: <kbd>[A-z0-9-_]</kbd>. In general, the first part of the menu identifier is the package identifier. Example: <kbd>com.foo.bar.package.menu</kbd>]]></item>
-		<item name="wcf.acp.pip.menu.identifier.error.notUnique"><![CDATA[The entered identifier is already used by another menu.]]></item>
-		<item name="wcf.acp.pip.menu.identifier.error.tooFewSegments"><![CDATA[The entered menu identifier only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
+		<item name="wcf.acp.pip.menu.identifier.error.notUnique"><![CDATA[This identifier is already used by another menu.]]></item>
+		<item name="wcf.acp.pip.menu.identifier.error.tooFewSegments"><![CDATA[This menu identifier only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
 		<item name="wcf.acp.pip.menu.createBox"><![CDATA[Automatically Create Box for Menu]]></item>
 		<item name="wcf.acp.pip.menu.createBox.description"><![CDATA[If selected, after creating the menu, a box for the menu will also be created.]]></item>
 		<item name="wcf.acp.pip.menu.boxPosition"><![CDATA[Box Position]]></item>
@@ -2311,8 +2311,8 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.menu.boxCssClassName.description"><![CDATA[The entered comma-separated CSS classes are assigned to the box containing the menu.]]></item>
 		<item name="wcf.acp.pip.menuItem.identifier"><![CDATA[Menu Item Identifier]]></item>
 		<item name="wcf.acp.pip.menuItem.identifier.description"><![CDATA[The menu item identifier is used to update menu items and for menu item-related language item names. The identifier consists of least four segments separated by dots. Each segment must not be empty and may only contain the following characters: <kbd>[A-z0-9-_]</kbd>. In general, the first part of the menu identifier is the package identifier. Example: <kbd>com.foo.bar.package.menuItem</kbd>]]></item>
-		<item name="wcf.acp.pip.menuItem.identifier.error.notUnique"><![CDATA[The entered identifier is already used by another menu item.]]></item>
-		<item name="wcf.acp.pip.menuItem.identifier.error.tooFewSegments"><![CDATA[The identifier only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
+		<item name="wcf.acp.pip.menuItem.identifier.error.notUnique"><![CDATA[This identifier is already used by another menu item.]]></item>
+		<item name="wcf.acp.pip.menuItem.identifier.error.tooFewSegments"><![CDATA[This identifier only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
 		<item name="wcf.acp.pip.menuItem.menu"><![CDATA[Menu]]></item>
 		<item name="wcf.acp.pip.menuItem.menu.description"><![CDATA[The menu item will belong to the selected menu.]]></item>
 		<item name="wcf.acp.pip.menuItem.linkType"><![CDATA[Menu Item Link Type]]></item>
@@ -2326,8 +2326,8 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.menuItem.externalURL.description"><![CDATA[When clicking on the menu item, the user is redirected to the entered website.]]></item>
 		<item name="wcf.acp.pip.page.identifier"><![CDATA[Page Identifier]]></item>
 		<item name="wcf.acp.pip.page.identifier.description"><![CDATA[The identifier consists of least four segments separated by dots. Each segment must not be empty and may only contain the following characters: <kbd>[A-z0-9-_]</kbd>. In general, the first part of the menu identifier is the package identifier and the second part is the unqualified controller class without the controller type suffixes <kbd>Form</kbd> and <kbd>Page</kbd>. Example: <kbd>com.foo.bar.package.Baz</kbd>]]></item>
-		<item name="wcf.acp.pip.page.identifier.error.notUnique"><![CDATA[The entered identifier is already used by another page.]]></item>
-		<item name="wcf.acp.pip.page.identifier.error.tooFewSegments"><![CDATA[The identifier only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
+		<item name="wcf.acp.pip.page.identifier.error.notUnique"><![CDATA[This identifier is already used by another page.]]></item>
+		<item name="wcf.acp.pip.page.identifier.error.tooFewSegments"><![CDATA[This identifier only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
 		<item name="wcf.acp.pip.page.pageType"><![CDATA[Page Type]]></item>
 		<item name="wcf.acp.pip.page.pageType.description"><![CDATA[The content of “text” pages can be edited by administrators using the built-in WYSIWYG editor. “html” pages addditionally allow HTML code and “tpl” pages also template scripting. The content of “system” pages cannot be edited by administrators as their content is provided by the pages' controller.]]></item>
 		<item name="wcf.acp.pip.page.name"><![CDATA[Name]]></item>
@@ -2355,7 +2355,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.eventListener.listenerName"><![CDATA[Event Listener Identifier]]></item>
 		<item name="wcf.acp.pip.eventListener.listenerName.description"><![CDATA[Unique textual identifier of the event listener that may only contain letters and must start with a lowercase letter.]]></item>
 		<item name="wcf.acp.pip.eventListener.listenerName.error.format"><![CDATA[The entered identifier is invalid.]]></item>
-		<item name="wcf.acp.pip.eventListener.listenerName.error.notUnique"><![CDATA[The entered identifier is already used by another event listener.]]></item>
+		<item name="wcf.acp.pip.eventListener.listenerName.error.notUnique"><![CDATA[This identifier is already used by another event listener.]]></item>
 		<item name="wcf.acp.pip.eventListener.eventClassName"><![CDATA[PHP Event Class]]></item>
 		<item name="wcf.acp.pip.eventListener.eventClassName.description"><![CDATA[The entered class (without leading backslash) fires the event. Alternatively, the entered class inherits from the the class firing the event.]]></item>
 		<item name="wcf.acp.pip.eventListener.eventName"><![CDATA[Event Names]]></item>
@@ -2374,7 +2374,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.clipboardAction.actionName.description"><![CDATA[Unique textual identifier (per clipboard action class) of the clipboard action that may only contain letters and must start with a lowercase letter.]]></item>
 		<item name="wcf.acp.pip.clipboardAction.actionName.error.format"><![CDATA[The entered name is invalid.]]></item>
 		<item name="wcf.acp.pip.clipboardAction.actionClassName"><![CDATA[Clipboard Action Class Name]]></item>
-		<item name="wcf.acp.pip.clipboardAction.actionClassName.error.notUnique"><![CDATA[There is already a clipboard action with this action name for the entered action class.]]></item>
+		<item name="wcf.acp.pip.clipboardAction.actionClassName.error.notUnique"><![CDATA[This action class name is already used by another clipboard action.]]></item>
 		<item name="wcf.acp.pip.clipboardAction.showOrder.description"><![CDATA[The entered value determines in which order the clipboard actions for the same clipboard action class are shown.]]></item>
 		<item name="wcf.acp.pip.clipboardAction.pages"><![CDATA[Pages]]></item>
 		<item name="wcf.acp.pip.clipboardAction.pages.description"><![CDATA[The clipboard action is available on the entered pages.]]></item>
@@ -2385,8 +2385,8 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.box.objectType.description"><![CDATA[The box controller provides the content of the box.]]></item>
 		<item name="wcf.acp.pip.box.identifier"><![CDATA[Box Identifier]]></item>
 		<item name="wcf.acp.pip.box.identifier.description"><![CDATA[The box identifier is used to update boxes. The identifier consists of least four segments separated by dots. Each segment must not be empty and may only contain the following characters: <kbd>[A-z0-9-_]</kbd>. In general, the first part of the menu identifier is the package identifier. Example: <kbd>com.foo.bar.package.Box</kbd>]]></item>
-		<item name="wcf.acp.pip.box.identifier.error.notUnique"><![CDATA[The entered identifier is already used by another box.]]></item>
-		<item name="wcf.acp.pip.box.identifier.error.tooFewSegments"><![CDATA[The identifier only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
+		<item name="wcf.acp.pip.box.identifier.error.notUnique"><![CDATA[This identifier is already used by another box.]]></item>
+		<item name="wcf.acp.pip.box.identifier.error.tooFewSegments"><![CDATA[This identifier only contains {#$segmentCount} segment{if $segmentCount > 1}s{/if}.]]></item>
 		<item name="wcf.acp.pip.box.name"><![CDATA[Name]]></item>
 		<item name="wcf.acp.pip.box.name.description"><![CDATA[The box name is displayed in the box list in the ACP.]]></item>
 		<item name="wcf.acp.pip.box.showHeader"><![CDATA[Show Header]]></item>
@@ -2418,7 +2418,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.abstractOption.options.enableOptions"><![CDATA[Enabled Options]]></item>
 		<item name="wcf.acp.pip.abstractOption.options.enableOptions.description"><![CDATA[Each enabled options setting has to be written in a new line using the format <kbd>key:otherOptions</kbd> where <kbd>key:</kbd> is optional. If a key is present, the setting is only relevant if this option has the specified key as value. <kbd>otherOptions</kbd> is a comma-separated list refering to the other options that will either be enabled or disabled depending on this option’s value. If an exclamation mark is in front of an option name, the logic is inversed: If this option has the specified key as value, the referenced option will be <strong>disabled</strong> instead of enabled.]]></item>
 		<item name="wcf.acp.pip.abstractOption.options.showOrder.description"><![CDATA[The entered value determines in which order the options in the same category are shown.]]></item>
-		<item name="wcf.acp.pip.option.optionName.error.notUnique"><![CDATA[The entered option name is already used by another option.]]></item>
+		<item name="wcf.acp.pip.option.optionName.error.notUnique"><![CDATA[This option name is already used by another option.]]></item>
 		<item name="wcf.acp.pip.option.options.hidden"><![CDATA[Hidden Option]]></item>
 		<item name="wcf.acp.pip.option.options.hidden.description"><![CDATA[The value of the option cannot be actively set by the administrator in the ACP.]]></item>
 		<item name="wcf.acp.pip.option.options.supportI18n"><![CDATA[Support Multilingual Input]]></item>
@@ -2440,7 +2440,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.bbcode.bbcodeTag.description"><![CDATA[The textual BBCode identifier is used to identify BBCodes, for example when updating BBCodes. The identifier may only contain lowercase letters and numbers.]]></item>
 		<item name="wcf.acp.pip.bbcode.bbcodeTag.error.allNone"><![CDATA[The identifier may neither be <kbd>all</kbd> nor <kbd>none</kbd>.]]></item>
 		<item name="wcf.acp.pip.bbcode.bbcodeTag.error.format"><![CDATA[The identifier may only contain lowercase letters and numbers.]]></item>
-		<item name="wcf.acp.pip.bbcode.bbcodeTag.error.notUnique"><![CDATA[The entered identifier is already used by another BBCode.]]></item>
+		<item name="wcf.acp.pip.bbcode.bbcodeTag.error.notUnique"><![CDATA[This identifier is already used by another BBCode.]]></item>
 		<item name="wcf.acp.pip.bbcode.htmlOpen"><![CDATA[Opening HTML tag]]></item>
 		<item name="wcf.acp.pip.bbcode.htmlOpen.description"><![CDATA[Opening tag of the HTML element wrapping the BBCode’s content (without leading or trailing angle brackets).]]></item>
 		<item name="wcf.acp.pip.bbcode.htmlOpen.error.leadingBracket"><![CDATA[The tag may not begin with an angle bracket.]]></item>
@@ -2465,7 +2465,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.bbcode.wysiwygIcon"><![CDATA[Icon]]></item>
 		<item name="wcf.acp.pip.smiley.smileyCode"><![CDATA[Primary Smiley Code]]></item>
 		<item name="wcf.acp.pip.smiley.smileyCode.description"><![CDATA[Primary code that is converted into this smiley.]]></item>
-		<item name="wcf.acp.pip.smiley.smileyCode.error.notUnique"><![CDATA[The entered smiley code is already used by another smiley.]]></item>
+		<item name="wcf.acp.pip.smiley.smileyCode.error.notUnique"><![CDATA[This smiley code is already used by another smiley.]]></item>
 		<item name="wcf.acp.pip.smiley.aliases"><![CDATA[Secondary Smiley Codes]]></item>
 		<item name="wcf.acp.pip.smiley.aliases.description"><![CDATA[The secondary codes are also converted into this smiley.]]></item>
 		<item name="wcf.acp.pip.smiley.aliases.error.notUnique"><![CDATA[The following aliases are already used by another smiley: {implode from=$notUniqueCodes item=notUniqueCode}<kbd>{$notUniqueCode}</kbd>{/implode}.]]></item>
@@ -2847,7 +2847,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.style.copyStyle.confirmMessage"><![CDATA[¿Realmente quieres duplicar el estilo <span class="confirmationObject">{$style->styleName}</span>?]]></item>
 		<item name="wcf.acp.style.coverPhoto"><![CDATA[Foto de portada predeterminada]]></item>
 		<item name="wcf.acp.style.coverPhoto.delete.confirmMessage"><![CDATA[¿Realmente quieres borrar tu foto de portada? Esto sustituirá tu foto actual por la imagen por defecto.]]></item>
-		<item name="wcf.acp.style.coverPhoto.description"><![CDATA[La imagen debe tener un tamaño mínimo de {$coverPhotoMinWidth}×{$coverPhotoMinHeight} píxeles, los tipos de imagen aceptables son GIF, JPG, JPEG, PNG y WEBP.]]></item>
+		<item name="wcf.acp.style.coverPhoto.description"><![CDATA[La imagen debe tener un tamaño mínimo de {$coverPhotoMinWidth} × {$coverPhotoMinHeight} píxeles, los tipos de imagen aceptables son GIF, JPG, JPEG, PNG y WEBP.]]></item>
 		<item name="wcf.acp.style.customAssets"><![CDATA[Imágenes adicionales]]></item>
 		<item name="wcf.acp.style.customAssets.description"><![CDATA[{literal}Las imágenes subidas se almacenarán con el mismo nombre de archivo dentro de la carpeta <kbd>custom/</kbd> en la carpeta de imágenes del estilo. Puede recuperar la ruta de la carpeta dentro del CSS utilizando <kbd>#{$style_image_path}custom/</kbd>.{/literal}]]></item>
 		<item name="wcf.acp.style.delete.confirmMessage"><![CDATA[¿Realmentes quieres eliminar el estilo <span class="confirmationObject">{$style->styleName}</span>?]]></item>
@@ -2881,7 +2881,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.style.globalValues.input"><![CDATA[CSS y SCSS individuales]]></item>
 		<item name="wcf.acp.style.globalValues.input.error"><![CDATA[El código SCSS contiene un error: {$errorType.message}.]]></item>
 		<item name="wcf.acp.style.image"><![CDATA[Vista previa]]></item>
-		<item name="wcf.acp.style.image.description"><![CDATA[Sube una imagen previa para este estilo, los tipos de imagen aceptados son JPG y PNG. Las dimensiones deben ser 102×64 píxeles, las imágenes que excedan se escalarán.]]></item>
+		<item name="wcf.acp.style.image.description"><![CDATA[Sube una imagen previa para este estilo, los tipos de imagen aceptados son JPG y PNG. Las dimensiones deben ser 102 × 64 píxeles, las imágenes que excedan se escalarán.]]></item>
 		<item name="wcf.acp.style.image2x"><![CDATA[Vista previa (HD)]]></item>
 		<item name="wcf.acp.style.image2x.description"><![CDATA[Esta imagen se utiliza en pantallas de alta resolución como Apple Retina o pantallas 4K/UHD. La imagen debe tener el doble de dimensiones que la imagen normal para que funcione.]]></item>
 		<item name="wcf.acp.style.imagePath"><![CDATA[Ruta de imagen]]></item>
@@ -2969,12 +2969,12 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.template.group.folderName"><![CDATA[Directorio]]></item>
 		<item name="wcf.acp.template.group.parentTemplateGroup"><![CDATA[Grupo de plantillas superior]]></item>
 		<item name="wcf.acp.template.group.name.error.notUnique"><![CDATA[Este nombre ya está en uso por otro grupo de plantillas.]]></item>
-		<item name="wcf.acp.template.group.folderName.error.invalid"><![CDATA[El directorio especificado no es válido.]]></item>
-		<item name="wcf.acp.template.group.folderName.error.notUnique"><![CDATA[El directorio especificado ya en uso por otro grupo de plantillas.]]></item>
+		<item name="wcf.acp.template.group.folderName.error.invalid"><![CDATA[Este directorio no es válido.]]></item>
+		<item name="wcf.acp.template.group.folderName.error.notUnique"><![CDATA[Este directorio ya está siendo utilizado por otro grupo de plantillas.]]></item>
 		<item name="wcf.acp.template.group.parentTemplateGroupID.error.invalid"><![CDATA[El grupo de plantillas padre especificado no es válido.]]></item>
 		<item name="wcf.acp.template.source"><![CDATA[Código fuente de la plantilla]]></item>
 		<item name="wcf.acp.template.name.error.notUnique"><![CDATA[Este nombre ya está en uso por otra plantilla.]]></item>
-		<item name="wcf.acp.template.name.error.invalid"><![CDATA[El nombre especificado no es válido.]]></item>
+		<item name="wcf.acp.template.name.error.invalid"><![CDATA[Este nombre no es válido.]]></item>
 	</category>
 	<category name="wcf.acp.user">
 		<item name="wcf.acp.user.add"><![CDATA[Añadir usuario]]></item>
@@ -4015,7 +4015,7 @@ Archivos adjuntos:
 		<item name="wcf.form.field.userGroupOption"><![CDATA[Permisos]]></item>
 		<item name="wcf.form.field.userGroupOption.error.nonExistent"><![CDATA[Los siguientes permisos no existen: {implode from=$options item=option}<kbd>{$option}</kbd>{/implode}.]]></item>
 		<item name="wcf.form.field.username.error.invalid"><![CDATA[El nombre de usuario introducido no es válido.]]></item>
-		<item name="wcf.form.field.username.error.notUnique"><![CDATA[El nombre de usuario introducido ya está en uso.]]></item>
+		<item name="wcf.form.field.username.error.notUnique"><![CDATA[Este nombre de usuario ya está en uso.]]></item>
 		<item name="wcf.form.fieldValidator.dotSeparatedString.error.invalidSegments"><![CDATA[Los siguientes segmentos no son válidos: {implode from=$invalidSegments key=segmentNumber item=segment}{if $segment !== ''}<kbd>{$segment}</kbd>{else}(empty){/if} (segment {#$segmentNumber + 1}){/implode}.]]></item>
 		<item name="wcf.form.field.url.error.invalid"><![CDATA[El enlace introducido no es válido.]]></item>
 		<item name="wcf.form.field.rating"><![CDATA[Puntuación]]></item>
@@ -4416,8 +4416,8 @@ Archivos adjuntos:
 		<item name="wcf.acp.page.content"><![CDATA[Contenido]]></item>
 		<item name="wcf.acp.page.contents"><![CDATA[Contenidos]]></item>
 		<item name="wcf.acp.page.customURL"><![CDATA[URL personalizada]]></item>
-		<item name="wcf.acp.page.customURL.error.invalid"><![CDATA[La URL no es válida. Puedes utilizar letras a-z/A-Z, números, guiones, guiones bajos y barras inclinadas.]]></item>
-		<item name="wcf.acp.page.customURL.error.notUnique"><![CDATA[La URL ya está en uso.]]></item>
+		<item name="wcf.acp.page.customURL.error.invalid"><![CDATA[Esta URL no es válida. Puedes utilizar letras a-z/A-Z, números, guiones, guiones bajos y barras inclinadas.]]></item>
+		<item name="wcf.acp.page.customURL.error.notUnique"><![CDATA[Esta URL ya está en uso.]]></item>
 		<item name="wcf.acp.page.edit"><![CDATA[Editar página]]></item>
 		<item name="wcf.acp.page.i18n"><![CDATA[Multilingüismo]]></item>
 		<item name="wcf.acp.page.i18n.i18n"><![CDATA[Página multilingüe]]></item>
@@ -4428,7 +4428,7 @@ Archivos adjuntos:
 		<item name="wcf.acp.page.lastUpdateTime"><![CDATA[Último cambio]]></item>
 		<item name="wcf.acp.page.list"><![CDATA[Páginas]]></item>
 		<item name="wcf.acp.page.metaDescription"><![CDATA[Metadescripción]]></item>
-		<item name="wcf.acp.page.name.error.notUnique"><![CDATA[El nombre ya está en uso.]]></item>
+		<item name="wcf.acp.page.name.error.notUnique"><![CDATA[Este nombre ya está en uso.]]></item>
 		<item name="wcf.acp.page.page"><![CDATA[Página]]></item>
 		<item name="wcf.acp.page.parentPage"><![CDATA[Página principal]]></item>
 		<item name="wcf.acp.page.parentPage.error.invalid"><![CDATA[La página seleccionada no es válida.]]></item>
@@ -4582,8 +4582,8 @@ Archivos adjuntos:
 		<item name="wcf.user.confirmPassword.error.notEqual"><![CDATA[Las contraseñas introducidas no coinciden.]]></item>
 		<item name="wcf.user.controlPanel"><![CDATA[Panel de control]]></item>
 		<item name="wcf.user.email"><![CDATA[Dirección de correo electrónico]]></item>
-		<item name="wcf.user.email.error.notUnique"><![CDATA[La dirección de correo electrónico ya está en uso.]]></item>
-		<item name="wcf.user.email.error.invalid"><![CDATA[La dirección de correo electrónico no es válida.]]></item>
+		<item name="wcf.user.email.error.notUnique"><![CDATA[Esta dirección de correo electrónico ya está en uso.]]></item>
+		<item name="wcf.user.email.error.invalid"><![CDATA[Esta dirección de correo electrónico no es válida.]]></item>
 		<item name="wcf.user.ipAddress"><![CDATA[Dirección IP]]></item>
 		<item name="wcf.user.ipAddress.searchEngine"><![CDATA[Buscar {if !$ipAddress|empty}{$ipAddress}{else}esta dirección IP{/if} {if !$host|empty}en {$host}{/if}]]></item>
 		<item name="wcf.user.userAgent"><![CDATA[Agente de usuario]]></item>
@@ -4609,8 +4609,8 @@ Archivos adjuntos:
 		<item name="wcf.user.username.placeholder"><![CDATA[Introduce un nombre de usuario]]></item>
 		<item name="wcf.user.username.error.acpNotAuthorized"><![CDATA[Este usuario no está autorizado a iniciar sesión en el Panel de Control de Administración.]]></item>
 		<item name="wcf.user.username.error.notFound"><![CDATA[El nombre de usuario “{$username}” no existe.]]></item>
-		<item name="wcf.user.username.error.notUnique"><![CDATA[El nombre de usuario ya está en uso.]]></item>
-		<item name="wcf.user.username.error.invalid"><![CDATA[El nombre de usuario no es válido.]]></item>
+		<item name="wcf.user.username.error.notUnique"><![CDATA[Este nombre de usuario ya está en uso.]]></item>
+		<item name="wcf.user.username.error.invalid"><![CDATA[Este nombre de usuario no es válido.]]></item>
 		<item name="wcf.user.userNote"><![CDATA[{$__wcf->user->username}]]></item>
 		<item name="wcf.user.group"><![CDATA[Grupo de usuarios]]></item>
 		<item name="wcf.user.group.groupName"><![CDATA[Nombre del grupo]]></item>
