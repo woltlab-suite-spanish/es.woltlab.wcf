@@ -295,7 +295,7 @@
 		<item name="wcf.acp.cronjob.startMonth"><![CDATA[Mes]]></item>
 		<item name="wcf.acp.cronjob.startMonth.description"><![CDATA[Mes (1 - 12, or jan - dec) en que debe ejecutarse el cronjob.]]></item>
 		<item name="wcf.acp.cronjob.startMonthShort"><![CDATA[M]]></item>
-		<item name="wcf.acp.cronjob.expression"><![CDATA[Definición (m h DoM M DoW)]]></item>
+		<item name="wcf.acp.cronjob.expression"><![CDATA[Definition (m h DoM M DoW)]]></item>
 		<item name="wcf.acp.cronjob.description"><![CDATA[Descripción]]></item>
 		<item name="wcf.acp.cronjob.nextExec"><![CDATA[Próxima ejecución programada]]></item>
 		<item name="wcf.acp.cronjob.edit"><![CDATA[Editar cronjob]]></item>
