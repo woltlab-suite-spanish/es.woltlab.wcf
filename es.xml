@@ -295,7 +295,7 @@
 		<item name="wcf.acp.cronjob.startMonth"><![CDATA[Mes]]></item>
 		<item name="wcf.acp.cronjob.startMonth.description"><![CDATA[Mes (1 - 12, or jan - dec) en que debe ejecutarse el cronjob.]]></item>
 		<item name="wcf.acp.cronjob.startMonthShort"><![CDATA[M]]></item>
-		<item name="wcf.acp.cronjob.expression"><![CDATA[Definition (m h DoM M DoW)]]></item>
+		<item name="wcf.acp.cronjob.expression"><![CDATA[Definición (h m DoM M DoW)]]></item>
 		<item name="wcf.acp.cronjob.description"><![CDATA[Descripción]]></item>
 		<item name="wcf.acp.cronjob.nextExec"><![CDATA[Próxima ejecución programada]]></item>
 		<item name="wcf.acp.cronjob.edit"><![CDATA[Editar cronjob]]></item>
@@ -5525,6 +5525,8 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.option.facebook"><![CDATA[Facebook]]></item>
 		<item name="wcf.user.option.twitter"><![CDATA[X]]></item>
 		<item name="wcf.user.option.canWriteProfileComments"><![CDATA[Puedes escribir comentarios en mi muro]]></item>
+		<item name="wcf.user.option.editorPastePreserveFormatting"><![CDATA[Conservar el formato del texto al pegarlo en el editor]]></item>
+		<item name="wcf.user.option.editorPastePreserveFormatting.description"><![CDATA[Si desactivas esta opción, cualquier contenido se pegará desde el portapapeles como texto sin formato, eliminando todo el formato.]]></item>
 		<item name="wcf.user.option.searchRadioButtonOption"><![CDATA[Selección del usuario para “{$option->getTitle()}”:]]></item>
 		<item name="wcf.user.option.searchTextOption"><![CDATA[“{$option->getTitle()}” contiene:]]></item>
 		<item name="wcf.user.option.searchBooleanOption"><![CDATA[Selección del usuario para “{$option->getTitle()}”:]]></item>
@@ -7445,7 +7447,5 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 	<item name="wcf.user.objectWatch.enableNotification.com.woltlab.wcf.article.category"/>
 	<item name="wcf.user.objectWatch.unsubscribe.com.woltlab.wcf.article.category"/>
 	<item name="wcf.editor.button.group.block"/>
-	<item name="wcf.user.option.editorPastePreserveFormatting"/>
-	<item name="wcf.user.option.editorPastePreserveFormatting.description"/>
 </delete>
 </language>
