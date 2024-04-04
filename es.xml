@@ -1936,6 +1936,7 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.package.validation.errorCode.28"><![CDATA[El &lt;packageinformation&gt; contiene un elemento hijo “{$tag}” duplicado.]]></item>
 		<item name="wcf.acp.package.validation.errorCode.29"><![CDATA[No se indica la versión del paquete.]]></item>
 		<item name="wcf.acp.package.validation.errorCode.30"><![CDATA[No se indica la fecha del paquete.]]></item>
+		<item name="wcf.acp.package.validation.errorCode.31"><![CDATA[El archivo “package.xml” no es válido{if $libxmlOutput}: {$libxmlOutput}{/if}.]]></item>
 		<item name="wcf.acp.package.validation.failed"><![CDATA[El paquete no se puede instalar, por favor revisa los resultados de la validación a continuación.]]></item>
 		<item name="wcf.acp.package.evaluation.expired"><![CDATA[El periodo de evaluación de <strong>{$packageName}</strong> ha expirado. Para un uso legal de este software, actualiza a la última versión disponible.{if $pluginStoreFileID || $isWoltLab}<br>La última versión puede adquirirse de forma rápida y segura <strong>{if $pluginStoreFileID}<a href="https://pluginstore.woltlab.com/file/{$pluginStoreFileID}/">en la WoltLab Plugin-Store.</a>{else}<a href="https://www.woltlab.com/en/purchase/">on WoltLab.com</a>{/if}</strong>.{/if}]]></item>
 		<item name="wcf.acp.package.evaluation.pending"><![CDATA[El periodo de evaluación de las aplicaciones listadas a continuación expirará el <strong>{$evaluationEndDate|plainTime}</strong> ({@$evaluationEndDate|dateDiff:TIME_NOW:true}). Las aplicaciones se desactivarán automáticamente después de esta fecha y quedarán inutilizables, tendrás que instalar las últimas versiones de las aplicaciones para activarlas de nuevo.
@@ -3364,6 +3365,7 @@ Extensiones permitidas: {', '|implode:$attachmentHandler->getFormattedAllowedExt
 		<item name="wcf.cli.worker.list"><![CDATA[Listar todos los trabajadores.]]></item>
 		<item name="wcf.cli.worker.threads"><![CDATA[Número de procesos paralelos solicitados.]]></item>
 		<item name="wcf.cli.worker.threads.windows"><![CDATA[El procesamiento paralelo usando --threads no está disponible en Windows.]]></item>
+		<item name="wcf.cli.worker.threads.variables_order"><![CDATA[For parallel processing using --threads, the value "EGPCS" is required for "variables_order" in php.ini.]]></item>
 		<item name="wcf.cli.worker.threadId"><![CDATA[Especifica el ID del thread cuando se procesa en paralelo. Se utiliza internamente cuando se proporcionan --threads.]]></item>
 		<item name="wcf.cli.worker.threadId.invalid"><![CDATA[El identificador de thread introducido no es válido.]]></item>
 		<item name="wcf.cli.error.command.notFound"><![CDATA[No se ha encontrado el comando "{$command}".]]></item>
