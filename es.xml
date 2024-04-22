@@ -365,6 +365,7 @@
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.userTrophy"><![CDATA[Trofeos asignados]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.reactionType"><![CDATA[Reacciones]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.page"><![CDATA[Páginas del CMS]]></item>
+		<item name="wcf.acp.dataImport.existingMapping.confirmMessage"><![CDATA[¿Realmente quieres eliminar los mapeos de importación existentes?]]></item>
 		<item name="wcf.acp.dataImport.existingMapping.notice"><![CDATA[Existen mapeos de importación creados por un proceso de importación anterior, estos mapeos se utilizan para manejar adecuadamente las conexiones entre los datos del foro importado y éste. Si has importado todos los datos deseados, puedes <a href="#" role="button" id="deleteMapping" data-confirm-message="¿Realmente quieres eliminar los mapeos de importación existentes?">eliminar los mapeos</a>. Se recomienda encarecidamente mantener estas asignaciones mientras haya datos que importar ahora o en el futuro. Estos mapeos no pueden utilizarse para realizar importaciones incrementales del mismo tipo de datos. Su propósito es importar diferentes tipos de datos utilizando múltiples procesos de importación, posiblemente utilizando importadores proporcionados por un plugin.]]></item>
 		<item name="wcf.acp.dataImport.exporter"><![CDATA[Fuente de datos]]></item>
 		<item name="wcf.acp.dataImport.selectExporter"><![CDATA[Seleccionar fuente de datos]]></item>
@@ -5647,7 +5648,6 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 	<item name="wcf.acp.dataImport.configure.settings.userMergeMode.1"/>
 	<item name="wcf.acp.dataImport.configure.settings.userMergeMode.2"/>
 	<item name="wcf.acp.dataImport.configure.settings.userMergeMode.3"/>
-	<item name="wcf.acp.dataImport.existingMapping.confirmMessage"/>
 	<item name="wcf.acp.dataImport.selectExporter.error.notValid"/>
 	<item name="wcf.acp.devtools.project.action"/>
 	<item name="wcf.acp.devtools.project.apiVersions"/>
