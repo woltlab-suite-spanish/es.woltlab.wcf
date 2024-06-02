@@ -296,6 +296,10 @@
 		<item name="wcf.acp.cronjob.startMonth.description"><![CDATA[Mes (1 - 12, or jan - dec) en que debe ejecutarse el cronjob.]]></item>
 		<item name="wcf.acp.cronjob.startMonthShort"><![CDATA[M]]></item>
 		<item name="wcf.acp.cronjob.expression"><![CDATA[Definición (m h DoM M DoW)]]></item>
+		<item name="wcf.acp.cronjob.expressionType"><![CDATA[Tiempo de ejecución]]></item>
+		<item name="wcf.acp.cronjob.expressionType.default"><![CDATA[Valores exactos]]></item>
+		<item name="wcf.acp.cronjob.expressionType.random"><![CDATA[Intervalo de tiempo aproximado]]></item>
+		<item name="wcf.acp.cronjob.expressionRandom"><![CDATA[Intervalo de tiempo]]></item>
 		<item name="wcf.acp.cronjob.description"><![CDATA[Descripción]]></item>
 		<item name="wcf.acp.cronjob.nextExec"><![CDATA[Próxima ejecución programada]]></item>
 		<item name="wcf.acp.cronjob.edit"><![CDATA[Editar cronjob]]></item>
@@ -3491,7 +3495,7 @@ Archivos adjuntos:
 		<item name="wcf.contact.sender"><![CDATA[Remitente]]></item>
 		<item name="wcf.contact.sender.information"><![CDATA[Tus datos]]></item>
 		<item name="wcf.contact.success"><![CDATA[El mensaje ha sido enviado.]]></item>
-		<item name="wcf.contact.confirmPrivacyPolicy"><![CDATA[He leído la <a href="{page}com.woltlab.wcf.PrivacyPolicy{/page}">política de privacidad</a> y la acepto expresamente. <span class="customOptionRequired">*</span>]]></item>
+		<item name="wcf.contact.confirmPrivacyPolicy"><![CDATA[Acepto el tratamiento de los datos introducidos. <span class="customOptionRequired">*</span>]]></item>
 	</category>
 	<category name="wcf.acp.contact">
 		<item name="wcf.acp.contact.options"><![CDATA[Campos de entrada]]></item>
