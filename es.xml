@@ -1075,7 +1075,7 @@ La licencia de desarrollador permite exclusivamente el uso durante el desarrollo
 		<item name="wcf.acp.menu.link.cronjob.add"><![CDATA[Añadir cronjob]]></item>
 		<item name="wcf.acp.menu.link.cronjob.list"><![CDATA[Cronjobs]]></item>
 		<item name="wcf.acp.menu.link.language"><![CDATA[Idiomas]]></item>
-		<item name="wcf.acp.menu.link.language.import"><![CDATA[Importar idiomna]]></item>
+		<item name="wcf.acp.menu.link.language.import"><![CDATA[Importar idioma]]></item>
 		<item name="wcf.acp.menu.link.language.item.list"><![CDATA[Frases]]></item>
 		<item name="wcf.acp.menu.link.language.list"><![CDATA[Idiomas]]></item>
 		<item name="wcf.acp.menu.link.language.multilingualism"><![CDATA[Multilingüismo]]></item>
