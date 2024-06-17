@@ -4430,7 +4430,7 @@ Archivos adjuntos:
 		<item name="wcf.acp.page.i18n.i18n"><![CDATA[Página multilingüe]]></item>
 		<item name="wcf.acp.page.i18n.i18n.description"><![CDATA[El contenido, la URL y los metadatos se facilitarán para cada idioma por separado.]]></item>
 		<item name="wcf.acp.page.i18n.none"><![CDATA[Página monolingüe]]></item>
-		<item name="wcf.acp.page.i18n.none.description"><![CDATA[El contenido no está vinculado a una lengua específica o no debe haber una traducción.]]></item>
+		<item name="wcf.acp.page.i18n.none.description"><![CDATA[El contenido no está vinculado a un idioma específico o no debe haber una traducción.]]></item>
 		<item name="wcf.acp.page.isDisabled"><![CDATA[Desactivar página]]></item>
 		<item name="wcf.acp.page.lastUpdateTime"><![CDATA[Último cambio]]></item>
 		<item name="wcf.acp.page.list"><![CDATA[Páginas]]></item>
