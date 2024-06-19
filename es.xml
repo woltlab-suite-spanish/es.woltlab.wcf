@@ -1807,6 +1807,7 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.package.error.noValidInstall"><![CDATA[El paquete seleccionado no admite una instalación.]]></item>
 		<item name="wcf.acp.package.error.noValidUpdate"><![CDATA[El paquete “{$package->getName()}” no puede ser actualizado utilizando el archivo seleccionado.]]></item>
 		<item name="wcf.acp.package.error.majorUpgrade"><![CDATA[El paquete actualiza su comunidad a una nueva versión principal. Por motivos de estabilidad, las actualizaciones importantes solo pueden realizarse a través de los servidores de actualización. Encontrarás información detallada sobre el proceso de actualización en <a href="https://manual.woltlab.com/en/updates/" class="externalURL">nuestro manual</a>.]]></item>
+		<item name="wcf.acp.package.error.incompatibleStoreProduct"><![CDATA[El paquete es incompatible y no se puede instalar. Sólo puedes instalar paquetes que aparezcan como compatibles con WoltLab Suite {literal}{$versionNumber}{/literal}.]]></item>
 		<item name="wcf.acp.package.identifier"><![CDATA[Identificador]]></item>
 		<item name="wcf.acp.package.information.properties"><![CDATA[Propiedades]]></item>
 		<item name="wcf.acp.package.information.title"><![CDATA[Detalles]]></item>
