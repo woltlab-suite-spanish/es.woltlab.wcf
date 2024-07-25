@@ -1645,7 +1645,7 @@ Cuando se le solicite la URL de notificación para las notificaciones de pago in
 		<item name="wcf.acp.option.image_proxy_host_whitelist.description"><![CDATA[Los dominios listados no serán manejados por el proxy de imagen, el dominio actual se añade implícitamente. Los nombres de host son sólo coincidencias exactas; se puede utilizar un comodín inicial para excluir un dominio completo: <kbd>*.example.com</kbd> coincide con <kbd>example.com</kbd> y los subdominios <kbd>foo.example.com</kbd> y/o <kbd>www.example.com</kbd>.]]></item>
 		<item name="wcf.acp.option.share_buttons_providers"><![CDATA[Proveedores de botones para compartir]]></item>
 		<item name="wcf.acp.option.show_style_changer"><![CDATA[Habilitar el cambiador de estilos]]></item>
-		<item name="wcf.acp.option.language_use_informal_variant"><![CDATA[Utilizar una variante de lenguaje informal]]></item>
+		<item name="wcf.acp.option.language_use_informal_variant"><![CDATA[Utilizar variante de idioma informal]]></item>
 		<item name="wcf.acp.option.category.cms.media.thumbnail"><![CDATA[Miniaturas]]></item>
 		<item name="wcf.acp.option.media_large_thumbnail_height"><![CDATA[Altura de miniatura grande]]></item>
 		<item name="wcf.acp.option.media_large_thumbnail_retain_dimensions"><![CDATA[Mantener relación de aspecto de miniatura (grande)]]></item>
