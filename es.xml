@@ -4525,7 +4525,7 @@ Archivos adjuntos:
 		<item name="wcf.recaptcha.audio"><![CDATA[Versión en audio]]></item>
 		<item name="wcf.recaptcha.image"><![CDATA[Versión en imagen]]></item>
 		<item name="wcf.recaptcha.help"><![CDATA[Ayuda]]></item>
-		<item name="wcf.recaptcha.error.recaptchaString.false"><![CDATA[El código de seguridad introducido es incorrecto. Por favor, inténtela de nuevo.]]></item>
+		<item name="wcf.recaptcha.error.recaptchaString.false"><![CDATA[El código de seguridad introducido es incorrecto. Por favor, inténtalo de nuevo.]]></item>
 	</category>
 	<category name="wcf.search">
 		<item name="wcf.search.author"><![CDATA[Buscar por autor]]></item>
