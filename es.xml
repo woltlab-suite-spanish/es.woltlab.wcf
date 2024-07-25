@@ -2634,7 +2634,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.rewrite"><![CDATA[Reglas de reescritura]]></item>
 		<item name="wcf.acp.rewrite.apache"><![CDATA[Apache (.htaccess)]]></item>
 		<item name="wcf.acp.rewrite.generate"><![CDATA[Generar reglas de reescritura]]></item>
-		<item name="wcf.acp.rewrite.description"><![CDATA[Genera las reglas de reescritura para los archivos .htaccess necesarios. Tenga en cuenta que es posible que tenga que proporcionar reglas diferentes para configuraciones especiales del servidor web.]]></item>
+		<item name="wcf.acp.rewrite.description"><![CDATA[Genera las reglas de reescritura para los archivos .htaccess necesarios. Por favor, ten en cuenta que es posible que debas que proporcionar reglas diferentes para configuraciones especiales del servidor web.]]></item>
 		<item name="wcf.acp.rewrite.filename"><![CDATA[Nombre de archivo]]></item>
 		<item name="wcf.acp.rewrite.fileContent"><![CDATA[Contenido del archivo]]></item>
 	</category>
