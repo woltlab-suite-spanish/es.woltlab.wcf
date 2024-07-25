@@ -71,7 +71,7 @@
 		<item name="wcf.acp.application.management.domainName.error.containsPath"><![CDATA[Por favor, indica sólo el dominio, sin protocolo ni ruta.]]></item>
 		<item name="wcf.acp.application.management.cookieDomain"><![CDATA[Dominio de cookie]]></item>
 		<item name="wcf.acp.application.management.cookieDomain.description"><![CDATA[El dominio de la cookie debe coincidir con el dominio proporcionado. En caso de duda, indica simplemente el mismo valor que has introducido para "Dominio".]]></item>
-		<item name="wcf.acp.application.management.cookieDomain.error.containsPath"><![CDATA[Por favor, indique sólo el dominio, sin protocolos ni rutas.]]></item>
+		<item name="wcf.acp.application.management.cookieDomain.error.containsPath"><![CDATA[Por favor, indica sólo el dominio, sin protocolo ni ruta.]]></item>
 	</category>
 	<category name="wcf.acp.article">
 		<item name="wcf.acp.article.add"><![CDATA[Añadir artículo]]></item>
