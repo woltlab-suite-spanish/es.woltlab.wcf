@@ -2897,8 +2897,8 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.style.import.source"><![CDATA[Fuente de datos]]></item>
 		<item name="wcf.acp.style.import.source.upload"><![CDATA[Subir estilo]]></item>
 		<item name="wcf.acp.style.import.source.upload.description"><![CDATA[Sube un estilo desde tu máquina local.]]></item>
-		<item name="wcf.acp.style.import.source.error.importFailed"><![CDATA[No se puede importar el estilo seleccionado, el archivo cargado no es un estilo válido.]]></item>
-		<item name="wcf.acp.style.import.source.error.isPackageNoPermission"><![CDATA[No se puede importar el estilo seleccionado. El archivo cargado es un paquete y no se pueden instalar nuevos paquetes.]]></item>
+		<item name="wcf.acp.style.import.source.error.importFailed"><![CDATA[No se puede importar el estilo seleccionado, el archivo subido no es un estilo válido.]]></item>
+		<item name="wcf.acp.style.import.source.error.isPackageNoPermission"><![CDATA[No se puede importar el estilo seleccionado. El archivo subido es un paquete y no se pueden instalar nuevos paquetes.]]></item>
 		<item name="wcf.acp.style.license"><![CDATA[Licencia]]></item>
 		<item name="wcf.acp.style.list"><![CDATA[Estilos]]></item>
 		<item name="wcf.acp.style.packageName"><![CDATA[Identificador de paquete]]></item>
@@ -4170,7 +4170,7 @@ Archivos adjuntos:
 		<item name="wcf.media.upload.error.differentFileType"><![CDATA[El nuevo archivo debe ser del mismo tipo que el archivo actual.]]></item>
 		<item name="wcf.media.upload.error.noImage"><![CDATA[El archivo subido no es una imagen.]]></item>
 		<item name="wcf.media.upload.error.uploadFailed"><![CDATA[Ha ocurrido un error desconocido durante la subida.]]></item>
-		<item name="wcf.media.upload.success"><![CDATA[El archivo ha sido cargado correctamente.]]></item>
+		<item name="wcf.media.upload.success"><![CDATA[El archivo ha sido subido correctamente.]]></item>
 		<item name="wcf.media.uploader"><![CDATA[Subido por]]></item>
 		<item name="wcf.media.uploadTime"><![CDATA[Fecha de subida]]></item>
 		<item name="wcf.media.search.noResults"><![CDATA[La búsqueda no ha devuelto ningún resultado.]]></item>
@@ -5282,7 +5282,7 @@ También has recibido una lista de códigos de recuperación para utilizar cuand
 		<item name="wcf.user.coverPhoto.noImage"><![CDATA[El usuario aún no ha subido una foto de portada.]]></item>
 		<item name="wcf.user.coverPhoto.upload"><![CDATA[Subir foto de portada]]></item>
 		<item name="wcf.user.coverPhoto.upload.description"><![CDATA[Tamaño mínimo de imagen: {$coverPhotoDimensions.min.width} × {$coverPhotoDimensions.min.height} píxeles<br>Tamaño máximo de imagen: {$coverPhotoDimensions.max.width} × {$coverPhotoDimensions.max.height} píxeles<br>Extensiones de archivo permitidas: gif, jpg, jpeg, png, webp<br>Tamaño máximo de archivo: {$__wcf->session->getPermission('user.profile.coverPhoto.maxSize')|filesize}]]></item>
-		<item name="wcf.user.coverPhoto.upload.error.badImage"><![CDATA[El archivo cargado no es una imagen.]]></item>
+		<item name="wcf.user.coverPhoto.upload.error.badImage"><![CDATA[El archivo subido no es una imagen.]]></item>
 		<item name="wcf.user.coverPhoto.upload.error.fileExtension"><![CDATA[El archivo tiene una extensión no válida.]]></item>
 		<item name="wcf.user.coverPhoto.upload.error.maxHeight"><![CDATA[La imagen es demasiado alta.]]></item>
 		<item name="wcf.user.coverPhoto.upload.error.maxSize"><![CDATA[El archivo es demasiado grande.]]></item>
