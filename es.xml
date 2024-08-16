@@ -933,7 +933,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.index.credits.contributor.more"><![CDATA[Más]]></item>
 		<item name="wcf.acp.index.inRescueMode"><![CDATA[Estás accediendo a esta instalación desde un dominio desconocido, posiblemente debido al traslado a un nuevo host. Por favor, actualiza los ajustes en <a href="{link controller='ApplicationManagement'}{/link}">Gestionar aplicaciones</a>.]]></item>
 		<item name="wcf.acp.index.news"><![CDATA[Noticias]]></item>
-		<item name="wcf.acp.index.setup.notice"><![CDATA[La instalación continuará en unos instantes, por favor no recargue esta página.]]></item>
+		<item name="wcf.acp.index.setup.notice"><![CDATA[La instalación continuará en unos instantes, por favor, no recargue esta página.]]></item>
 		<item name="wcf.acp.index.setup.title"><![CDATA[Espera, por favor]]></item>
 		<item name="wcf.acp.index.system"><![CDATA[Sistema]]></item>
 		<item name="wcf.acp.index.system.software"><![CDATA[Software]]></item>
@@ -1867,7 +1867,7 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.package.update.credentials.description"><![CDATA[Puedes encontrar tu licencia y número de serie en el <a class="externalURL" href="https://www.woltlab.com/license-list/"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>área de clientes en woltlab.com</a>.]]></item>
 		<item name="wcf.acp.package.update.error.listNotFound"><![CDATA[No se ha podido recuperar la lista de paquetes.]]></item>
 		<item name="wcf.acp.package.update.error.outstandingUpdates"><![CDATA[Por favor, instala todas las actualizaciones pendientes antes de intentar migrar a una versión más reciente.]]></item>
-		<item name="wcf.acp.package.update.errorCode.401"><![CDATA[Tus credenciales no son válidas, por favor verifica {if $updateServer->requiresLicense()}la licencia y el número de serie{else}}el nombre de usuario y la contraseña{/if}.]]></item>
+		<item name="wcf.acp.package.update.errorCode.401"><![CDATA[Tus credenciales no son válidas, por favor, verifica {if $updateServer->requiresLicense()}la licencia y el número de serie{else}}el nombre de usuario y la contraseña{/if}.]]></item>
 		<item name="wcf.acp.package.update.errorCode.402"><![CDATA[{if $updateServer->requiresLicense()}La licencia y el número de serie{else}El nombre de usuario y la contraseña{/if} han sido aceptados por el servidor, pero no le conceden el permiso para descargar este producto comercial.]]></item>
 		<item name="wcf.acp.package.update.errorCode.403"><![CDATA[No tienes permiso para acceder a este paquete.]]></item>
 		<item name="wcf.acp.package.update.authInsufficient"><![CDATA[Las credenciales son válidas, pero no permiten la descarga de este paquete.]]></item>
@@ -1943,7 +1943,7 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.package.validation.errorCode.29"><![CDATA[No se indica la versión del paquete.]]></item>
 		<item name="wcf.acp.package.validation.errorCode.30"><![CDATA[No se indica la fecha del paquete.]]></item>
 		<item name="wcf.acp.package.validation.errorCode.31"><![CDATA[El archivo “package.xml” no es válido{if $libxmlOutput}: {$libxmlOutput}{/if}.]]></item>
-		<item name="wcf.acp.package.validation.failed"><![CDATA[El paquete no se puede instalar, por favor revisa los resultados de la validación a continuación.]]></item>
+		<item name="wcf.acp.package.validation.failed"><![CDATA[El paquete no se puede instalar, por favor, revisa los resultados de la validación a continuación.]]></item>
 		<item name="wcf.acp.package.evaluation.expired"><![CDATA[El periodo de evaluación de <strong>{$packageName}</strong> ha expirado. Para un uso legal de este software, actualiza a la última versión disponible.{if $pluginStoreFileID || $isWoltLab}<br>La última versión puede adquirirse de forma rápida y segura <strong>{if $pluginStoreFileID}<a href="https://pluginstore.woltlab.com/file/{$pluginStoreFileID}/">en la WoltLab Plugin-Store.</a>{else}<a href="https://www.woltlab.com/en/purchase/">on WoltLab.com</a>{/if}</strong>.{/if}]]></item>
 		<item name="wcf.acp.package.evaluation.pending"><![CDATA[El periodo de evaluación de las aplicaciones listadas a continuación expirará el <strong>{$evaluationEndDate|plainTime}</strong> ({@$evaluationEndDate|dateDiff:TIME_NOW:true}). Las aplicaciones se desactivarán automáticamente después de esta fecha y quedarán inutilizables, tendrás que instalar las últimas versiones de las aplicaciones para activarlas de nuevo.
 <ul class="nativeList">
@@ -2816,7 +2816,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.style.advanced.original"><![CDATA[Declaraciones preestablecidas]]></item>
 		<item name="wcf.acp.style.advanced.overrideScss"><![CDATA[Anular variables SCSS]]></item>
 		<item name="wcf.acp.style.advanced.overrideScss.description"><![CDATA[Permite anular variables SCSS no disponibles a través del propio editor de estilos. Sintaxis: “$variableName: variableValue;”, las variables referidas deben ser declaradas antes de cualquier intento de lectura de su valor.]]></item>
-		<item name="wcf.acp.style.advanced.overrideScss.error"><![CDATA[El valor proporcionado no es válido, por favor verifica estos elementos:]]></item>
+		<item name="wcf.acp.style.advanced.overrideScss.error"><![CDATA[El valor proporcionado no es válido, por favor, verifica estos elementos:]]></item>
 		<item name="wcf.acp.style.advanced.overrideScss.error.invalid"><![CDATA[La entrada para “{$error[text]}” no es válida.]]></item>
 		<item name="wcf.acp.style.advanced.overrideScss.error.predefined"><![CDATA[La variable “{$error[text]}” ya está definida por el editor de estilo.]]></item>
 		<item name="wcf.acp.style.advanced.overrideScss.error.unknown"><![CDATA[La variable “{$error[text]}” no se reconoce.]]></item>
@@ -3332,7 +3332,7 @@ Extensiones permitidas: {', '|implode:$attachmentHandler->getFormattedAllowedExt
 		<item name="wcf.captcha.recaptchaV2.error.recaptchaString.false"><![CDATA[Por favor, confirma que no eres un robot.]]></item>
 	</category>
 	<category name="wcf.captcha.recaptchaInvisible">
-		<item name="wcf.captcha.recaptchaInvisible.error.recaptchaString.false"><![CDATA[La comprobación ha fallado, por favor vuelve a enviar el formulario.]]></item>
+		<item name="wcf.captcha.recaptchaInvisible.error.recaptchaString.false"><![CDATA[La comprobación ha fallado, por favor, vuelve a enviar el formulario.]]></item>
 	</category>
 	<category name="wcf.category">
 		<item name="wcf.category.add"><![CDATA[Añadir categoría]]></item>
@@ -3820,8 +3820,8 @@ Archivos adjuntos:
 		<item name="wcf.editor.image.float.left"><![CDATA[Izquierda]]></item>
 		<item name="wcf.editor.image.float.right"><![CDATA[Derecha]]></item>
 		<item name="wcf.editor.image.source"><![CDATA[Origen]]></item>
-		<item name="wcf.editor.image.source.error.blocked"><![CDATA[Las imágenes de fuentes externas han sido deshabilitadas, por favor utiliza la función de adjuntar archivos.]]></item>
-		<item name="wcf.editor.image.source.error.insecure"><![CDATA[Las fuentes inseguras (“http://”) para las imágenes han sido deshabilitadas, por favor utiliza solo fuentes seguras (“https://”).]]></item>
+		<item name="wcf.editor.image.source.error.blocked"><![CDATA[Las imágenes de fuentes externas han sido deshabilitadas, por favor, utiliza la función de adjuntar archivos.]]></item>
+		<item name="wcf.editor.image.source.error.insecure"><![CDATA[Las fuentes inseguras (“http://”) para las imágenes han sido deshabilitadas, por favor, utiliza solo fuentes seguras (“https://”).]]></item>
 		<item name="wcf.editor.image.source.error.invalid"><![CDATA[El enlace introducido no es válido.]]></item>
 		<item name="wcf.editor.link.add"><![CDATA[Insertar enlace]]></item>
 		<item name="wcf.editor.link.edit"><![CDATA[Editar enlace]]></item>
@@ -4416,7 +4416,7 @@ Archivos adjuntos:
 		<item name="wcf.acp.page.boxOrder.discard"><![CDATA[Descartar clasificación]]></item>
 		<item name="wcf.acp.page.boxOrder.discard.confirmMessage"><![CDATA[¿Realmente quieres descartar la clasificación invidiual de las cajas para esta página?]]></item>
 		<item name="wcf.acp.page.boxOrder.pageAdd"><![CDATA[Puedes establecer un orden de clasificación individual para las cajas después de guardarlas.]]></item>
-		<item name="wcf.acp.page.boxOrder.pageEdit"><![CDATA[Puedes establecer un <a href="{link controller='PageBoxOrder' id=$page->pageID}{/link}">orden de clasificación individual para las cajas</a>, por favor guarda los cambios antes de continuar.]]></item>
+		<item name="wcf.acp.page.boxOrder.pageEdit"><![CDATA[Puedes establecer un <a href="{link controller='PageBoxOrder' id=$page->pageID}{/link}">orden de clasificación individual para las cajas</a>, por favor, guarda los cambios antes de continuar.]]></item>
 		<item name="wcf.acp.page.boxOrder.position.content"><![CDATA[(Contenido)]]></item>
 		<item name="wcf.acp.page.button.boxOrder"><![CDATA[Ordenar cajas]]></item>
 		<item name="wcf.acp.page.button.viewPage"><![CDATA[Mostrar página]]></item>
