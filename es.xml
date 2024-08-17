@@ -1660,7 +1660,7 @@ Cuando se le solicite la URL de notificación para las notificaciones de pago in
 		<item name="wcf.acp.option.article_sort_order.description"><![CDATA[Elige el orden de clasificación predeterminado de los artículos.]]></item>
 		<item name="wcf.acp.option.use_page_title_on_landing_page"><![CDATA[Utilizar el título de la página en la página de aterrizaje]]></item>
 		<item name="wcf.acp.option.head_code"><![CDATA[Código de encabezado]]></item>
-		<item name="wcf.acp.option.head_code.description"><![CDATA[El código introducido se añadirá a la etiqueta “head” de su sitio. Puedes utilizarlo para añadir metaetiquetas adicionales.]]></item>
+		<item name="wcf.acp.option.head_code.description"><![CDATA[El código introducido se añadirá a la etiqueta “head” de tu sitio. Puedes utilizarlo para añadir metaetiquetas adicionales.]]></item>
 		<item name="wcf.acp.option.avatar_default_type"><![CDATA[Tipo de avatar predeterminado]]></item>
 		<item name="wcf.acp.option.avatar_default_type.initials"><![CDATA[Iniciales]]></item>
 		<item name="wcf.acp.option.avatar_default_type.silhouette"><![CDATA[Silueta]]></item>
