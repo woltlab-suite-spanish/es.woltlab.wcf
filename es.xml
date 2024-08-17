@@ -1546,7 +1546,7 @@ Restringir los nombres de usuario a caracteres ASCII restringe los nombres de us
 		<item name="wcf.acp.option.error.validationFailed"><![CDATA[El valor introducido no es válido.]]></item>
 		<item name="wcf.acp.option.module_members_list"><![CDATA[Lista de miembros]]></item>
 		<item name="wcf.acp.option.footer_code"><![CDATA[Código de pie de página]]></item>
-		<item name="wcf.acp.option.footer_code.description"><![CDATA[El código introducido se añadirá al pie de página de su sitio. Puedes utilizarlo para incrustar servicios como “Google Analytics” o “Matomo”.]]></item>
+		<item name="wcf.acp.option.footer_code.description"><![CDATA[El código introducido se añadirá al pie de página de tu sitio. Puedes utilizarlo para incrustar servicios como “Google Analytics” o “Matomo”.]]></item>
 		<item name="wcf.acp.option.profile_enable_visitors"><![CDATA[Mostrar los visitantes del perfil del usuario en la barra lateral del perfil]]></item>
 		<item name="wcf.acp.option.url_title_component_replacement"><![CDATA[Reemplazos de URLs]]></item>
 		<item name="wcf.acp.option.url_title_component_replacement.description"><![CDATA[Puedes reemplazar partes del título dentro de la URL. Puedes utilizarlo para sustituir caracteres especiales o para ampliar abreviaturas. Ejemplos:
