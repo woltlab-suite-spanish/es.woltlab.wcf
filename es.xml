@@ -1603,7 +1603,7 @@ Por favor, sigue las instrucciones descritas en <a href="https://manual.woltlab.
 		<item name="wcf.acp.option.available_payment_methods"><![CDATA[Métodos de pago admitidos]]></item>
 		<item name="wcf.acp.option.paypal_email_address"><![CDATA[Dirección de correo electrónico de PayPal]]></item>
 		<item name="wcf.acp.option.paypal_email_address.description"><![CDATA[La recepción de pagos requiere una cuenta PayPal con la opción "Notificaciones instantáneas de pago" (IPN) activada.<br>
-Cuando se le solicite la URL de notificación para las notificaciones de pago instantáneas, proporcione este enlace: <kbd>{link controller='PaypalCallback' forceFrontend=true}{/link}</kbd>.]]></item>
+Cuando se solicite la URL de notificación para las notificaciones de pago instantáneas, proporciona este enlace: <kbd>{link controller='PaypalCallback' forceFrontend=true}{/link}</kbd>.]]></item>
 		<item name="wcf.acp.option.module_paid_subscription"><![CDATA[Activar suscripciones de pago]]></item>
 		<item name="wcf.acp.option.module_paid_subscription.description"><![CDATA[Habilita la <a href="{link controller='PaidSubscriptionList'}{/link}">gestión de las suscripciones de pago</a>.]]></item>
 		<item name="wcf.acp.option.paid_subscription_enable_tos_confirmation"><![CDATA[Los usuarios deben aceptar los Términos y Condiciones de Uso antes de la compra]]></item>
