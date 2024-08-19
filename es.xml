@@ -3520,7 +3520,7 @@ Archivos adjuntos:
 		<item name="wcf.acp.content.provider.com.woltlab.wcf.reaction"><![CDATA[Reacciones]]></item>
 	</category>
 	<category name="wcf.date">
-		<item name="wcf.date.dateFormat"><![CDATA[M jS Y]]></item>
+		<item name="wcf.date.dateFormat"><![CDATA[j \d\e F \d\e Y]]></item>
 		<item name="wcf.date.timeFormat"><![CDATA[H:i]]></item>
 		<item name="wcf.date.dateTimeFormat"><![CDATA[%date%, %time%]]></item>
 		<item name="wcf.date.shortDateTimeFormat"><![CDATA[%date%]]></item>
