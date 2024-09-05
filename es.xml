@@ -1665,7 +1665,7 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.avatar_default_type.initials"><![CDATA[Iniciales]]></item>
 		<item name="wcf.acp.option.avatar_default_type.silhouette"><![CDATA[Silueta]]></item>
 		<item name="wcf.acp.option.enable_ad_rotation"><![CDATA[Activar la rotación de anuncios]]></item>
-		<item name="wcf.acp.option.enable_ad_rotation.description"><![CDATA[Si hay más de un anuncio por marcador de posición, se mostrará un anuncio aleatorio cada vez. Si desactiva esta opción, se mostrarán todos los anuncios simultáneamente.]]></item>
+		<item name="wcf.acp.option.enable_ad_rotation.description"><![CDATA[Si hay más de un anuncio por marcador de posición, se mostrará un anuncio aleatorio cada vez. Si desactivas esta opción, se mostrarán todos los anuncios simultáneamente.]]></item>
 		<item name="wcf.acp.option.visitor_use_tiny_build"><![CDATA[Activar la vista acelerada para invitados]]></item>
 		<item name="wcf.acp.option.visitor_use_tiny_build.description"><![CDATA[Habilita un modo de visualización especializado tanto para visitantes como para motores de búsqueda, proporcionando archivos JavaScript muy reducidos para conseguir una carga y una renderización de la página más rápidas.<br><strong>Advertencia:</strong> Este modo está muy restringido y reduce la capacidad de los visitantes para interactuar con tu sitio (por ejemplo, crear nuevos contenidos). Por favor, revisa tus plugins instalados antes de habilitarlos para ver si son compatibles con esta configuración.]]></item>
 		<item name="wcf.acp.option.fb_share_app_id"><![CDATA[Facebook App ID]]></item>
