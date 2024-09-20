@@ -802,7 +802,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.group.option.user.profile.renamePeriod.description"><![CDATA[Los usuarios pueden cambiar su nombre de usuario después de los días siguientes.]]></item>
 		<item name="wcf.acp.group.option.user.profile.cannotBeIgnored"><![CDATA[No puede ser bloqueado]]></item>
 		<item name="wcf.acp.group.option.mod.general.canUseModeration"><![CDATA[Puede acceder a la moderación]]></item>
-		<item name="wcf.acp.group.option.category.user.like"><![CDATA[Sistema de Me gusta]]></item>
+		<item name="wcf.acp.group.option.category.user.like"><![CDATA[Sistema de reacciones]]></item>
 		<item name="wcf.acp.group.option.user.like.canViewLike"><![CDATA[Puede ver reacciones]]></item>
 		<item name="wcf.acp.group.option.user.like.canLike"><![CDATA[Puede reaccionar al contenido]]></item>
 		<item name="wcf.acp.group.option.category.user.profileComment"><![CDATA[Muro de perfil de usuario]]></item>
@@ -1895,8 +1895,8 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.package.update.purchaseRequired"><![CDATA[Paquete de pago]]></item>
 		<item name="wcf.acp.package.update.purchaseRequired.button.purchase"><![CDATA[Mostrar en la Plugin-Store]]></item>
 		<item name="wcf.acp.package.update.purchaseRequired.description"><![CDATA[El paquete de pago “{$packageName}” debe adquirirse en la Plugin-Store antes de poder instalarlo.]]></item>
-		<item name="wcf.acp.package.update.purchaseRequired"><![CDATA[Actualización de pago]]></item>
-		<item name="wcf.acp.package.update.purchaseRequired.description"><![CDATA[La actualización del paquete “{$packageName}” debe adquirirse en la Plugin-Store antes de poder instalarla.]]></item>
+		<item name="wcf.acp.package.update.paidUpgrade"><![CDATA[Actualización de pago]]></item>
+		<item name="wcf.acp.package.update.paidUpgrade.description"><![CDATA[La actualización del paquete “{$packageName}” debe adquirirse en la Plugin-Store antes de poder instalarla.]]></item>
 		<item name="wcf.acp.package.update.installUpdate"><![CDATA[Instalar esta actualización]]></item>
 		<item name="wcf.acp.package.update.upgrade"><![CDATA[Este paquete será actualizado.]]></item>
 		<item name="wcf.acp.package.update.newVersion"><![CDATA[{$currentVersion} → <span class="packageUpdateNewVersion">{$newVersion}</span>]]></item>
@@ -5023,6 +5023,7 @@ Puedes gestionar la autenticación multifactor en la página de Seguridad de la 
 <p>Utiliza la <a href="{link controller='AccountSecurity'}#section_multifactor{/link}">Vista general de la Seguridad de la cuenta</a> si deseas desactivar la autenticación multifactor.</p>]]></item>
 		<item name="wcf.user.security.multifactor.email.subject"><![CDATA[{$code} es tu código de un solo uso para {@PAGE_TITLE|phrase}]]></item>
 		<item name="wcf.user.security.multifactor.email.success"><![CDATA[La autenticación adicional por correo electrónico se ha activado correctamente.]]></item>
+		<item name="wcf.user.security.multifactor.email.error.flood"><![CDATA[Ha habido demasiados intentos fallidos en un corto periodo de tiempo.]]></item>
 		<item name="wcf.user.security.multifactor.error.invalidCode"><![CDATA[El código introducido no es válido.]]></item>
 		<item name="wcf.user.security.multifactor.error.setupAllocationFailed"><![CDATA[La activación de este método ha fallado. Por favor, inténtalo de nuevo.]]></item>
 		<item name="wcf.user.security.multifactor.initialBackup"><![CDATA[<p>La autenticación multifactor está activada para tu cuenta a partir de ahora. A partir de ahora tendrás que tener tu segundo factor a mano para cada inicio de sesión.</p>
