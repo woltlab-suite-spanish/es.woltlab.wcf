@@ -217,7 +217,7 @@
 		<item name="wcf.acp.box.boxController.com.woltlab.wcf.profileCommentList"><![CDATA[Comentarios de perfil]]></item>
 		<item name="wcf.acp.box.boxController.com.woltlab.wcf.recentActivityList"><![CDATA[Actividad reciente]]></item>
 		<item name="wcf.acp.box.boxController.com.woltlab.wcf.registerButton"><![CDATA[Botón de registro]]></item>
-		<item name="wcf.acp.box.boxController.com.woltlab.wcf.signedInAs"><![CDATA[Iniciado sesión como]]></item>
+		<item name="wcf.acp.box.boxController.com.woltlab.wcf.signedInAs"><![CDATA[Sesión iniciada como]]></item>
 		<item name="wcf.acp.box.boxController.com.woltlab.wcf.staffOnlineList"><![CDATA[Miembros del equipo en línea]]></item>
 		<item name="wcf.acp.box.boxController.com.woltlab.wcf.statistics"><![CDATA[Estadísticas]]></item>
 		<item name="wcf.acp.box.boxController.com.woltlab.wcf.todaysBirthdays"><![CDATA[Cumpleaños de hoy]]></item>
