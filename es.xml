@@ -2928,7 +2928,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.style.globals.fontSizeHeadline"><![CDATA[Tamaño de fuente (Titular)]]></item>
 		<item name="wcf.acp.style.globals.fontSizeSection"><![CDATA[Tamaño de fuente (Sección)]]></item>
 		<item name="wcf.acp.style.globals.fontSizeTitle"><![CDATA[Tamaño de fuente (Título de página)]]></item>
-		<item name="wcf.acp.style.globals.fontFamilyGoogle"><![CDATA[Tipo de letra]]></item>
+		<item name="wcf.acp.style.globals.fontFamilyGoogle"><![CDATA[Tipo de fuente]]></item>
 		<item name="wcf.acp.style.globals.fontFamilyGoogle.description"><![CDATA[La fuente seleccionada se descargará al guardar el estilo y después se entregará como fuente web a tus usuarios sin necesidad de conectarse a servicios externos.]]></item>
 		<item name="wcf.acp.style.globals.fontFamilyGoogle.error.downloadFailed"><![CDATA[No se ha podido descargar la fuente introducida.]]></item>
 		<item name="wcf.acp.style.globals.fontFamilyGoogle.error.downloadFailed.notFound"><![CDATA[No se ha encontrado la fuente introducida.]]></item>
