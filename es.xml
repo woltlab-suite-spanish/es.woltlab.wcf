@@ -3422,7 +3422,7 @@ Extensiones permitidas: {', '|implode:$attachmentHandler->getFormattedAllowedExt
 		<item name="wcf.clipboard.label.com.woltlab.wcf.moderation.queue.marked"><![CDATA[{plural value=$count 1='Un elemento de moderación' other='# elementos de moderación'}]]></item>
 	</category>
 	<category name="wcf.comment">
-		<item name="wcf.comment.add"><![CDATA[Escribir un comentario …]]></item>
+		<item name="wcf.comment.add"><![CDATA[Escribe un comentario …]]></item>
 		<item name="wcf.comment.approve"><![CDATA[Aprobar]]></item>
 		<item name="wcf.comment.error.floodControl"><![CDATA[Ya has escrito un comentario en {if $__wcf->getSession()->getPermission('user.comment.floodControlTime') > 1}los últimos {#$__wcf->getSession()->getPermission('user.comment.floodControlTime')} segundos{else}el último segundo{/if}. Debes esperar al menos {#$lastCommentTime+$__wcf->getSession()->getPermission('user.comment.floodControlTime')-TIME_NOW} segundo{if ($lastCommentTime+$__wcf->getSession()->getPermission('user.comment.floodControlTime')-TIME_NOW) != 1}s{/if} antes de intentar escribir un nuevo comentario.]]></item>
 		<item name="wcf.comment.moderation.info"><![CDATA[Los comentarios recién creados necesitan ser aprobados manualmente antes de su publicación, otros usuarios no pueden ver este comentario hasta que haya sido aprobado.]]></item>
