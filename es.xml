@@ -2933,7 +2933,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.style.globals.fontFamilyGoogle.error.downloadFailed"><![CDATA[No se ha podido descargar la fuente introducida.]]></item>
 		<item name="wcf.acp.style.globals.fontFamilyGoogle.error.downloadFailed.notFound"><![CDATA[No se ha encontrado la fuente introducida.]]></item>
 		<item name="wcf.acp.style.globals.fontFamilyGoogle.error.downloadFailed.parsingFailed"><![CDATA[No se han podido procesar los metadatos de la fuente introducida.]]></item>
-		<item name="wcf.acp.style.globals.fontFamilyFallback"><![CDATA[Tipo de fuente (Fallback)]]></item>
+		<item name="wcf.acp.style.globals.fontFamilyFallback"><![CDATA[Tipo de fuente (alternativa)]]></item>
 		<item name="wcf.acp.style.favicon"><![CDATA[Favicon individual]]></item>
 		<item name="wcf.acp.style.favicon.description"><![CDATA[Sube una imagen de 256 × 256 píxeles, los tipos de imagen aceptables son JPG y PNG. La imagen subida se utilizará para derivar todos los tamaños de favicon requeridos.]]></item>
 		<item name="wcf.acp.style.favicon.error.dimensions"><![CDATA[La imagen debe tener un tamaño exacto de 256 × 256 píxeles.]]></item>
