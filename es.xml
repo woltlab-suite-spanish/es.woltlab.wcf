@@ -2854,7 +2854,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.style.copyStyle.confirmMessage"><![CDATA[¿Realmente quieres duplicar el estilo <span class="confirmationObject">{$style->styleName}</span>?]]></item>
 		<item name="wcf.acp.style.coverPhoto"><![CDATA[Foto de portada predeterminada]]></item>
 		<item name="wcf.acp.style.coverPhoto.delete.confirmMessage"><![CDATA[¿Realmente quieres borrar tu foto de portada? Esto sustituirá tu foto actual por la imagen por defecto.]]></item>
-		<item name="wcf.acp.style.coverPhoto.description"><![CDATA[La imagen debe tener un tamaño mínimo de {$coverPhotoMinWidth} × {$coverPhotoMinHeight} píxeles, los tipos de imagen aceptables son GIF, JPG, JPEG, PNG y WEBP.]]></item>
+		<item name="wcf.acp.style.coverPhoto.description"><![CDATA[La imagen debe tener un tamaño mínimo de {$coverPhotoMinWidth} × {$coverPhotoMinHeight} píxeles, los tipos de imagen aceptados son GIF, JPG, JPEG, PNG y WEBP.]]></item>
 		<item name="wcf.acp.style.customAssets"><![CDATA[Imágenes adicionales]]></item>
 		<item name="wcf.acp.style.customAssets.description"><![CDATA[{literal}Las imágenes subidas se almacenarán con el mismo nombre de archivo dentro de la carpeta <kbd>custom/</kbd> en la carpeta de imágenes del estilo. Puede recuperar la ruta de la carpeta dentro del CSS utilizando <kbd>#{$style_image_path}custom/</kbd>.{/literal}]]></item>
 		<item name="wcf.acp.style.delete.confirmMessage"><![CDATA[¿Realmentes quieres eliminar el estilo <span class="confirmationObject">{$style->styleName}</span>?]]></item>
