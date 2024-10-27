@@ -2026,7 +2026,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.paidSubscription.subscriptionLengthUnit.M"><![CDATA[Mes(es)]]></item>
 		<item name="wcf.acp.paidSubscription.subscriptionLengthUnit.Y"><![CDATA[Año(s)]]></item>
 		<item name="wcf.acp.paidSubscription.subscriptionLength.error.invalid"><![CDATA[La duración introducida no es válida. Puedes establecer un máximo de 90 “Día(s)”, 24 “Mes(es)” o 5 “Año(s)”.]]></item>
-		<item name="wcf.acp.paidSubscription.showOrder.description"><![CDATA[Selecciona el orden de presentación de las suscripciones de pago.]]></item>
+		<item name="wcf.acp.paidSubscription.showOrder.description"><![CDATA[Elige el orden de presentación de las suscripciones de pago.]]></item>
 		<item name="wcf.acp.paidSubscription.isDisabled"><![CDATA[Desactivar suscripción]]></item>
 		<item name="wcf.acp.paidSubscription.isDisabled.description"><![CDATA[Desactivar una suscripción hará que no se pueda comprar.]]></item>
 		<item name="wcf.acp.paidSubscription.isRecurring"><![CDATA[Pago recurrente]]></item>
