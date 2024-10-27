@@ -1264,7 +1264,7 @@ La licencia de desarrollador permite exclusivamente el uso durante el desarrollo
 		<item name="wcf.acp.notice.noticeUseHtml"><![CDATA[Habilitar código HTML en el aviso]]></item>
 		<item name="wcf.acp.notice.resetIsDismissed"><![CDATA[Los avisos descartados serán mostrados de nuevo.]]></item>
 		<item name="wcf.acp.notice.resetIsDismissed.description"><![CDATA[El aviso se mostrará de nuevo a los usuarios que descartaron la versión anterior. Los invitados que hayan descartado el aviso solo lo verán en una nueva sesión.]]></item>
-		<item name="wcf.acp.notice.showOrder.description"><![CDATA[Selecciona el orden de presentación de los avisos.]]></item>
+		<item name="wcf.acp.notice.showOrder.description"><![CDATA[Elige el orden de presentación de los avisos.]]></item>
 	</category>
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.cache_source_redis_host"><![CDATA[Servidor Redis]]></item>
