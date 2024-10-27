@@ -5120,7 +5120,7 @@ También has recibido una lista de códigos de recuperación para utilizar cuand
 		<item name="wcf.acp.trophy.error.noCategories"><![CDATA[Por favor, <a href="{link controller='TrophyCategoryAdd'}{/link}">añade una categoría</a> antes de crear trofeos.]]></item>
 		<item name="wcf.acp.trophy.error.noSuitableTrophies"><![CDATA[Por favor, <a href="{link controller='TrophyAdd'}{/link}">añade un trofeo</a> que no se asigne automáticamente antes de asignar los trofeos.]]></item>
 		<item name="wcf.acp.trophy.trophyUseHtml"><![CDATA[Habilitar el código HTML en la descripción]]></item>
-		<item name="wcf.acp.trophy.showOrder.description"><![CDATA[Selecciona el orden de presentación de los trofeos.]]></item>
+		<item name="wcf.acp.trophy.showOrder.description"><![CDATA[Elige el orden de presentación de los trofeos.]]></item>
 	</category>
 	<category name="wcf.user.usersOnline">
 		<item name="wcf.user.usersOnline"><![CDATA[Usuarios en línea]]></item>
