@@ -48,7 +48,7 @@
 		<item name="wcf.acp.ad.location.com.woltlab.wcf.sidebar.top"><![CDATA[Barra lateral (arriba)]]></item>
 		<item name="wcf.acp.ad.location.com.woltlab.wcf.sidebar.bottom"><![CDATA[Barra lateral (abajo)]]></item>
 		<item name="wcf.acp.ad.location.com.woltlab.wcf.footer.bottom"><![CDATA[Fin de página]]></item>
-		<item name="wcf.acp.ad.showOrder.description"><![CDATA[Selecciona el orden de presentación de los anuncios.]]></item>
+		<item name="wcf.acp.ad.showOrder.description"><![CDATA[Elige el orden de presentación de los anuncios.]]></item>
 		<item name="wcf.acp.ad.location.category.com.woltlab.wcf.article"><![CDATA[Artículos]]></item>
 		<item name="wcf.acp.ad.location.com.woltlab.wcf.article.after1stArticle"><![CDATA[Después del primer artículo]]></item>
 		<item name="wcf.acp.ad.location.com.woltlab.wcf.article.afterEvery10thArticle"><![CDATA[Después de cada 10 artículos]]></item>
