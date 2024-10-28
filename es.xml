@@ -1507,7 +1507,7 @@ Restringir los nombres de usuario a caracteres ASCII restringe los nombres de us
 		<item name="wcf.acp.option.users_online_default_sort_field"><![CDATA[Ordenar por]]></item>
 		<item name="wcf.acp.option.users_online_default_sort_field.description"><![CDATA[Elige la opción de ordenación por defecto de la lista “Usuarios en línea”.]]></item>
 		<item name="wcf.acp.option.users_online_default_sort_order"><![CDATA[Orden de clasificación]]></item>
-		<item name="wcf.acp.option.users_online_default_sort_order.description"><![CDATA[Elige el orden por defecto de la lista “Usuarios en línea”.]]></item>
+		<item name="wcf.acp.option.users_online_default_sort_order.description"><![CDATA[Elige el orden de clasificación por defecto de la lista “Usuarios en línea”.]]></item>
 		<item name="wcf.acp.option.users_online_page_refresh"><![CDATA[Actualizar página]]></item>
 		<item name="wcf.acp.option.users_online_page_refresh.description"><![CDATA[Actualiza la lista de “Usuarios en línea” en los siguientes segundos. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.users_online_record_no_guests"><![CDATA[Excluir a los invitados del récord de usuarios en línea]]></item>
@@ -1537,7 +1537,7 @@ Restringir los nombres de usuario a caracteres ASCII restringe los nombres de us
 		<item name="wcf.acp.option.search_default_sort_field"><![CDATA[Ordenar por]]></item>
 		<item name="wcf.acp.option.search_default_sort_field.description"><![CDATA[Elige la opción de ordenación por defecto de los resultados de búsqueda.]]></item>
 		<item name="wcf.acp.option.search_default_sort_order"><![CDATA[Orden de clasificación]]></item>
-		<item name="wcf.acp.option.search_default_sort_order.description"><![CDATA[Elige el orden predeterminado de los resultados de búsqueda.]]></item>
+		<item name="wcf.acp.option.search_default_sort_order.description"><![CDATA[Elige el orden de clasificación por defecto de los resultados de búsqueda.]]></item>
 		<item name="wcf.acp.option.search_max_combined_tags"><![CDATA[Número máximo de tags por búsqueda]]></item>
 		<item name="wcf.acp.option.category.message.general.poll"><![CDATA[Encuestas]]></item>
 		<item name="wcf.acp.option.module_poll"><![CDATA[Encuestas]]></item>
@@ -1657,7 +1657,7 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.media_small_thumbnail_retain_dimensions"><![CDATA[Mantener relación de aspecto de miniatura (pequeña)]]></item>
 		<item name="wcf.acp.option.media_small_thumbnail_width"><![CDATA[Anchura de miniatura pequeña]]></item>
 		<item name="wcf.acp.option.article_sort_order"><![CDATA[Orden de clasificación]]></item>
-		<item name="wcf.acp.option.article_sort_order.description"><![CDATA[Elige el orden de clasificación predeterminado de los artículos.]]></item>
+		<item name="wcf.acp.option.article_sort_order.description"><![CDATA[Elige el orden de clasificación por defecto de los artículos.]]></item>
 		<item name="wcf.acp.option.use_page_title_on_landing_page"><![CDATA[Utilizar el título de la página en la página de aterrizaje]]></item>
 		<item name="wcf.acp.option.head_code"><![CDATA[Código de encabezado]]></item>
 		<item name="wcf.acp.option.head_code.description"><![CDATA[El código introducido se añadirá a la etiqueta “head” de tu sitio. Puedes utilizarlo para añadir metaetiquetas adicionales.]]></item>
