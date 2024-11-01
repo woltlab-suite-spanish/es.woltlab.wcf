@@ -15,7 +15,7 @@
 		<item name="wcf.acl.option.inherited"><![CDATA[Por defecto]]></item>
 		<item name="wcf.acl.permissions"><![CDATA[Permisos de usuario y grupo de usuarios]]></item>
 		<item name="wcf.acl.user.permissions"><![CDATA[Permisos de usuario]]></item>
-		<item name="wcf.acl.search.description"><![CDATA[Introducir un nombre de usuario o grupo de usuarios …]]></item>
+		<item name="wcf.acl.search.description"><![CDATA[Introduce un nombre de usuario o grupo de usuarios …]]></item>
 		<item name="wcf.acl.search.user.description"><![CDATA[Introduce un nombre de usuario …]]></item>
 	</category>
 	<category name="wcf.acl.option">
