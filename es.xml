@@ -1743,11 +1743,11 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.option.module_url_unfurling.description"><![CDATA[Crea una vista previa con título, descripción e imagen para los enlaces externos en los mensajes.]]></item>
 		<item name="wcf.acp.option.category.message.general.formatting"><![CDATA[Formato de texto]]></item>
 		<item name="wcf.acp.option.formatting_remove_color"><![CDATA[Eliminar color de fuente]]></item>
-		<item name="wcf.acp.option.formatting_remove_color.description"><![CDATA[Impide el uso de distintos colores de fuente y los elimina al mostrar los mensajes existentes.]]></item>
-		<item name="wcf.acp.option.formatting_remove_font"><![CDATA[Eliminar familia de fuentes]]></item>
-		<item name="wcf.acp.option.formatting_remove_font.description"><![CDATA[Impide el uso de diferentes familias de fuentes y las elimina al mostrar los mensajes existentes.]]></item>
-		<item name="wcf.acp.option.formatting_remove_size"><![CDATA[Eliminar tamaño de letra]]></item>
-		<item name="wcf.acp.option.formatting_remove_size.description"><![CDATA[Impide el uso de distintos tamaños de letra y los elimina al mostrar los mensajes existentes.]]></item>
+		<item name="wcf.acp.option.formatting_remove_color.description"><![CDATA[Impide el uso de diferentes colores de fuente y los elimina al mostrar los mensajes existentes.]]></item>
+		<item name="wcf.acp.option.formatting_remove_font"><![CDATA[Eliminar familia de fuente]]></item>
+		<item name="wcf.acp.option.formatting_remove_font.description"><![CDATA[Impide el uso de diferentes familias de fuente y las elimina al mostrar los mensajes existentes.]]></item>
+		<item name="wcf.acp.option.formatting_remove_size"><![CDATA[Eliminar tamaño de fuente]]></item>
+		<item name="wcf.acp.option.formatting_remove_size.description"><![CDATA[Impide el uso de diferentes tamaños de fuente y los elimina al mostrar los mensajes existentes.]]></item>
 	</category>
 	<category name="wcf.acp.customOption">
 		<item name="wcf.acp.customOption.list"><![CDATA[Campos de opción]]></item>
