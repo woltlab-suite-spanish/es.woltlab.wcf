@@ -3347,7 +3347,7 @@ Extensiones permitidas: {', '|implode:$attachmentHandler->getFormattedAllowedExt
 		<item name="wcf.category.description"><![CDATA[Descripción]]></item>
 		<item name="wcf.category.title"><![CDATA[Título]]></item>
 		<item name="wcf.category.button.choose"><![CDATA[Seleccionar categoría]]></item>
-		<item name="wcf.category.descriptionUseHtml"><![CDATA[Habilitar el código HTML en la descripción]]></item>
+		<item name="wcf.category.descriptionUseHtml"><![CDATA[Habilitar código HTML en la descripción]]></item>
 	</category>
 	<category name="wcf.ckeditor">
 		<item name="wcf.ckeditor.code.fileName"><![CDATA[Nombre de archivo]]></item>
@@ -5119,7 +5119,7 @@ También has recibido una lista de códigos de recuperación para utilizar cuand
 		<item name="wcf.acp.trophy.userTrophy.trophy.error.awardAutomatically"><![CDATA[Los trofeos que se asignan automáticamente no pueden asignados manualmente.]]></item>
 		<item name="wcf.acp.trophy.error.noCategories"><![CDATA[Por favor, <a href="{link controller='TrophyCategoryAdd'}{/link}">añade una categoría</a> antes de crear trofeos.]]></item>
 		<item name="wcf.acp.trophy.error.noSuitableTrophies"><![CDATA[Por favor, <a href="{link controller='TrophyAdd'}{/link}">añade un trofeo</a> que no se asigne automáticamente antes de asignar los trofeos.]]></item>
-		<item name="wcf.acp.trophy.trophyUseHtml"><![CDATA[Habilitar el código HTML en la descripción]]></item>
+		<item name="wcf.acp.trophy.trophyUseHtml"><![CDATA[Habilitar código HTML en la descripción]]></item>
 		<item name="wcf.acp.trophy.showOrder.description"><![CDATA[Elige el orden de presentación de los trofeos.]]></item>
 	</category>
 	<category name="wcf.user.usersOnline">
