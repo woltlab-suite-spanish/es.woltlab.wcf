@@ -1674,7 +1674,7 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.enable_polling"><![CDATA[Habilitar las notificaciones en segundo plano]]></item>
 		<item name="wcf.acp.option.enable_polling.description"><![CDATA[Recupera periódicamente nuevas notificaciones en segundo plano, las solicitudes se envían cada 5 minutos. El intervalo aumenta hasta 15 minutos en caso de inactividad.]]></item>
 		<item name="wcf.acp.option.module_contact_form"><![CDATA[Activar formulario de contacto]]></item>
-		<item name="wcf.acp.option.module_contact_form.description"><![CDATA[Habilita el formulario de contacto, una vez activado puede personalizar <a href="{link controller='ContactSettings'}{/link}">campos de entrada y los destinatarios</a> para que se adapten mejor a sus necesidades.]]></item>
+		<item name="wcf.acp.option.module_contact_form.description"><![CDATA[Habilita el formulario de contacto, una vez habilitado puedes personalizar los <a href="{link controller='ContactSettings'}{/link}">campos de entrada y destinatarios</a> para que se adapten mejor a tus necesidades.]]></item>
 		<item name="wcf.acp.option.module_trophy"><![CDATA[Trofeos]]></item>
 		<item name="wcf.acp.option.category.module.development"><![CDATA[Desarrollo]]></item>
 		<item name="wcf.acp.option.category.module.development.notice"><![CDATA[Estas opciones se utilizan exclusivamente para desarrollo y depuración, no son adecuadas para su uso en entornos de producción.]]></item>
