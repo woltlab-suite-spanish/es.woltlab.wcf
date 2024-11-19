@@ -9,7 +9,7 @@
 		<item name="wcf.acl.access.denied"><![CDATA[Acceso denegado a usuarios y grupos de usuarios]]></item>
 		<item name="wcf.acl.access.invertPermissions"><![CDATA[Invertir permisos]]></item>
 		<item name="wcf.acl.access.invertPermissions.description"><![CDATA[Si se selecciona, todos los usuarios excepto los usuarios y grupos de usuarios seleccionados podrán ver el objeto por defecto.]]></item>
-		<item name="wcf.acl.allowAll"><![CDATA[Todo el mundo puede acceder al contenido]]></item>
+		<item name="wcf.acl.allowAll"><![CDATA[Todos pueden acceder al contenido]]></item>
 		<item name="wcf.acl.option.deny"><![CDATA[No]]></item>
 		<item name="wcf.acl.option.grant"><![CDATA[Sí]]></item>
 		<item name="wcf.acl.option.inherited"><![CDATA[Por defecto]]></item>
