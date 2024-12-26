@@ -1060,9 +1060,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.license.noCredentials"><![CDATA[Eliminar datos de licencia]]></item>
 		<item name="wcf.acp.license.noCredentialsConfirm"><![CDATA[Eliminar los datos de la licencia existente]]></item>
 		<item name="wcf.acp.license.licenseNo"><![CDATA[Licencia {$licenseNumber}]]></item>
-		<item name="wcf.acp.license.developerLicense"><![CDATA[{icon name='wrench'} <strong>Licencia de desarrollador</strong><br>
-<br>
-La licencia de desarrollador permite exclusivamente el uso durante el desarrollo, así como para el funcionamiento de instalaciones de demostración. No autoriza el uso del software en entornos productivos.]]></item>
+		<item name="wcf.acp.license.developerLicense"><![CDATA[La <strong>licencia de desarrollador</strong> permite exclusivamente el uso durante el desarrollo, así como para el funcionamiento de instalaciones de demostración. No autoriza el uso del software en entornos productivos.]]></item>
 		<item name="wcf.acp.license.package.install"><![CDATA[Instalar]]></item>
 		<item name="wcf.acp.license.package.installed"><![CDATA[Instalado]]></item>
 		<item name="wcf.acp.license.package.outdated"><![CDATA[Hasta la versión {$accessibleVersion}]]></item>
@@ -5570,6 +5568,8 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.upload.error.fileSizeTooLarge"><![CDATA[El archivo es demasiado grande.]]></item>
 		<item name="wcf.upload.error.maximumCountReached"><![CDATA[Solo se puede subir {plural value=$maximumCount 1='un archivo' other='# archivos'}.]]></item>
 		<item name="wcf.upload.error.adopt"><![CDATA[El archivo "{$filename}" no puede ser asignado.]]></item>
+		<item name="wcf.upload.error.delete.unknownError"><![CDATA[Ha ocurrido un error desconocido al eliminar el archivo.]]></item>
+		<item name="wcf.upload.error.delete.permissionDenied"><![CDATA[El archivo no se puede eliminar, utiliza <strong>Reemplazar</strong> en su lugar para cambiar el archivo.]]></item>
 	</category>
 </import>
 <delete>
