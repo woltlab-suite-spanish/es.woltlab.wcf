@@ -5130,7 +5130,7 @@ También has recibido una lista de códigos de recuperación para utilizar cuand
 		<item name="wcf.user.usersOnline.invisible"><![CDATA[ (invisible)]]></item>
 		<item name="wcf.user.usersOnline.marking.legend"><![CDATA[Leyenda]]></item>
 		<item name="wcf.user.usersOnline.guests"><![CDATA[Invitados]]></item>
-		<item name="wcf.user.usersOnline.location"><![CDATA[Ubicación]]></item>
+		<item name="wcf.user.usersOnline.location"><![CDATA[Viendo página]]></item>
 		<item name="wcf.user.usersOnline.ipAddress"><![CDATA[Dirección IP]]></item>
 		<item name="wcf.user.usersOnline.userAgent"><![CDATA[Navegador]]></item>
 		<item name="wcf.user.usersOnline.lastActivity"><![CDATA[Última actividad]]></item>
