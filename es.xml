@@ -1663,7 +1663,7 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.avatar_default_type"><![CDATA[Tipo de avatar predeterminado]]></item>
 		<item name="wcf.acp.option.avatar_default_type.initials"><![CDATA[Iniciales]]></item>
 		<item name="wcf.acp.option.avatar_default_type.silhouette"><![CDATA[Silueta]]></item>
-		<item name="wcf.acp.option.enable_ad_rotation"><![CDATA[Activar la rotación de anuncios]]></item>
+		<item name="wcf.acp.option.enable_ad_rotation"><![CDATA[Activar rotación de anuncios]]></item>
 		<item name="wcf.acp.option.enable_ad_rotation.description"><![CDATA[Si hay más de un anuncio por marcador de posición, se mostrará un anuncio aleatorio cada vez. Si desactivas esta opción, se mostrarán todos los anuncios simultáneamente.]]></item>
 		<item name="wcf.acp.option.visitor_use_tiny_build"><![CDATA[Activar vista acelerada para invitados]]></item>
 		<item name="wcf.acp.option.visitor_use_tiny_build.description"><![CDATA[Activa un modo de visualización especializado tanto para visitantes como para motores de búsqueda, proporcionando archivos JavaScript muy reducidos para conseguir una carga y una renderización de la página más rápidas.<br><strong>Advertencia:</strong> Este modo está muy restringido y reduce la capacidad de los visitantes para interactuar con tu sitio (por ejemplo, crear nuevos contenidos). Por favor, revisa tus plugins instalados antes de activarlo para ver si son compatibles con esta configuración.]]></item>
@@ -1703,7 +1703,7 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.contact_form_prune_attachments.description"><![CDATA[Los archivos adjuntos antiguos se eliminan automáticamente para recuperar espacio en disco. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.category.security.blacklist.sfs"><![CDATA[Stop Forum Spam]]></item>
 		<item name="wcf.acp.option.category.security.blacklist.sfs.description"><![CDATA[Verificación de la privacidad basada en una copia local de la base de datos de StopForumSpam.com.]]></item>
-		<item name="wcf.acp.option.blacklist_sfs_enable"><![CDATA[Activar la verificación mediante Stop Forum Spam]]></item>
+		<item name="wcf.acp.option.blacklist_sfs_enable"><![CDATA[Activar verificación mediante Stop Forum Spam]]></item>
 		<item name="wcf.acp.option.blacklist_sfs_enable.description"><![CDATA[La base de datos local contiene información sobre el número de veces que una entrada ha sido denunciada como spam.<br>
 <strong>Aviso: En ningún momento del proceso se transfieren datos a un servicio de terceros.</strong><br>
 <br>
@@ -3204,7 +3204,7 @@ Tu cuenta en {@PAGE_TITLE|phrase} [URL:{link isEmail=true}{/link}] ha sido aprob
 		<item name="wcf.acp.user.security.multifactor"><![CDATA[Autenticación multifactor]]></item>
 		<item name="wcf.acp.user.security.multifactor.active"><![CDATA[Activa]]></item>
 		<item name="wcf.acp.user.security.multifactor.active.description"><![CDATA[Esta cuenta de usuario está protegida por un segundo factor.]]></item>
-		<item name="wcf.acp.user.security.multifactor.disable"><![CDATA[Desactivar la autenticación multifactor por completo]]></item>
+		<item name="wcf.acp.user.security.multifactor.disable"><![CDATA[Desactivar autenticación multifactor por completo]]></item>
 		<item name="wcf.acp.user.security.multifactor.disable.description"><![CDATA[Desactiva completamente la autenticación multifactor para la cuenta <strong>{$user->username}</strong>. El usuario tendrá que configurar la autenticación multifactor desde cero si esta casilla está marcada.<br>
 <strong>Atención</strong>: Los usuarios configuran activamente la autenticación multifactor para proteger mejor sus cuentas. Por favor, asegúrate de autenticar correctamente al usuario antes de desactivar la autenticación multifactor para su cuenta.]]></item>
 	</category>
@@ -5014,7 +5014,7 @@ Puedes gestionar la autenticación multifactor en la página de Seguridad de la 
 		<item name="wcf.user.security.multifactor.email.body.plain"><![CDATA[Tu código de un solo uso es: {$code}]]></item>
 		<item name="wcf.user.security.multifactor.email.code"><![CDATA[Código de un solo uso (Correo electrónico)]]></item>
 		<item name="wcf.user.security.multifactor.email.code.description"><![CDATA[El código de un solo uso fue enviado a la dirección de correo electrónico <strong>{$emailDomain}</strong> el {$lastCode|date:'g:i:s a'}</strong>.]]></item>
-		<item name="wcf.user.security.multifactor.email.enable"><![CDATA[Activar la confirmación por correo electrónico]]></item>
+		<item name="wcf.user.security.multifactor.email.enable"><![CDATA[Activar confirmación por correo electrónico]]></item>
 		<item name="wcf.user.security.multifactor.email.enable.description"><![CDATA[<p>Con la confirmación por correo electrónico activada recibirás un código de un solo uso en la dirección de correo electrónico de tu cuenta <strong>{$__wcf->user->email}</strong> cada vez que inicies sesión. Deberás tener acceso a tu buzón de correo electrónico para poder iniciar sesión correctamente.</p>]]></item>
 		<item name="wcf.user.security.multifactor.email.enabled"><![CDATA[Correos electrónicos activados]]></item>
 		<item name="wcf.user.security.multifactor.email.enabled.description"><![CDATA[<p>La autenticación multifactor a través del correo electrónico está activada para tu cuenta. Recibirás un código de un solo uso por correo electrónico cada vez que inicies sesión.</p>
