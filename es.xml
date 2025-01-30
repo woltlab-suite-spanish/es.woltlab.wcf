@@ -85,7 +85,7 @@
 		<item name="wcf.acp.article.category.sortField.publicationDate"><![CDATA[Fecha de publicación]]></item>
 		<item name="wcf.acp.article.category.sortField.title"><![CDATA[Título]]></item>
 		<item name="wcf.acp.article.content"><![CDATA[Contenido]]></item>
-		<item name="wcf.acp.article.enableComments"><![CDATA[Habilitar comentarios]]></item>
+		<item name="wcf.acp.article.enableComments"><![CDATA[Activar comentarios]]></item>
 		<item name="wcf.acp.article.i18n"><![CDATA[Multilingüismo]]></item>
 		<item name="wcf.acp.article.i18n.none"><![CDATA[Artículo monolingüe]]></item>
 		<item name="wcf.acp.article.i18n.none.description"><![CDATA[El contenido no está vinculado a una lengua específica o no debe haber una traducción.]]></item>
@@ -697,7 +697,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.group.members"><![CDATA[Miembros]]></item>
 		<item name="wcf.acp.group.option.admin.content.cms.canManageMenu"><![CDATA[Puede gestionar el menú de página]]></item>
 		<item name="wcf.acp.group.option.admin.general.canUseAcp"><![CDATA[Puede acceder al Panel de Control de Administración]]></item>
-		<item name="wcf.acp.group.option.admin.general.canUseAcp.description"><![CDATA[Los usuarios de este grupo de usuarios pueden acceder al Panel de Control de Administración en función de los permisos que tengan concedidos. Esta opción debe estar habilitada si deseas conceder acceso a cualquier opción administrativa.]]></item>
+		<item name="wcf.acp.group.option.admin.general.canUseAcp.description"><![CDATA[Los usuarios de este grupo de usuarios pueden acceder al Panel de Control de Administración en función de los permisos que tengan concedidos. Esta opción debe estar activada si deseas conceder acceso a cualquier opción administrativa.]]></item>
 		<item name="wcf.acp.group.option.admin.general.canViewPrivateUserOptions"><![CDATA[Puede ver opciones privadas de usuarios]]></item>
 		<item name="wcf.acp.group.option.admin.language.canManageLanguage"><![CDATA[Puede gestionar idiomas]]></item>
 		<item name="wcf.acp.group.option.admin.configuration.canEditOption"><![CDATA[Puede editar opciones del sistema]]></item>
@@ -887,7 +887,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.group.option.user.page.canAddCommentWithoutModeration"><![CDATA[Puede crear comentarios sin aprobación]]></item>
 		<item name="wcf.acp.group.option.user.page.canDeleteComment"><![CDATA[Puede eliminar sus comentarios]]></item>
 		<item name="wcf.acp.group.option.user.page.canEditComment"><![CDATA[Puede editar sus comentarios]]></item>
-		<item name="wcf.acp.group.excludedInTinyBuild"><![CDATA[La vista acelerada de invitados está habilitada]]></item>
+		<item name="wcf.acp.group.excludedInTinyBuild"><![CDATA[La vista acelerada de invitados está activada]]></item>
 		<item name="wcf.acp.group.excludedInTinyBuild.notice"><![CDATA[Se ha activado la vista acelerada de invitado, lo que provoca que se denieguen algunos permisos, a pesar de que se conceden a continuación. Las opciones afectadas se han marcado con un candado ({icon name='bolt'}).]]></item>
 		<item name="wcf.acp.group.option.admin.contact.canManageContactForm"><![CDATA[Puede gestionar el formulario de contacto]]></item>
 		<item name="wcf.acp.group.option.category.admin.user.trophy"><![CDATA[Trofeos]]></item>
@@ -1010,7 +1010,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.language.import.source.upload"><![CDATA[Subir archivo de idioma]]></item>
 		<item name="wcf.acp.language.list"><![CDATA[Idiomas]]></item>
 		<item name="wcf.acp.language.multilingualism"><![CDATA[Multilingüismo]]></item>
-		<item name="wcf.acp.language.multilingualism.enable"><![CDATA[Habilitar multilingüismo]]></item>
+		<item name="wcf.acp.language.multilingualism.enable"><![CDATA[Activar multilingüismo]]></item>
 		<item name="wcf.acp.language.multilingualism.enable.description"><![CDATA[La activación del multilingüismo permite asociar los contenidos generados por los usuarios a un idioma concreto. Los contenidos recién creados se asocian automáticamente al idioma de la interfaz del usuario. Los usuarios pueden filtrar contenidos para idiomas específicos a través de su configuración.]]></item>
 		<item name="wcf.acp.language.multilingualism.languages"><![CDATA[Idiomas disponibles]]></item>
 		<item name="wcf.acp.language.multilingualism.languages.error.empty"><![CDATA[Debes seleccionar al menos dos idiomas.]]></item>
@@ -1264,7 +1264,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.notice.list"><![CDATA[Avisos]]></item>
 		<item name="wcf.acp.notice.notice"><![CDATA[Aviso]]></item>
 		<item name="wcf.acp.notice.notice.description"><![CDATA[<kbd>{literal}{$username}{/literal}</kbd> será sustituido por el nombre y <kbd>{literal}{$email}{/literal}</kbd> por la dirección de correo del usuario activo.]]></item>
-		<item name="wcf.acp.notice.noticeUseHtml"><![CDATA[Habilitar código HTML en el aviso]]></item>
+		<item name="wcf.acp.notice.noticeUseHtml"><![CDATA[Activar código HTML en el aviso]]></item>
 		<item name="wcf.acp.notice.resetIsDismissed"><![CDATA[Los avisos descartados serán mostrados de nuevo.]]></item>
 		<item name="wcf.acp.notice.resetIsDismissed.description"><![CDATA[El aviso se mostrará de nuevo a los usuarios que descartaron la versión anterior. Los invitados que hayan descartado el aviso solo lo verán en una nueva sesión.]]></item>
 		<item name="wcf.acp.notice.showOrder.description"><![CDATA[Elige el orden de presentación de los avisos.]]></item>
@@ -1377,7 +1377,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.option.offline.description"><![CDATA[Desactiva todas las aplicaciones e impide el acceso a usuarios sin privilegios.]]></item>
 		<item name="wcf.acp.option.offline_message"><![CDATA[Aviso del modo de mantenimiento]]></item>
 		<item name="wcf.acp.option.offline_message.description"><![CDATA[El aviso que se muestra a los visitantes mientras está activado el modo de mantenimiento.]]></item>
-		<item name="wcf.acp.option.offline_message_allow_html"><![CDATA[Habilitar código HTML en el aviso de modo de mantenimiento]]></item>
+		<item name="wcf.acp.option.offline_message_allow_html"><![CDATA[Activar código HTML en el aviso de modo de mantenimiento]]></item>
 		<item name="wcf.acp.option.offline_message_allow_html.description"/>
 		<item name="wcf.acp.option.show_version_number"><![CDATA[Mostrar el número de versión en el aviso de copyright]]></item>
 		<item name="wcf.acp.option.enable_debug_mode"><![CDATA[Activar el modo de depuración]]></item>
@@ -1403,7 +1403,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.option.attachment_thumbnail_height"><![CDATA[Altura de la miniatura]]></item>
 		<item name="wcf.acp.option.attachment_thumbnail_width"><![CDATA[Anchura de la miniatura]]></item>
 		<item name="wcf.acp.option.category.message.attachment.autoscale"><![CDATA[Escalado automático de imágenes]]></item>
-		<item name="wcf.acp.option.attachment_image_autoscale"><![CDATA[Habilitar el escalado de imágenes en el navegador web]]></item>
+		<item name="wcf.acp.option.attachment_image_autoscale"><![CDATA[Activar escalado de imágenes en el navegador web]]></item>
 		<item name="wcf.acp.option.attachment_image_autoscale.description"><![CDATA[Cuando está activado, las imágenes se escalan automáticamente en el navegador web antes de subirlas si exceden las dimensiones permitidas o el límite de tamaño de archivo.]]></item>
 		<item name="wcf.acp.option.attachment_image_autoscale_max_width"><![CDATA[Anchura máxima permitida]]></item>
 		<item name="wcf.acp.option.attachment_image_autoscale_max_height"><![CDATA[Altura máxima permitida]]></item>
@@ -1560,7 +1560,7 @@ Restringir los nombres de usuario a caracteres ASCII restringe los nombres de us
 		<item name="wcf.acp.option.google_maps_default_latitude"><![CDATA[Posición del mapa por defecto (Latitud)]]></item>
 		<item name="wcf.acp.option.google_maps_default_longitude"><![CDATA[Posición del mapa por defecto (Longitud)]]></item>
 		<item name="wcf.acp.option.show_update_notice_frontend"><![CDATA[Mostrar un aviso de actualizaciones pendientes en el frontend]]></item>
-		<item name="wcf.acp.option.url_omit_index_php"><![CDATA[Habilitar la reescritura de URLs]]></item>
+		<item name="wcf.acp.option.url_omit_index_php"><![CDATA[Activar reescritura de URLs]]></item>
 		<item name="wcf.acp.option.url_omit_index_php.button.runTestAgain"><![CDATA[Repetir la prueba]]></item>
 		<item name="wcf.acp.option.url_omit_index_php.description"><![CDATA[Al activar esta opción, las URL se reescribirán en una representación más legible, “https://example.com/index.php?thread/1-hello-i-am-john-doe/” se convertirá en “https://example.com/thread/1-hello-i-am-john-doe/”.
 <strong>Atención</strong>: Esta opción requiere un módulo de reescritura instalado en tu servidor web y una configuración adecuada. No funcionará sin una configuración previa aplicada por tu parte.<br>
@@ -1604,7 +1604,7 @@ Por favor, sigue las instrucciones descritas en <a href="https://manual.woltlab.
 		<item name="wcf.acp.option.paypal_email_address.description"><![CDATA[La recepción de pagos requiere una cuenta PayPal con la opción "Notificaciones instantáneas de pago" (IPN) activada.<br>
 Cuando se solicite la URL de notificación para las notificaciones de pago instantáneas, proporciona este enlace: <kbd>{link controller='PaypalCallback' forceFrontend=true}{/link}</kbd>.]]></item>
 		<item name="wcf.acp.option.module_paid_subscription"><![CDATA[Activar suscripciones de pago]]></item>
-		<item name="wcf.acp.option.module_paid_subscription.description"><![CDATA[Habilita la <a href="{link controller='PaidSubscriptionList'}{/link}">gestión de las suscripciones de pago</a>.]]></item>
+		<item name="wcf.acp.option.module_paid_subscription.description"><![CDATA[Activa la <a href="{link controller='PaidSubscriptionList'}{/link}">gestión de las suscripciones de pago</a>.]]></item>
 		<item name="wcf.acp.option.paid_subscription_enable_tos_confirmation"><![CDATA[Los usuarios deben aceptar los Términos y Condiciones de Uso antes de la compra]]></item>
 		<item name="wcf.acp.option.paid_subscription_tos_url"><![CDATA[URL de los Términos y Condiciones de Uso]]></item>
 		<item name="wcf.acp.option.category.general.payment.paidSubscription"><![CDATA[Suscripciones de pago]]></item>
@@ -1636,14 +1636,14 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.module_article"><![CDATA[Artículos]]></item>
 		<item name="wcf.acp.option.message_force_secure_images"><![CDATA[Permitir solo imágenes seguras]]></item>
 		<item name="wcf.acp.option.message_force_secure_images.description"><![CDATA[Las imágenes solo pueden incrustarse utilizando el protocolo cifrado “https”. Las imágenes en los mensajes ya existentes se reescribirán a la fuerza para utilizar el protocolo seguro.]]></item>
-		<item name="wcf.acp.option.module_image_proxy"><![CDATA[Habilitar proxy de imágenes]]></item>
+		<item name="wcf.acp.option.module_image_proxy"><![CDATA[Activar proxy de imágenes]]></item>
 		<item name="wcf.acp.option.image_proxy_expiration"><![CDATA[Periodo máximo de almacenamiento]]></item>
 		<item name="wcf.acp.option.image_proxy_insecure_only"><![CDATA[Almacenar imágenes solo de fuentes no seguras]]></item>
 		<item name="wcf.acp.option.image_proxy_enable_prune"><![CDATA[Eliminar regularmente imágenes almacenadas en caché]]></item>
 		<item name="wcf.acp.option.image_proxy_host_whitelist"><![CDATA[Excepciones de proxy de imagen]]></item>
 		<item name="wcf.acp.option.image_proxy_host_whitelist.description"><![CDATA[Los dominios listados no serán manejados por el proxy de imagen, el dominio actual se añade implícitamente. Los nombres de host son solo coincidencias exactas; se puede utilizar un comodín inicial para excluir un dominio completo: <kbd>*.example.com</kbd> coincide con <kbd>example.com</kbd> y los subdominios <kbd>foo.example.com</kbd> y/o <kbd>www.example.com</kbd>.]]></item>
 		<item name="wcf.acp.option.share_buttons_providers"><![CDATA[Proveedores de botones para compartir]]></item>
-		<item name="wcf.acp.option.show_style_changer"><![CDATA[Habilitar el cambiador de estilos]]></item>
+		<item name="wcf.acp.option.show_style_changer"><![CDATA[Activar cambiador de estilos]]></item>
 		<item name="wcf.acp.option.language_use_informal_variant"><![CDATA[Utilizar variante de idioma informal]]></item>
 		<item name="wcf.acp.option.category.cms.media.thumbnail"><![CDATA[Miniaturas]]></item>
 		<item name="wcf.acp.option.media_large_thumbnail_height"><![CDATA[Altura de miniatura grande]]></item>
@@ -1665,19 +1665,19 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.avatar_default_type.silhouette"><![CDATA[Silueta]]></item>
 		<item name="wcf.acp.option.enable_ad_rotation"><![CDATA[Activar la rotación de anuncios]]></item>
 		<item name="wcf.acp.option.enable_ad_rotation.description"><![CDATA[Si hay más de un anuncio por marcador de posición, se mostrará un anuncio aleatorio cada vez. Si desactivas esta opción, se mostrarán todos los anuncios simultáneamente.]]></item>
-		<item name="wcf.acp.option.visitor_use_tiny_build"><![CDATA[Activar la vista acelerada para invitados]]></item>
-		<item name="wcf.acp.option.visitor_use_tiny_build.description"><![CDATA[Habilita un modo de visualización especializado tanto para visitantes como para motores de búsqueda, proporcionando archivos JavaScript muy reducidos para conseguir una carga y una renderización de la página más rápidas.<br><strong>Advertencia:</strong> Este modo está muy restringido y reduce la capacidad de los visitantes para interactuar con tu sitio (por ejemplo, crear nuevos contenidos). Por favor, revisa tus plugins instalados antes de habilitarlos para ver si son compatibles con esta configuración.]]></item>
+		<item name="wcf.acp.option.visitor_use_tiny_build"><![CDATA[Activar vista acelerada para invitados]]></item>
+		<item name="wcf.acp.option.visitor_use_tiny_build.description"><![CDATA[Activa un modo de visualización especializado tanto para visitantes como para motores de búsqueda, proporcionando archivos JavaScript muy reducidos para conseguir una carga y una renderización de la página más rápidas.<br><strong>Advertencia:</strong> Este modo está muy restringido y reduce la capacidad de los visitantes para interactuar con tu sitio (por ejemplo, crear nuevos contenidos). Por favor, revisa tus plugins instalados antes de activarlo para ver si son compatibles con esta configuración.]]></item>
 		<item name="wcf.acp.option.fb_share_app_id"><![CDATA[Facebook App ID]]></item>
 		<item name="wcf.acp.option.fb_share_app_id.description"><![CDATA[Puedes obtener el ID de la aplicación desde <a href="https://developers.facebook.com/apps/" class="externalURL">el panel de control de aplicación</a>, y se utiliza para compartir con las etiquetas Open Graph.]]></item>
-		<item name="wcf.acp.option.enable_polling"><![CDATA[Habilitar las notificaciones en segundo plano]]></item>
+		<item name="wcf.acp.option.enable_polling"><![CDATA[Activar notificaciones en segundo plano]]></item>
 		<item name="wcf.acp.option.enable_polling.description"><![CDATA[Recupera periódicamente nuevas notificaciones en segundo plano, las solicitudes se envían cada 5 minutos. El intervalo aumenta hasta 15 minutos en caso de inactividad.]]></item>
 		<item name="wcf.acp.option.module_contact_form"><![CDATA[Activar formulario de contacto]]></item>
-		<item name="wcf.acp.option.module_contact_form.description"><![CDATA[Habilita el formulario de contacto, una vez habilitado puedes personalizar los <a href="{link controller='ContactSettings'}{/link}">campos de entrada y destinatarios</a> para que se adapten mejor a tus necesidades.]]></item>
+		<item name="wcf.acp.option.module_contact_form.description"><![CDATA[Activa el formulario de contacto, una vez activado puedes personalizar los <a href="{link controller='ContactSettings'}{/link}">campos de entrada y destinatarios</a> para que se adapten mejor a tus necesidades.]]></item>
 		<item name="wcf.acp.option.module_trophy"><![CDATA[Trofeos]]></item>
 		<item name="wcf.acp.option.category.module.development"><![CDATA[Desarrollo]]></item>
 		<item name="wcf.acp.option.category.module.development.notice"><![CDATA[Estas opciones se utilizan exclusivamente para desarrollo y depuración, no son adecuadas para su uso en entornos de producción.]]></item>
 		<item name="wcf.acp.option.enable_developer_tools"><![CDATA[Activar herramientas de desarrollo]]></item>
-		<item name="wcf.acp.option.enable_developer_tools.description"><![CDATA[Habilita un conjunto de herramientas especializadas que se utilizan para el desarrollo de plugins. Debe desactivarse siempre en entornos de producción.]]></item>
+		<item name="wcf.acp.option.enable_developer_tools.description"><![CDATA[Activa un conjunto de herramientas especializadas que se utilizan para el desarrollo de plugins. Debe desactivarse siempre en entornos de producción.]]></item>
 		<item name="wcf.acp.option.force_login"><![CDATA[Forzar inicio de sesión]]></item>
 		<item name="wcf.acp.option.force_login.description"><![CDATA[Los visitantes deben iniciar sesión para acceder a la página.]]></item>
 		<item name="wcf.acp.option.page_logo_link_to_app_default"><![CDATA[El logotipo de la página enlaza con la página de inicio de la aplicación activa]]></item>
@@ -1698,7 +1698,7 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.prune_ip_address.description"><![CDATA[Las direcciones IP almacenadas serán eliminadas después de los siguientes días. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.breadcrumbs_home_use_page_title"><![CDATA[Utilizar el título de la página de inicio en las breadcrumbs]]></item>
 		<item name="wcf.acp.option.category.message.contactForm"><![CDATA[Formulario de contacto]]></item>
-		<item name="wcf.acp.option.contact_form_enable_attachments"><![CDATA[Habilitar archivos adjuntos en los mensajes de contacto]]></item>
+		<item name="wcf.acp.option.contact_form_enable_attachments"><![CDATA[Activar archivos adjuntos en los mensajes de contacto]]></item>
 		<item name="wcf.acp.option.contact_form_prune_attachments"><![CDATA[Vaciar archivos adjuntos antiguos]]></item>
 		<item name="wcf.acp.option.contact_form_prune_attachments.description"><![CDATA[Los archivos adjuntos antiguos se eliminan automáticamente para recuperar espacio en disco. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.category.security.blacklist.sfs"><![CDATA[Stop Forum Spam]]></item>
@@ -1995,7 +1995,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 {/implode}]]></item>
 		<item name="wcf.acp.package.application.isTainted"><![CDATA[La aplicación{if $taintedApplication|isset} <strong>{$taintedApplication->getPackage()->getTitle()}</strong>{/if} no está completamente instalada. Es necesario desinstalar y volver a instalar la aplicación para poder utilizarla.]]></item>
 		<item name="wcf.acp.package.enableUpgradeOverride"><![CDATA[Actualizar a WoltLab Suite {$version}]]></item>
-		<item name="wcf.acp.package.enableUpgradeOverride.enable"><![CDATA[Habilitar la actualización a la nueva versión]]></item>
+		<item name="wcf.acp.package.enableUpgradeOverride.enable"><![CDATA[Activar actualización a la nueva versión]]></item>
 		<item name="wcf.acp.package.enableUpgradeOverride.issues"><![CDATA[Los siguientes problemas impiden actualmente la actualización:]]></item>
 		<item name="wcf.acp.package.enableUpgradeOverride.success"><![CDATA[No se ha detectado ningún problema, se cumplen todos los requisitos del sistema para realizar la actualización.]]></item>
 		<item name="wcf.acp.package.availableUpgradeVersion"><![CDATA[La nueva WoltLab Suite {$version} está disponible para su instalación. Hemos proporcionado una guía con las instrucciones para la actualización en nuestro <a href="https://manual.woltlab.com/en/updates/#upgrading-woltlab-suite-55-to-60" class="externalURL">manual</a>.<br>
@@ -3039,7 +3039,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.user.search.error.noMatches"><![CDATA[No hay usuarios que cumplan tus criterios.]]></item>
 		<item name="wcf.acp.user.sendMail"><![CDATA[Enviar correo electrónico a los usuarios]]></item>
 		<item name="wcf.acp.user.sendMail.all"><![CDATA[Enviar correo a los usuarios]]></item>
-		<item name="wcf.acp.user.sendMail.enableHTML"><![CDATA[Habilitar código HTML en el mensaje del correo electrónico]]></item>
+		<item name="wcf.acp.user.sendMail.enableHTML"><![CDATA[Activar código HTML en el mensaje del correo electrónico]]></item>
 		<item name="wcf.acp.user.sendMail.group"><![CDATA[Correo electrónico a grupo de usuarios]]></item>
 		<item name="wcf.acp.user.sendMail.groups"><![CDATA[Enviar correo electrónico a los miembros de los siguientes grupos de usuarios]]></item>
 		<item name="wcf.acp.user.sendMail.markedUsers"><![CDATA[Enviar correo electrónico a los siguientes usuarios]]></item>
@@ -3254,9 +3254,9 @@ Tu cuenta en {@PAGE_TITLE|phrase} [URL:{link isEmail=true}{/link}] ha sido aprob
 		<item name="wcf.article.like.notification.message"><![CDATA[<strong>{$author}</strong> ha reaccionado a tu artículo <strong>{$article->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
 		<item name="wcf.article.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} {if $count == 1}ha reaccionado{else}han reaccionado{/if} al artículo <strong>{$article->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
 		<item name="wcf.article.bbcode.type"><![CDATA[Artículo]]></item>
-		<item name="wcf.article.convertToI18n.question"><![CDATA[¿Estás seguro de que deseas habilitar la internacionalización para este artículo?]]></item>
+		<item name="wcf.article.convertToI18n.question"><![CDATA[¿Estás seguro de que deseas activar la internacionalización para este artículo?]]></item>
 		<item name="wcf.article.convertToI18n.description"><![CDATA[Esto hará que los valores actuales se copien a todos los demás idiomas y que se descarte el historial de edición de este artículo.<br><br>Por favor, envía cualquier cambio no guardado antes de ejecutar esta acción.]]></item>
-		<item name="wcf.article.convertFromI18n.question"><![CDATA[¿Estás seguro de que quieres deshabilitar la internacionalización para este artículo?]]></item>
+		<item name="wcf.article.convertFromI18n.question"><![CDATA[¿Estás seguro de que quieres desactivar la internacionalización para este artículo?]]></item>
 		<item name="wcf.article.convertFromI18n.description"><![CDATA[Todos los valores excepto los del idioma seleccionado serán descartados, esto también borrará el historial de edición de este artículo.<br><br>Por favor, envía cualquier cambio no guardado antes de ejecutar esta acción.]]></item>
 		<item name="wcf.article.category.delete.sure"><![CDATA[¿Realmente quieres eliminar esta categoría? Todas las categorías secundarias de esta categoría se moverán a la categoría principal. Los artículos de esta categoría serán eliminados.]]></item>
 	</category>
@@ -3345,7 +3345,7 @@ Extensiones permitidas: {', '|implode:$attachmentHandler->getFormattedAllowedExt
 		<item name="wcf.category.description"><![CDATA[Descripción]]></item>
 		<item name="wcf.category.title"><![CDATA[Título]]></item>
 		<item name="wcf.category.button.choose"><![CDATA[Seleccionar categoría]]></item>
-		<item name="wcf.category.descriptionUseHtml"><![CDATA[Habilitar código HTML en la descripción]]></item>
+		<item name="wcf.category.descriptionUseHtml"><![CDATA[Activar código HTML en la descripción]]></item>
 	</category>
 	<category name="wcf.ckeditor">
 		<item name="wcf.ckeditor.code.fileName"><![CDATA[Nombre de archivo]]></item>
@@ -3817,8 +3817,8 @@ Archivos adjuntos:
 		<item name="wcf.editor.image.float.left"><![CDATA[Izquierda]]></item>
 		<item name="wcf.editor.image.float.right"><![CDATA[Derecha]]></item>
 		<item name="wcf.editor.image.source"><![CDATA[Origen]]></item>
-		<item name="wcf.editor.image.source.error.blocked"><![CDATA[Las imágenes de fuentes externas han sido deshabilitadas, por favor, utiliza la función de adjuntar archivos.]]></item>
-		<item name="wcf.editor.image.source.error.insecure"><![CDATA[Las fuentes inseguras (“http://”) para las imágenes han sido deshabilitadas, por favor, utiliza solo fuentes seguras (“https://”).]]></item>
+		<item name="wcf.editor.image.source.error.blocked"><![CDATA[Las imágenes de fuentes externas han sido desactivadas, por favor, utiliza la función de adjuntar archivos.]]></item>
+		<item name="wcf.editor.image.source.error.insecure"><![CDATA[Las fuentes inseguras (“http://”) para las imágenes han sido desactivadas, por favor, utiliza solo fuentes seguras (“https://”).]]></item>
 		<item name="wcf.editor.image.source.error.invalid"><![CDATA[El enlace introducido no es válido.]]></item>
 		<item name="wcf.editor.link.add"><![CDATA[Insertar enlace]]></item>
 		<item name="wcf.editor.link.edit"><![CDATA[Editar enlace]]></item>
@@ -4141,7 +4141,7 @@ Archivos adjuntos:
 		<item name="wcf.media.button.replaceFile"><![CDATA[Reemplazar archivo]]></item>
 		<item name="wcf.media.button.select"><![CDATA[Seleccionar]]></item>
 		<item name="wcf.media.caption"><![CDATA[Pie de foto]]></item>
-		<item name="wcf.media.caption.enableHtml"><![CDATA[Habilitar código HTML en el pie de foto]]></item>
+		<item name="wcf.media.caption.enableHtml"><![CDATA[Activar código HTML en el pie de foto]]></item>
 		<item name="wcf.media.category.choose.noCategory"><![CDATA[(sin categoría)]]></item>
 		<item name="wcf.media.chooseFile"><![CDATA[Seleccionar archivo]]></item>
 		<item name="wcf.media.chooseImage"><![CDATA[Seleccionar imagen]]></item>
@@ -4157,7 +4157,7 @@ Archivos adjuntos:
 		<item name="wcf.media.insert.imageSize.medium"><![CDATA[Miniatura mediana]]></item>
 		<item name="wcf.media.insert.imageSize.original"><![CDATA[Imagen original]]></item>
 		<item name="wcf.media.insert.imageSize.small"><![CDATA[Miniatura pequeña]]></item>
-		<item name="wcf.media.isMultilingual"><![CDATA[Habilitar multilingüismo]]></item>
+		<item name="wcf.media.isMultilingual"><![CDATA[Activar multilingüismo]]></item>
 		<item name="wcf.media.languageID"><![CDATA[Idioma]]></item>
 		<item name="wcf.media.manager"><![CDATA[Gestionar medios]]></item>
 		<item name="wcf.media.media"><![CDATA[Medios]]></item>
@@ -4461,7 +4461,7 @@ Archivos adjuntos:
 		<item name="wcf.acp.page.addPageToMainMenu"><![CDATA[Añadir página al menú principal]]></item>
 		<item name="wcf.acp.page.lastVersion"><![CDATA[Existen <a href="{link controller='VersionTrackerList' objectType='com.woltlab.wcf.page' objectID=$page->pageID}{/link}">versiones anteriores</a> de esta página, el último cambio fue realizado por <a href="{link controller='UserEdit' id=$lastVersion->userID}{/link}">{$lastVersion->username}</a> ({@$lastVersion->time|time}).]]></item>
 		<item name="wcf.acp.page.originIsNotSystem"><![CDATA[Solo páginas personalizadas]]></item>
-		<item name="wcf.acp.page.enableShareButtons"><![CDATA[Habilitar los botones de compartir en esta página]]></item>
+		<item name="wcf.acp.page.enableShareButtons"><![CDATA[Activar botones de compartir en esta página]]></item>
 		<item name="wcf.acp.page.copy"><![CDATA[Copiar página]]></item>
 		<item name="wcf.acp.page.copy.description"><![CDATA[Los valores introducidos para esta página se utilizarán como preajuste para crear una nueva página. Solo se incluyen los valores editables en este formulario.<br><br>Tendrás que enviar el formulario para guardar la nueva página. Puedes realizar cambios en la nueva página editando los valores de ese formulario, ten en cuenta que las nuevas páginas están desactivadas por defecto.]]></item>
 	</category>
@@ -4597,7 +4597,7 @@ Archivos adjuntos:
 		<item name="wcf.user.ipAddress.searchEngine"><![CDATA[Buscar {if !$ipAddress|empty}{$ipAddress}{else}esta dirección IP{/if} {if !$host|empty}en {$host}{/if}]]></item>
 		<item name="wcf.user.userAgent"><![CDATA[Agente de usuario]]></item>
 		<item name="wcf.user.login"><![CDATA[Iniciar sesión]]></item>
-		<item name="wcf.user.login.error.cookieRequired"><![CDATA[El inicio de sesión requiere la aceptación de las cookies, por favor, habilita las cookies para continuar.]]></item>
+		<item name="wcf.user.login.error.cookieRequired"><![CDATA[El inicio de sesión requiere la aceptación de las cookies, por favor, activa las cookies para continuar.]]></item>
 		<item name="wcf.user.login.forceLogin"><![CDATA[Debes iniciar sesión para acceder a esta página.]]></item>
 		<item name="wcf.user.login.register.teaser"><![CDATA[¿Todavía no tienes cuenta? <a href="{link controller='Register'}{/link}">¡Regístrate ahora y forma parte de nuestra comunidad!]]></item>
 		<item name="wcf.user.login.register.registerNow"><![CDATA[Registrarse]]></item>
@@ -5117,7 +5117,7 @@ También has recibido una lista de códigos de recuperación para utilizar cuand
 		<item name="wcf.acp.trophy.userTrophy.trophy.error.awardAutomatically"><![CDATA[Los trofeos que se asignan automáticamente no pueden asignados manualmente.]]></item>
 		<item name="wcf.acp.trophy.error.noCategories"><![CDATA[Por favor, <a href="{link controller='TrophyCategoryAdd'}{/link}">añade una categoría</a> antes de crear trofeos.]]></item>
 		<item name="wcf.acp.trophy.error.noSuitableTrophies"><![CDATA[Por favor, <a href="{link controller='TrophyAdd'}{/link}">añade un trofeo</a> que no se asigne automáticamente antes de asignar los trofeos.]]></item>
-		<item name="wcf.acp.trophy.trophyUseHtml"><![CDATA[Habilitar código HTML en la descripción]]></item>
+		<item name="wcf.acp.trophy.trophyUseHtml"><![CDATA[Activar código HTML en la descripción]]></item>
 		<item name="wcf.acp.trophy.showOrder.description"><![CDATA[Elige el orden de presentación de los trofeos.]]></item>
 	</category>
 	<category name="wcf.user.usersOnline">
@@ -5453,7 +5453,7 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.notification.pageComment.responseOwner.title"><![CDATA[Nueva respuesta (Página)]]></item>
 		<item name="wcf.user.notification.status.active"><![CDATA[Activa]]></item>
 		<item name="wcf.user.notification.status.email"><![CDATA[Email]]></item>
-		<item name="wcf.user.notification.enableDesktopNotifications"><![CDATA[Habilitar las notificaciones de escritorio para recibir avisos de nuevas notificaciones.]]></item>
+		<item name="wcf.user.notification.enableDesktopNotifications"><![CDATA[Activar notificaciones de escritorio para recibir avisos de nuevas notificaciones.]]></item>
 		<item name="wcf.user.notification.enableDesktopNotifications.button"><![CDATA[Cambiar preferencia]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.user.registration.notification.needActivation"><![CDATA[Un usuario requiere activación]]></item>
 		<item name="wcf.user.notification.userNeedActivation.title"><![CDATA[User requires activation]]></item>
