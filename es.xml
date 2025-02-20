@@ -5565,12 +5565,15 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.upload.error.uploadFailed"><![CDATA[Ha ocurrido un error desconocido durante la subida.]]></item>
 
 		<item name="wcf.upload.error.damagedImageFile"><![CDATA[El archivo gráfico “{$filename}” está dañado.]]></item>
+		<item name="wcf.upload.error.emptyFile"><![CDATA[El archivo “{$filename}” está vacío.]]></item>
 		<item name="wcf.upload.error.fileExtensionNotPermitted"><![CDATA[El tipo de archivo “{$filename}” no está permitido.]]></item>
 		<item name="wcf.upload.error.fileSizeTooLarge"><![CDATA[El archivo es demasiado grande.]]></item>
 		<item name="wcf.upload.error.maximumCountReached"><![CDATA[Solo se puede subir {plural value=$maximumCount 1='un archivo' other='# archivos'}.]]></item>
 		<item name="wcf.upload.error.adopt"><![CDATA[El archivo "{$filename}" no puede ser asignado.]]></item>
 		<item name="wcf.upload.error.delete.unknownError"><![CDATA[Ha ocurrido un error desconocido al eliminar el archivo.]]></item>
 		<item name="wcf.upload.error.delete.permissionDenied"><![CDATA[El archivo no se puede eliminar, utiliza <strong>Reemplazar</strong> en su lugar para cambiar el archivo.]]></item>
+		<item name="wcf.upload.validation.error.noImage"><![CDATA[El archivo no es una imagen.]]></item>
+		<item name="wcf.upload.validation.error.tooSmall"><![CDATA[El archivo es demasiado pequeño.]]></item>
 	</category>
 </import>
 <delete>
