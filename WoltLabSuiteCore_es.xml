@@ -1685,7 +1685,7 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.image_allow_external_source"><![CDATA[Permitir imágenes de sitios externos]]></item>
 		<item name="wcf.acp.option.image_external_source_whitelist"><![CDATA[Imágenes permitidas de sitios externos]]></item>
 		<item name="wcf.acp.option.image_external_source_whitelist.description"><![CDATA[Los dominios de la lista estarán exentos de bloqueo. Los nombres de host son solo coincidencias exactas; se puede utilizar un comodín inicial para excluir un dominio completo: <kbd>*.example.com</kbd> coincide con <kbd>example.com</kbd> y los subdominios <kbd>foo.example.com</kbd> y/o <kbd>www.example.com</kbd>.]]></item>
-		<item name="wcf.acp.option.message_enable_toc"><![CDATA[Activar índice de contenidos]]></item>
+		<item name="wcf.acp.option.message_enable_toc"><![CDATA[Activar tablas de contenidos]]></item>
 		<item name="wcf.acp.option.search_enable_articles"><![CDATA[Los artículos se pueden buscar]]></item>
 		<item name="wcf.acp.option.search_enable_pages"><![CDATA[Las páginas se pueden buscar]]></item>
 		<item name="wcf.acp.option.message_sidebar_enable_articles"><![CDATA[Mostrar el número de artículos del autor]]></item>
