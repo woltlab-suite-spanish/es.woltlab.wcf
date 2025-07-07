@@ -239,7 +239,7 @@
 		<item name="wcf.acp.box.controller.limit"><![CDATA[Número máximo de elementos]]></item>
 		<item name="wcf.acp.box.conditions"><![CDATA[Condiciones]]></item>
 		<item name="wcf.acp.box.conditions.page"><![CDATA[Página]]></item>
-		<item name="wcf.acp.box.conditions.pointInTime"><![CDATA[Time]]></item>
+		<item name="wcf.acp.box.conditions.pointInTime"><![CDATA[Tiempo]]></item>
 		<item name="wcf.acp.box.conditions.user"><![CDATA[Usuario activo]]></item>
 		<item name="wcf.acp.box.showChildCategories"><![CDATA[Mostrar subcategorías de nivel superior por defecto]]></item>
 	</category>
