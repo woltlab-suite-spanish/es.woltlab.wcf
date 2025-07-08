@@ -4470,7 +4470,7 @@ Archivos adjuntos:
 		<item name="wcf.paidSubscription.purchasedSubscriptions"><![CDATA[Suscripciones compradas]]></item>
 		<item name="wcf.paidSubscription.formattedCost"><![CDATA[{$subscription->cost|currency} {$subscription->currency}{if $subscription->subscriptionLength} {if $subscription->subscriptionLength != 1}por{else}por{/if} {if $subscription->subscriptionLength != 1}{@$subscription->subscriptionLength} {/if}{if $subscription->subscriptionLengthUnit == 'D'}día{if $subscription->subscriptionLength != 1}s{/if}{/if}{if $subscription->subscriptionLengthUnit == 'M'}mes{if $subscription->subscriptionLength != 1}es{/if}{/if}{if $subscription->subscriptionLengthUnit == 'Y'}año{if $subscription->subscriptionLength != 1}s{/if}{/if}{/if}]]></item>
 		<item name="wcf.paidSubscription.expires"><![CDATA[Activa hasta]]></item>
-		<item name="wcf.paidSubscription.returnMessage"><![CDATA[Gracias por tu pago, la transacción se ha completado con éxito. Tu suscripción se activará una vez que hayamos procesado tu pago.]]></item>
+		<item name="wcf.paidSubscription.returnMessage"><![CDATA[Gracias por tu pago, la transacción se ha completado. Tu suscripción se activará una vez que hayamos procesado tu pago.]]></item>
 		<item name="wcf.paidSubscription.confirmTOS"><![CDATA[Acepto los <a href="{PAID_SUBSCRIPTION_TOS_URL}">Términos y Condiciones de Uso</a>]]></item>
 		<item name="wcf.paidSubscription.button.moreInformation"><![CDATA[Más detalles]]></item>
 		<item name="wcf.paidSubscription.expiringSubscription.notification.title"><![CDATA[Suscripción a punto de expirar]]></item>
