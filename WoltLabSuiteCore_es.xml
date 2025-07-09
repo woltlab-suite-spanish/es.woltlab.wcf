@@ -1573,7 +1573,7 @@ Por favor, sigue las instrucciones descritas en <a href="https://manual.woltlab.
 		<item name="wcf.acp.option.url_omit_index_php.test.status"><![CDATA[Resultado de la prueba]]></item>
 		<item name="wcf.acp.option.url_omit_index_php.test.status.failure"><![CDATA[Fallido]]></item>
 		<item name="wcf.acp.option.url_omit_index_php.test.status.success"><![CDATA[Superado]]></item>
-		<item name="wcf.acp.option.url_omit_index_php.test.success"><![CDATA[La prueba se ha realizado con éxito.]]></item>
+		<item name="wcf.acp.option.url_omit_index_php.test.success"><![CDATA[La prueba se ha realizado correctamente.]]></item>
 		<item name="wcf.acp.option.module_wcf_ad"><![CDATA[Anuncios]]></item>
 		<item name="wcf.acp.option.module_wcf_ad.description"><![CDATA[Activa la <a href="{link controller='AdList'}{/link}">gestión de anuncios</a>.]]></item>
 		<item name="wcf.acp.option.captcha_type"><![CDATA[Tipo de captcha]]></item>
@@ -2992,7 +2992,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.user.add"><![CDATA[Añadir usuario]]></item>
 		<item name="wcf.acp.user.assignToGroup"><![CDATA[Añadir a grupo de usuarios]]></item>
 		<item name="wcf.acp.user.assignToGroup.markedUsers"><![CDATA[Añadir los siguientes usuarios a los grupos de usuarios seleccionados a continuación]]></item>
-		<item name="wcf.acp.user.assignToGroup.success"><![CDATA[{if $users|count == 1}El usuario ha sido añadido{else}Los usuarios han sido añadidos{/if} {if $groupIDs|count == 1}al grupo de usuarios seleccionado{else}a los grupos de usuarios seleccionados{/if} satisfactoriamente.]]></item>
+		<item name="wcf.acp.user.assignToGroup.success"><![CDATA[{if $users|count == 1}El usuario ha sido añadido{else}Los usuarios han sido añadidos{/if} {if $groupIDs|count == 1}al grupo de usuarios seleccionado{else}a los grupos de usuarios seleccionados{/if} correctamente.]]></item>
 		<item name="wcf.acp.user.banUser"><![CDATA[Banear usuario]]></item>
 		<item name="wcf.acp.user.banUser.description"><![CDATA[Se prohíbe permanentemente al usuario el uso de cualquier función del sitio y se le notificará el acceso al sitio.]]></item>
 		<item name="wcf.acp.user.banReason"><![CDATA[Motivo]]></item>
@@ -3922,7 +3922,7 @@ Archivos adjuntos:
 		<item name="wcf.global.filter.visibility.activeOnly"><![CDATA[Mostrar solo elementos marcados]]></item>
 		<item name="wcf.global.filter.visibility.highlightActive"><![CDATA[Resaltar elementos marcados]]></item>
 		<item name="wcf.global.filter.visibility.showAll"><![CDATA[Mostrar todo]]></item>
-		<item name="wcf.global.success"><![CDATA[La acción se ha completado con éxito.]]></item>
+		<item name="wcf.global.success"><![CDATA[La acción se ha completado correctamente.]]></item>
 		<item name="wcf.global.success.add"><![CDATA[La entrada ha sido guardada.]]></item>
 		<item name="wcf.global.success.add.editCreatedObject"><![CDATA[Puedes crear otra nueva o <a href="{$objectEditLink}">editar la entrada creada anteriormente</a>.]]></item>
 		<item name="wcf.global.success.edit"><![CDATA[Tus cambios han sido guardados.]]></item>
@@ -4722,7 +4722,7 @@ el sitio web <a href="{link isHtmlEmail=true}{/link}">{@PAGE_TITLE|phrase}</a>.<
 		<item name="wcf.user.lostPasswordKey.error.invalid"><![CDATA[La clave de seguridad no es válida.]]></item>
 		<item name="wcf.user.newPassword"><![CDATA[Nueva contraseña]]></item>
 		<item name="wcf.user.newPassword.info"><![CDATA[Estás estableciendo una nueva contraseña para el usuario “{$user->username}”.]]></item>
-		<item name="wcf.user.newPassword.success"><![CDATA[La contraseña del usuario “{$user->username}” ha sido cambiada con éxito. Ahora puedes iniciar sesión con tu nueva contraseña.]]></item>
+		<item name="wcf.user.newPassword.success"><![CDATA[La contraseña del usuario “{$user->username}” ha sido cambiada correctamente. Ahora puedes iniciar sesión con tu nueva contraseña.]]></item>
 		<item name="wcf.user.newPassword.error.invalidLink"><![CDATA[El enlace para establecer una nueva contraseña ya no es válido. Por razones de seguridad, este enlace caduca al cabo de un tiempo y solo puede utilizarse una vez. Puedes solicitar un nuevo enlace en la siguiente página: <a href="{link controller='LostPassword'}{/link}">Contraseña olvidada</a>]]></item>
 		<item name="wcf.user.userID.error.invalid"><![CDATA[La ID de usuario no es válida.]]></item>
 		<item name="wcf.user.accountManagement"><![CDATA[Gestión de cuenta]]></item>
@@ -5065,8 +5065,8 @@ También has recibido una lista de códigos de recuperación para utilizar cuand
 <li>{plural value=$count 0="No configurado" 1="Un dispositivo configurado" other="# dispositivos configurados"}</li>
 {if $lastUsed}<li>Último uso el {@$lastUsed|plainTime}</li>{/if}
 </ul>]]></item>
-		<item name="wcf.user.security.multifactor.totp.success.add"><![CDATA[Tu smartphone <strong>{$deviceName}</strong> ha sido añadido satisfactoriamente.]]></item>
-		<item name="wcf.user.security.multifactor.totp.success.delete"><![CDATA[Tu smartphone <strong>{$deviceName}</strong> ha sido eliminado satisfactoriamente.]]></item>
+		<item name="wcf.user.security.multifactor.totp.success.add"><![CDATA[Tu smartphone <strong>{$deviceName}</strong> ha sido añadido correctamente.]]></item>
+		<item name="wcf.user.security.multifactor.totp.success.delete"><![CDATA[Tu smartphone <strong>{$deviceName}</strong> ha sido eliminado correctamente.]]></item>
 		<item name="wcf.user.security.multifactor.totp.useTime"><![CDATA[Último uso]]></item>
 		<item name="wcf.user.security.requiresMultifactor"><![CDATA[Eres miembro de un grupo de usuarios que debe utilizar la autenticación multifactor.]]></item>
 		<item name="wcf.user.security.sessionName"><![CDATA[{if $session->getUserAgent()->getBrowser()}{$session->getUserAgent()->getBrowser()}{if $session->getUserAgent()->getOS()} en {$session->getUserAgent()->getOS()}{/if}{else}Dispositivo desconocido{/if}]]></item>
