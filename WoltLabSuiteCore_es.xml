@@ -1640,8 +1640,8 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.image_proxy_expiration"><![CDATA[Periodo máximo de almacenamiento]]></item>
 		<item name="wcf.acp.option.image_proxy_insecure_only"><![CDATA[Almacenar imágenes solo de fuentes no seguras]]></item>
 		<item name="wcf.acp.option.image_proxy_enable_prune"><![CDATA[Eliminar regularmente imágenes almacenadas en caché]]></item>
-		<item name="wcf.acp.option.image_proxy_host_whitelist"><![CDATA[Excepciones de proxy de imagen]]></item>
-		<item name="wcf.acp.option.image_proxy_host_whitelist.description"><![CDATA[Los dominios listados no serán manejados por el proxy de imagen, el dominio actual se añade implícitamente. Los nombres de host son solo coincidencias exactas; se puede utilizar un comodín inicial para excluir un dominio completo: <kbd>*.example.com</kbd> coincide con <kbd>example.com</kbd> y los subdominios <kbd>foo.example.com</kbd> y/o <kbd>www.example.com</kbd>.]]></item>
+		<item name="wcf.acp.option.image_proxy_host_whitelist"><![CDATA[Excepciones de proxy de imágenes]]></item>
+		<item name="wcf.acp.option.image_proxy_host_whitelist.description"><![CDATA[Los dominios listados no serán manejados por el proxy de imágenes; el dominio actual se añade automáticamente. Solo se permiten coincidencias exactas de nombres de host; se puede utilizar un comodín inicial para excluir un dominio completo: <kbd>*.example.com</kbd> coincide con <kbd>example.com</kbd> y subdominios como <kbd>foo.example.com</kbd> o <kbd>www.example.com</kbd>.]]></item>
 		<item name="wcf.acp.option.share_buttons_providers"><![CDATA[Proveedores de botones para compartir]]></item>
 		<item name="wcf.acp.option.show_style_changer"><![CDATA[Activar cambiador de estilos]]></item>
 		<item name="wcf.acp.option.language_use_informal_variant"><![CDATA[Utilizar variante de idioma informal]]></item>
