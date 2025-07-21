@@ -4859,7 +4859,7 @@ no has registrado una cuenta en nuestro sitio web.]]></item>
 		<item name="wcf.user.status.blacklistMatches"><![CDATA[Este usuario ha sido desactivado automáticamente por coincidencias en la base de datos "Stop Forum Spam" (Coincidencias: {implode glue=', ' from=$user->getBlacklistMatchesTitle() item=matchLabel}{$matchLabel}{/implode}).]]></item>
 		<item name="wcf.user.reauthentication"><![CDATA[Reautenticación]]></item>
 		<item name="wcf.user.reauthentication.explanation"><![CDATA[Estás entrando en una zona sensible desde el punto de vista de la seguridad. Por razones de seguridad, es necesario que vuelvas a autenticarte introduciendo tu contraseña.]]></item>
-		<item name="wcf.user.reauthentication.loginAs"><![CDATA[Identificado como]]></item>
+		<item name="wcf.user.reauthentication.loginAs"><![CDATA[Sesión iniciada como]]></item>
 		<item name="wcf.user.reauthentication.logoutAndChangeUser"><![CDATA[¿No eres {$__wcf->user->username}? <a href="{link controller='FullLogout' application='wcf'}t={csrfToken type='url'}{/link}">Cierra sesión y cambia de usuario</a>.]]></item>
 		<item name="wcf.user.ignore.type"><![CDATA[Bloquear usuario]]></item>
 		<item name="wcf.user.ignore.type.noIgnore"><![CDATA[No bloquear]]></item>
