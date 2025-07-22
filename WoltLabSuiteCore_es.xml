@@ -3323,7 +3323,7 @@ Extensiones permitidas: {', '|implode:$attachmentHandler->getFormattedAllowedExt
 	</category>
 	<category name="wcf.captcha.question">
 		<item name="wcf.captcha.question.answer.error.false"><![CDATA[La respuesta introducida no es correcta.]]></item>
-		<item name="wcf.captcha.question.captcha.description"><![CDATA[Por favor, responde a la pregunta para resolver el problema arriba.]]></item>
+		<item name="wcf.captcha.question.captcha.description"><![CDATA[Por favor, responde la pregunta correctamente para resolver el problema anterior.]]></item>
 	</category>
 	<category name="wcf.captcha.recaptchaV2">
 		<item name="wcf.captcha.recaptchaV2.error.recaptchaString.false"><![CDATA[Por favor, confirma que no eres un robot.]]></item>
