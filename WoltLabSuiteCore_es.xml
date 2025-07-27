@@ -4451,7 +4451,7 @@ Archivos adjuntos:
 		<item name="wcf.acp.page.type.html.description"><![CDATA[Utiliza HTML sin formato para crear el contenido de la página y obtener la máxima flexibilidad.]]></item>
 		<item name="wcf.acp.page.type.system"><![CDATA[Sistema]]></item>
 		<item name="wcf.acp.page.type.text"><![CDATA[Texto]]></item>
-		<item name="wcf.acp.page.type.text.description"><![CDATA[Crear contenido utilizado el editor WYSIWYG integrado (recomendado).]]></item>
+		<item name="wcf.acp.page.type.text.description"><![CDATA[Crear contenido utilizando el editor WYSIWYG integrado (recomendado).]]></item>
 		<item name="wcf.acp.page.type.tpl"><![CDATA[Plantilla]]></item>
 		<item name="wcf.acp.page.type.tpl.description"><![CDATA[Similar al tipo "HTML", pero ofrece soporte adicional para scripts de plantilla.]]></item>
 		<item name="wcf.acp.page.url"><![CDATA[URL]]></item>
