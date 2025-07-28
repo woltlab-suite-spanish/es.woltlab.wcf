@@ -1775,7 +1775,7 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.customOption.selectOptions.description"><![CDATA[Puedes utilizar opciones de selección en combinación con tipos de selección, pero ten en cuenta que el uso de los dos puntos hará que el sistema utilice todo lo situado a la izquierda como identificador interno y solo se mostrará al usuario la parte situada después de los dos puntos. Esto te permite cambiar el valor que se muestra al usuario sin perjudicar las selecciones existentes, a menos que se modifique el propio identificador. Introduce una opción de selección por línea.]]></item>
 		<item name="wcf.acp.customOption.validationPattern"><![CDATA[Expresión regular]]></item>
 		<item name="wcf.acp.customOption.validationPattern.description"><![CDATA[Puedes proporcionar una expresión regular para validar la entrada del usuario.]]></item>
-		<item name="wcf.acp.customOption.required"><![CDATA[Campo obligatorio]]></item>
+		<item name="wcf.acp.customOption.required"><![CDATA[Este campo es obligatorio]]></item>
 		<item name="wcf.acp.customOption.isDisabled"><![CDATA[Desactivar opción]]></item>
 	</category>
 	<category name="wcf.acp.package">
