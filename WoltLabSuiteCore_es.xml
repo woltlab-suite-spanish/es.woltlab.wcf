@@ -2719,7 +2719,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.systemCheck.directories"><![CDATA[Sistema de archivos]]></item>
 		<item name="wcf.acp.systemCheck.php.version"><![CDATA[Versión]]></item>
 		<item name="wcf.acp.systemCheck.php.version.description"><![CDATA[Se requiere PHP {$phpVersions[minimum]} o más reciente, se recomiendan encarecidamente las siguientes series de PHP: {implode from=$phpVersions[recommended] item=$recommended}{$recommended}{/implode}.]]></item>
-		<item name="wcf.acp.systemCheck.php.version.deprecated"><![CDATA[La versión de PHP utilizada está severamente desactualizada y tiene soporte limitado, no se garantiza el correcto funcionamiento con esta versión. Se recomienda encarecidamente cambiar a una versión más moderna de PHP ({implode from=$phpVersions[recommended] item=$recommended}{$recommended}{/implode}).]]></item>
+		<item name="wcf.acp.systemCheck.php.version.deprecated"><![CDATA[La versión de PHP utilizada está muy desactualizada y tiene soporte limitado. No se garantiza el funcionamiento correcto con esta versión. Se recomienda encarecidamente cambiar a una versión moderna de PHP ({implode from=$phpVersions[recommended] item=$recommended}{$recommended}{/implode}).]]></item>
 		<item name="wcf.acp.systemCheck.mysql.version"><![CDATA[MySQL]]></item>
 		<item name="wcf.acp.systemCheck.mysql.version.description"><![CDATA[Se requiere como mínimo MySQL {$mysqlVersions[mysql][8]} o MariaDB {$mysqlVersions[mariadb][10]}, pero se recomienda encarecidamente utilizar siempre la última versión disponible.]]></item>
 		<item name="wcf.acp.systemCheck.mysql.foreignKeys"><![CDATA[Claves foráneas]]></item>
