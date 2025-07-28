@@ -1222,7 +1222,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.menu.link.reactionType.edit"><![CDATA[Editar reacción]]></item>
 		<item name="wcf.acp.menu.link.language.item.add"><![CDATA[Añadir frase]]></item>
 		<item name="wcf.acp.menu.link.systemCheck"><![CDATA[Comprobación del sistema]]></item>
-		<item name="wcf.acp.menu.link.devtools.missingLanguageItem.list"><![CDATA[Frases perdidas]]></item>
+		<item name="wcf.acp.menu.link.devtools.missingLanguageItem.list"><![CDATA[Frases ausentes]]></item>
 		<item name="wcf.acp.menu.link.log.email"><![CDATA[Correos electrónicos]]></item>
 		<item name="wcf.acp.menu.item.button.choose"><![CDATA[Seleccionar elemento de menú]]></item>
 	</category>
