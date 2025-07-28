@@ -959,7 +959,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.index.woltlab.forums"><![CDATA[Foros de soporte]]></item>
 		<item name="wcf.acp.index.woltlab.tickets"><![CDATA[Tickets de soporte]]></item>
 		<item name="wcf.acp.index.woltlab.pluginStore"><![CDATA[Plugin Store]]></item>
-		<item name="wcf.acp.index.missingLanguageItems"><![CDATA[Se han detectado frases de idiomas que faltan (última vez: {@$missingLanguageItemsMTime|time}). Consulta la <a href="{link controller='DevtoolsMissingLanguageItemList'}{/link}">lista de freses perdidas</a> para más información.]]></item>
+		<item name="wcf.acp.index.missingLanguageItems"><![CDATA[Se han detectado elementos de idioma ausentes (última vez: {@$missingLanguageItemsMTime|time}). Consulta la <a href="{link controller='DevtoolsMissingLanguageItemList'}{/link}">lista de frases ausentes</a> para más información.]]></item>
 		<item name="wcf.acp.index.systemIdMismatch"><![CDATA[El entorno del sistema ha cambiado. Se recomienda realizar una <a href="{link controller='SystemCheck'}{/link}">comprobación del sistema</a>.]]></item>
 		<item name="wcf.acp.index.cacheSanityCheckFailed"><![CDATA[El método de almacenamiento en caché configurado (“{CACHE_SOURCE_TYPE}”) no funciona correctamente.]]></item>
 		<item name="wcf.acp.index.insecureContext"><![CDATA[No se accede a la página usando HTTPS. Por lo tanto, algunas funciones importantes necesarias para el correcto funcionamiento del software no están disponibles.]]></item>
