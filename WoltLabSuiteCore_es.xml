@@ -135,7 +135,7 @@
 		<item name="wcf.acp.bbcode.htmlClose"><![CDATA[Etiqueta HTML de cierre]]></item>
 		<item name="wcf.acp.bbcode.htmlOpen"><![CDATA[Etiqueta HTML de apertura]]></item>
 		<item name="wcf.acp.bbcode.isBlockElement"><![CDATA[El BBCode representa un elemento de bloque]]></item>
-		<item name="wcf.acp.bbcode.isBlockElement.description"><![CDATA[Los elementos de bloque se tratan de forma diferente cuando son procesados. Pueden contener saltos de línea y párrafos, y generalmente ocupan todo el ancho disponible. Ejemplos comunes de elementos de bloque son las citas y las listas.<br><strong>Atención</strong>: No debes configurar esta opción para elementos en línea como negritas o enlaces.]]></item>
+		<item name="wcf.acp.bbcode.isBlockElement.description"><![CDATA[Los elementos de bloque se procesan de forma diferente. Pueden contener saltos de línea y párrafos, y suelen ocupar todo el ancho disponible. Ejemplos comunes de elementos de bloque son las citas y listas.<br><strong>Atención</strong>: No debes establecer esta opción para elementos en línea como negrita o enlaces.]]></item>
 		<item name="wcf.acp.bbcode.isSourceCode"><![CDATA[El contenido representa código fuente]]></item>
 		<item name="wcf.acp.bbcode.isSourceCode.description"><![CDATA[Desactiva la conversión de BBCodes y emoticonos.]]></item>
 		<item name="wcf.acp.bbcode.list"><![CDATA[BBCodes]]></item>
