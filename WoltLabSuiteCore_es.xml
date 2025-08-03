@@ -4230,7 +4230,7 @@ Archivos adjuntos:
 		<item name="wcf.message.toc.show"><![CDATA[mostrar]]></item>
 		<item name="wcf.message.user.consent.button.enable"><![CDATA[Mostrar todos los contenidos externos]]></item>
 		<item name="wcf.message.user.consent.description"><![CDATA[El contenido incrustado de fuentes externas no se mostrará sin tu consentimiento.]]></item>
-		<item name="wcf.message.user.consent.notice"><![CDATA[Mediante la activación de contenidos externos, usted acepta que se transfieran datos personales a plataformas de terceros. Hemos proporcionado más información al respecto en nuestra política de privacidad.]]></item>
+		<item name="wcf.message.user.consent.notice"><![CDATA[Al activar el contenido externo, aceptas que tus datos personales puedan ser transferidos a plataformas de terceros. Hemos proporcionado más información al respecto en nuestra política de privacidad.]]></item>
 		<item name="wcf.message.user.consent.title"><![CDATA[Contenido externo]]></item>
 		<item name="wcf.message.content.not.available.title"><![CDATA[El contenido no se puede mostrar porque ya no está disponible.]]></item>
 		<item name="wcf.message.content.no.permission.title"><![CDATA[El contenido no se puede mostrar porque no tienes autorización para ver este contenido.]]></item>
