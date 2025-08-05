@@ -1509,7 +1509,7 @@ Restringir los nombres de usuario a caracteres ASCII restringe los nombres de us
 		<item name="wcf.acp.option.users_online_default_sort_order"><![CDATA[Orden de clasificación]]></item>
 		<item name="wcf.acp.option.users_online_default_sort_order.description"><![CDATA[Elige el orden de clasificación por defecto de la lista “Usuarios en línea”.]]></item>
 		<item name="wcf.acp.option.users_online_page_refresh"><![CDATA[Actualizar página]]></item>
-		<item name="wcf.acp.option.users_online_page_refresh.description"><![CDATA[Actualiza la lista de “Usuarios en línea” en los siguientes segundos. Utiliza 0 para desactivar.]]></item>
+		<item name="wcf.acp.option.users_online_page_refresh.description"><![CDATA[Actualiza la lista de “Usuarios en línea” después de los segundos indicados. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.user_cleanup_notification_lifetime"><![CDATA[Notificaciones]]></item>
 		<item name="wcf.acp.option.user_cleanup_notification_lifetime.description"><![CDATA[Las notificaciones se eliminarán después de los días indicados.]]></item>
 		<item name="wcf.acp.option.user_cleanup_activity_event_lifetime"><![CDATA[Actividad reciente]]></item>
