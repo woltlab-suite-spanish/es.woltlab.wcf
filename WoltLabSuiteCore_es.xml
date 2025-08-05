@@ -2994,7 +2994,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.user.assignToGroup.markedUsers"><![CDATA[Añadir los siguientes usuarios a los grupos de usuarios seleccionados a continuación]]></item>
 		<item name="wcf.acp.user.assignToGroup.success"><![CDATA[{if $users|count == 1}El usuario ha sido añadido{else}Los usuarios han sido añadidos{/if} {if $groupIDs|count == 1}al grupo de usuarios seleccionado{else}a los grupos de usuarios seleccionados{/if} correctamente.]]></item>
 		<item name="wcf.acp.user.banUser"><![CDATA[Banear usuario]]></item>
-		<item name="wcf.acp.user.banUser.description"><![CDATA[Se prohíbe permanentemente al usuario el uso de cualquier función del sitio y se le notificará el acceso al sitio.]]></item>
+		<item name="wcf.acp.user.banUser.description"><![CDATA[El usuario queda permanentemente excluido del uso de cualquier función del sitio y será notificado al intentar acceder al sitio.]]></item>
 		<item name="wcf.acp.user.banReason"><![CDATA[Motivo]]></item>
 		<item name="wcf.acp.user.banReason.description"><![CDATA[El motivo del baneo se mostrará a los usuarios afectados.]]></item>
 		<item name="wcf.acp.user.ban.expires"><![CDATA[Desbaneo]]></item>
