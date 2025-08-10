@@ -478,7 +478,7 @@
 		<item name="wcf.acp.devtools.project.add.mode.setup"><![CDATA[Configurar un nuevo proyecto]]></item>
 		<item name="wcf.acp.devtools.project.packageInformation"><![CDATA[Información del paquete]]></item>
 		<item name="wcf.acp.devtools.project.packageName"><![CDATA[Nombre del paquete]]></item>
-		<item name="wcf.acp.devtools.project.isApplication"><![CDATA[Package Contains App]]></item>
+		<item name="wcf.acp.devtools.project.isApplication"><![CDATA[El paquete contiene una aplicación]]></item>
 		<item name="wcf.acp.devtools.project.packageVersion"><![CDATA[Versión del paquete]]></item>
 		<item name="wcf.acp.devtools.project.packageDate"><![CDATA[Fecha de creación]]></item>
 		<item name="wcf.acp.devtools.project.requiredPackages.description"><![CDATA[Para instalar este paquete, los siguientes paquetes deben estar ya instalados o las versiones suministradas junto con el paquete deben instalarse primero.]]></item>
