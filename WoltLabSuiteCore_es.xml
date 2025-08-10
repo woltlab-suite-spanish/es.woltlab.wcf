@@ -984,7 +984,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.label.group.groupName.description"><![CDATA[El título es visible para todos los usuarios que pueden interactuar con el grupo de etiquetas.]]></item>
 		<item name="wcf.acp.label.group.groupDescription.description"><![CDATA[Esta descripción es opcional y solo es visible en el Panel de Control de Administración. Está pensada para ayudar a diferenciar grupos con el mismo título.]]></item>
 		<item name="wcf.acp.label.showOrder.description"><![CDATA[Orden de visualización de la etiqueta en su grupo de etiquetas. Si deja este campo vacío la etiqueta se colocará en la última posición.]]></item>
-		<item name="wcf.acp.label.sortAfterGroupFiltering"><![CDATA[Si solo filtras la lista de etiquetas por un determinado grupo de etiquetas, puedes ordenar las etiquetas de este grupo mediante arrastrar y soltar.]]></item>
+		<item name="wcf.acp.label.sortAfterGroupFiltering"><![CDATA[Si filtras la lista de etiquetas por un determinado grupo de etiquetas, puedes ordenar las etiquetas de este grupo usando arrastrar y soltar.]]></item>
 		<item name="wcf.acp.label.filter"><![CDATA[Filtro]]></item>
 		<item name="wcf.acp.label.container.com.woltlab.wcf.article.category"><![CDATA[Artículos]]></item>
 	</category>
