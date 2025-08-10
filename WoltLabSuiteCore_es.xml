@@ -4786,7 +4786,7 @@ no has registrado una cuenta en nuestro sitio web.]]></item>
 		<item name="wcf.user.guest"><![CDATA[Invitado]]></item>
 		<item name="wcf.user.signature"><![CDATA[Firma]]></item>
 		<item name="wcf.user.signature.current"><![CDATA[Firma actual]]></item>
-		<item name="wcf.user.signature.error.disabled"><![CDATA[La administración {if $__wcf->user->signature}ha bloqueado tu firma y no te permiten utilizar una firma{else}no permite utilizar una firma{/if}{if $__wcf->user->disableSignatureReason}: {$__wcf->user->disableAvatarReason}{/if}.]]></item>
+		<item name="wcf.user.signature.error.disabled"><![CDATA[Los administradores {if $__wcf->user->signature}han bloqueado tu firma y {else}te han prohibido utilizar una firma{/if}{if $__wcf->user->disableSignatureReason}: {$__wcf->user->disableAvatarReason}{/if}.]]></item>
 		<item name="wcf.user.activityPoint"><![CDATA[Puntos]]></item>
 		<item name="wcf.user.activityPoint.showActivityPoints"><![CDATA[Mostrar puntos de {$user->username}]]></item>
 		<item name="wcf.user.activityPoint.objects"><![CDATA[Cuenta]]></item>
