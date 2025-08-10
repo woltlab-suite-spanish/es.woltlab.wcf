@@ -2981,7 +2981,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.template.group.name.error.notUnique"><![CDATA[Este nombre ya está en uso por otro grupo de plantillas.]]></item>
 		<item name="wcf.acp.template.group.folderName.error.invalid"><![CDATA[Este directorio no es válido.]]></item>
 		<item name="wcf.acp.template.group.folderName.error.notUnique"><![CDATA[Este directorio ya está siendo utilizado por otro grupo de plantillas.]]></item>
-		<item name="wcf.acp.template.group.parentTemplateGroupID.error.invalid"><![CDATA[El grupo de plantillas padre especificado no es válido.]]></item>
+		<item name="wcf.acp.template.group.parentTemplateGroupID.error.invalid"><![CDATA[Este grupo de plantillas superior no es válido.]]></item>
 		<item name="wcf.acp.template.source"><![CDATA[Código fuente de la plantilla]]></item>
 		<item name="wcf.acp.template.name.error.notUnique"><![CDATA[Este nombre ya está en uso por otra plantilla.]]></item>
 		<item name="wcf.acp.template.name.error.invalid"><![CDATA[Este nombre no es válido.]]></item>
