@@ -553,7 +553,7 @@
 		<item name="wcf.acp.devtools.project.path.error.cannotMakeDirectory"><![CDATA[El directorio de paquete introducido no puede ser creado.]]></item>
 		<item name="wcf.acp.devtools.project.instructions.error.noInstallationInstructions"><![CDATA[No hay instrucciones de instalación.]]></item>
 		<item name="wcf.acp.devtools.project.add.mode.edit"><![CDATA[Editar proyecto]]></item>
-		<item name="wcf.acp.devtools.project.applicationDirectory"><![CDATA[Directorio de aplicaciones sugeridas]]></item>
+		<item name="wcf.acp.devtools.project.applicationDirectory"><![CDATA[Directorio de aplicación sugerido]]></item>
 		<item name="wcf.acp.devtools.project.applicationDirectory.description"><![CDATA[Durante la instalación de la aplicación, se sugiere el nombre de directorio introducido para la aplicación. El directorio solo puede contener los siguientes caracteres: <kbd>A-z0-9_-</kbd>.]]></item>
 		<item name="wcf.acp.devtools.project.applicationDirectory.error.format"><![CDATA[El directorio de aplicaciones introducido no es válido.]]></item>
 		<item name="wcf.acp.devtools.project.instructions.type.update.error.updateForFutureVersion"><![CDATA[La versión actualizada especificada para las actualizaciones siempre tiene que ser una versión anterior. La versión actualizada introducida <kbd>{$fromVersion}</kbd> es más reciente que la versión del paquete especificada actualmente <kbd>{$version}</kbd>.]]></item>
