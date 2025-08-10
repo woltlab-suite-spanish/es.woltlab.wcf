@@ -4443,7 +4443,7 @@ Archivos adjuntos:
 		<item name="wcf.acp.page.metaDescription"><![CDATA[Metadescripción]]></item>
 		<item name="wcf.acp.page.name.error.notUnique"><![CDATA[Este nombre ya está en uso.]]></item>
 		<item name="wcf.acp.page.page"><![CDATA[Página]]></item>
-		<item name="wcf.acp.page.parentPage"><![CDATA[Página principal]]></item>
+		<item name="wcf.acp.page.parentPage"><![CDATA[Página superior]]></item>
 		<item name="wcf.acp.page.parentPage.error.invalid"><![CDATA[La página seleccionada no es válida.]]></item>
 		<item name="wcf.acp.page.parentPage.none"><![CDATA[Ninguna]]></item>
 		<item name="wcf.acp.page.type"><![CDATA[Tipo de página]]></item>
