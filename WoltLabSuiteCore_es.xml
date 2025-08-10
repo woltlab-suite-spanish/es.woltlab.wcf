@@ -996,7 +996,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.language.code"><![CDATA[Código ISO de idioma]]></item>
 		<item name="wcf.acp.language.code.description"><![CDATA[Por favor, introduce el código de idioma <strong>ISO 639-1</strong>, puedes consultar el código de idioma en <a href="https://en.wikipedia.org/wiki/ISO_639-1" class="externalURL">https://es.wikipedia.org/wiki/ISO_639-1</a>.]]></item>
 		<item name="wcf.acp.language.countryCode"><![CDATA[Código ISO de país]]></item>
-		<item name="wcf.acp.language.countryCode.description"><![CDATA[Por favor, introduce el código de país <strong>ISO 3166-1</strong>, puede consultar el código de país en <a href="https://en.wikipedia.org/wiki/ISO_3166-1" class="externalURL">https://es.wikipedia.org/wiki/ISO_3166-1</a>.]]></item>
+		<item name="wcf.acp.language.countryCode.description"><![CDATA[Por favor, introduce el código de país <strong>ISO 3166-1</strong>, puedes consultar el código de país en <a href="https://en.wikipedia.org/wiki/ISO_3166-1" class="externalURL">https://es.wikipedia.org/wiki/ISO_3166-1</a>.]]></item>
 		<item name="wcf.acp.language.customVariables"><![CDATA[Frases personalizadas]]></item>
 		<item name="wcf.acp.language.edit"><![CDATA[Editar idioma]]></item>
 		<item name="wcf.acp.language.export"><![CDATA[Exportar idioma]]></item>
