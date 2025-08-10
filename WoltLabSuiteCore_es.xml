@@ -99,7 +99,7 @@
 		<item name="wcf.acp.article.publicationStatus"><![CDATA[Estado]]></item>
 		<item name="wcf.acp.article.publicationStatus.unpublished"><![CDATA[No publicado]]></item>
 		<item name="wcf.acp.article.publicationStatus.published"><![CDATA[Publicado]]></item>
-		<item name="wcf.acp.article.publicationStatus.delayed"><![CDATA[Publicación aplazada]]></item>
+		<item name="wcf.acp.article.publicationStatus.delayed"><![CDATA[Publicación programada]]></item>
 		<item name="wcf.acp.article.setCategory"><![CDATA[Establecer categoría]]></item>
 		<item name="wcf.acp.article.teaser"><![CDATA[Teaser]]></item>
 		<item name="wcf.acp.article.trash.notice"><![CDATA[Este artículo ha sido movido a la papelera y actualmente está oculto.]]></item>
