@@ -88,7 +88,7 @@
 		<item name="wcf.acp.article.enableComments"><![CDATA[Activar comentarios]]></item>
 		<item name="wcf.acp.article.i18n"><![CDATA[Multilingüismo]]></item>
 		<item name="wcf.acp.article.i18n.none"><![CDATA[Artículo monolingüe]]></item>
-		<item name="wcf.acp.article.i18n.none.description"><![CDATA[El contenido no está vinculado a una lengua específica o no debe haber una traducción.]]></item>
+		<item name="wcf.acp.article.i18n.none.description"><![CDATA[El contenido no está vinculado a un idioma específico o no debería tener traducción.]]></item>
 		<item name="wcf.acp.article.i18n.i18n"><![CDATA[Artículo multilingüe]]></item>
 		<item name="wcf.acp.article.i18n.i18n.description"><![CDATA[El contenido se proporcionará para cada idioma por separado.]]></item>
 		<item name="wcf.acp.article.i18n.source"><![CDATA[Usar valores]]></item>
