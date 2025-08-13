@@ -1993,7 +1993,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		Error desconocido.
 	{/if}
 {/implode}]]></item>
-		<item name="wcf.acp.package.application.isTainted"><![CDATA[La aplicación{if $taintedApplication|isset} <strong>{$taintedApplication->getPackage()->getTitle()}</strong>{/if} no está completamente instalada. Es necesario desinstalar y volver a instalar la aplicación para poder usarla.]]></item>
+		<item name="wcf.acp.package.application.isTainted"><![CDATA[La aplicación{if $taintedApplication|isset} <strong>{$taintedApplication->getPackage()->getTitle()}</strong>{/if} no está completamente instalada. Debes desinstalar y volver a instalar la aplicación para poder usarla.]]></item>
 		<item name="wcf.acp.package.enableUpgradeOverride"><![CDATA[Actualizar a WoltLab Suite {$version}]]></item>
 		<item name="wcf.acp.package.enableUpgradeOverride.enable"><![CDATA[Activar actualización a la nueva versión]]></item>
 		<item name="wcf.acp.package.enableUpgradeOverride.issues"><![CDATA[Los siguientes problemas impiden actualmente la actualización:]]></item>
