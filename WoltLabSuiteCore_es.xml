@@ -1933,7 +1933,7 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.package.validation.errorCode.21"><![CDATA[No se ha definido ninguna dependencia de "com.woltlab.wcf".]]></item>
 		<item name="wcf.acp.package.validation.errorCode.22"><![CDATA[El paquete "com.woltlab.wcf" debe ser requerido en la versión 5.4.22 o posterior.]]></item>
 		<item name="wcf.acp.package.validation.errorCode.23"><![CDATA[La versión “{$version}” del paquete requerido “{$packageName}” no es válida.]]></item>
-		<item name="wcf.acp.package.validation.errorCode.24"><![CDATA[El &lt;packageinformation&gt; contiene un elemento hijo “{$tag}” desconocido.]]></item>
+		<item name="wcf.acp.package.validation.errorCode.24"><![CDATA[El &lt;packageinformation&gt; contiene un elemento secundario “{$tag}” desconocido.]]></item>
 		<item name="wcf.acp.package.validation.errorCode.25"><![CDATA[El &lt;authorinformation&gt; contiene un elemento hijo “{$tag}” desconocido.]]></item>
 		<item name="wcf.acp.package.validation.errorCode.26"><![CDATA[No se ha proporcionado ningún &lt;authorinformation&gt; (válido).]]></item>
 		<item name="wcf.acp.package.validation.errorCode.27"><![CDATA[No se ha proporcionado ningún &lt;packagename&gt; (válido).]]></item>
