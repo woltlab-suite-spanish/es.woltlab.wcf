@@ -62,7 +62,7 @@
 		<item name="wcf.acp.application.domainName"><![CDATA[Dominio]]></item>
 		<item name="wcf.acp.application.domainName.error.containsPath"><![CDATA[El dominio no puede contener componentes de ruta.]]></item>
 		<item name="wcf.acp.application.domainPath"><![CDATA[Ruta]]></item>
-		<item name="wcf.acp.application.domainPath.error.conflict"><![CDATA[Esta ruta ya está siendo usada por la aplicación “{$conflictApplication->getName()}”.]]></item>
+		<item name="wcf.acp.application.domainPath.error.conflict"><![CDATA[Esta ruta ya está en uso por la aplicación “{$conflictApplication->getName()}”.]]></item>
 		<item name="wcf.acp.application.landingPage"><![CDATA[Página de entrada]]></item>
 		<item name="wcf.acp.application.landingPage.default"><![CDATA[(Por defecto)]]></item>
 		<item name="wcf.acp.application.list"><![CDATA[Aplicaciones instaladas]]></item>
