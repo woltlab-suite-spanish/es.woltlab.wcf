@@ -4286,7 +4286,7 @@ Archivos adjuntos:
 		<item name="wcf.moderation.type"><![CDATA[Tipo]]></item>
 		<item name="wcf.moderation.type.all"><![CDATA[Todos los elementos]]></item>
 		<item name="wcf.moderation.type.com.woltlab.wcf.moderation.activation"><![CDATA[Aprobación]]></item>
-		<item name="wcf.moderation.type.com.woltlab.wcf.moderation.activation.delayed"><![CDATA[Aplazado]]></item>
+		<item name="wcf.moderation.type.com.woltlab.wcf.moderation.activation.delayed"><![CDATA[Programado]]></item>
 		<item name="wcf.moderation.type.com.woltlab.wcf.moderation.report"><![CDATA[Reporte]]></item>
 		<item name="wcf.moderation.type.com.woltlab.wcf.comment.comment"><![CDATA[Comentario]]></item>
 		<item name="wcf.moderation.type.com.woltlab.wcf.comment.response"><![CDATA[Respuesta a comentario]]></item>
