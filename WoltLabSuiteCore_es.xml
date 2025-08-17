@@ -31,7 +31,7 @@
 </ul>]]></item>
 		<item name="wcf.acp.ad.add"><![CDATA[Añadir anuncio]]></item>
 		<item name="wcf.acp.ad.conditions"><![CDATA[Condiciones]]></item>
-		<item name="wcf.acp.ad.conditions.description"><![CDATA[Si no se especifica ninguna condición el anuncio se mostrará para todos los usuarios.]]></item>
+		<item name="wcf.acp.ad.conditions.description"><![CDATA[Si no se especifica ninguna condición, el anuncio se mostrará para todos los usuarios.]]></item>
 		<item name="wcf.acp.ad.conditions.page"><![CDATA[Página]]></item>
 		<item name="wcf.acp.ad.conditions.page.description"><![CDATA[La página solicitada debe cumplir las siguientes condiciones para que se muestre el anuncio.]]></item>
 		<item name="wcf.acp.ad.conditions.pointInTime"><![CDATA[Tiempo]]></item>
