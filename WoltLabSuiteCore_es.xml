@@ -361,7 +361,7 @@
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.article"><![CDATA[Artículos]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.article.category"><![CDATA[Categorías de artículos]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.article.comment"><![CDATA[Comentarios de artículos]]></item>
-		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.article.comment.response"><![CDATA[REspuestas a comentarios de artículos]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.article.comment.response"><![CDATA[Respuestas a comentarios de artículos]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.media.category"><![CDATA[Categorías de medios]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.media"><![CDATA[Medios]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.trophy.category"><![CDATA[Categorías de trofeos]]></item>
