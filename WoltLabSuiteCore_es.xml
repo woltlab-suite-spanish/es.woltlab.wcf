@@ -538,7 +538,7 @@
 		<item name="wcf.acp.devtools.project.instructions.type.install.error.duplicate"><![CDATA[Ya existe un conjunto de instrucciones de instalación.]]></item>
 		<item name="wcf.acp.devtools.project.optionalPackage.error.exclusionOptional"><![CDATA[Los paquetes opcionales no pueden excluirse al mismo tiempo. Paquetes afectados: {implode from=$affectedPackages item=affectedPackage}{$affectedPackage}{/implode}.]]></item>
 		<item name="wcf.acp.devtools.project.optionalPackage.error.requirementOptional"><![CDATA[Los paquetes opcionales no pueden requerirse al mismo tiempo. Paquetes afectados: {implode from=$affectedPackages item=affectedPackage}{$affectedPackage}{/implode}.]]></item>
-		<item name="wcf.acp.devtools.project.optionalPackage.error.selfOptional"><![CDATA[A package cannot be an optional package for itself.]]></item>
+		<item name="wcf.acp.devtools.project.optionalPackage.error.selfOptional"><![CDATA[Un paquete no puede ser un paquete opcional para sí mismo.]]></item>
 		<item name="wcf.acp.devtools.project.instruction.value"><![CDATA[Archivo(s)]]></item>
 		<item name="wcf.acp.devtools.project.instruction.value.description"><![CDATA[El archivo introducido se procesará durante la instalación/actualización.]]></item>
 		<item name="wcf.acp.devtools.project.instructions.description"><![CDATA[Las instrucciones indican a la rutina de instalación y actualización lo que hay que hacer para instalar/actualizar correctamente el paquete.]]></item>
