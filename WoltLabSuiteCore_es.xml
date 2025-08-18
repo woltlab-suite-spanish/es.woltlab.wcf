@@ -5453,7 +5453,7 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.notification.pageComment.responseOwner.title"><![CDATA[Nueva respuesta (Página)]]></item>
 		<item name="wcf.user.notification.status.active"><![CDATA[Activa]]></item>
 		<item name="wcf.user.notification.status.email"><![CDATA[Email]]></item>
-		<item name="wcf.user.notification.enableDesktopNotifications"><![CDATA[Activa las notificaciones de escritorio para recibir avisos de nuevas notificaciones.]]></item>
+		<item name="wcf.user.notification.enableDesktopNotifications"><![CDATA[Activa las notificaciones de escritorio para recibir alertas de nuevas notificaciones.]]></item>
 		<item name="wcf.user.notification.enableDesktopNotifications.button"><![CDATA[Cambiar preferencia]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.user.registration.notification.needActivation"><![CDATA[Un usuario requiere activación]]></item>
 		<item name="wcf.user.notification.userNeedActivation.title"><![CDATA[User requires activation]]></item>
