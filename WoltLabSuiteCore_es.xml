@@ -5143,7 +5143,7 @@ También has recibido una lista de códigos de recuperación para usar cuando tu
 		<item name="wcf.user.usersOnline.sortField.username"><![CDATA[Nombre de usuario]]></item>
 	</category>
 	<category name="wcf.user.recentActivity">
-		<item name="wcf.user.recentActivity"><![CDATA[Actividades recientes]]></item>
+		<item name="wcf.user.recentActivity"><![CDATA[Actividad reciente]]></item>
 		<item name="wcf.user.recentActivity.more"><![CDATA[Mostrar más]]></item>
 		<item name="wcf.user.recentActivity.noMoreEntries"><![CDATA[No hay nuevas actividades en este momento.]]></item>
 		<item name="wcf.user.recentActivity.noEntries"><![CDATA[No hay nuevas actividades en este momento.]]></item>
