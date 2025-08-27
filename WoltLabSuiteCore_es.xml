@@ -1692,7 +1692,7 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.message_public_highlighters"><![CDATA[Resaltadores de sintaxis seleccionables]]></item>
 		<item name="wcf.acp.option.message_public_highlighters.description"><![CDATA[Los resaltadores de sintaxis elegidos pueden ser seleccionados fácilmente por el usuario mediante el editor. Los demás resaltadores siguen estando disponibles, pero el usuario debe conocer su nombre.]]></item>
 		<item name="wcf.acp.option.log_missing_language_items"><![CDATA[Registrar elementos de idioma ausentes]]></item>
-		<item name="wcf.acp.option.log_missing_language_items.description"><![CDATA[Las frases de idioma perdidas se enumeran en la página <a href="{link controller='DevtoolsMissingLanguageItemList'}{/link}">Frases perdidas</a>.]]></item>
+		<item name="wcf.acp.option.log_missing_language_items.description"><![CDATA[Los elementos de idioma ausentes se enumeran en la página <a href="{link controller='DevtoolsMissingLanguageItemList'}{/link}">Frases ausentes</a>.]]></item>
 		<item name="wcf.acp.option.category.general.system.ipAddress"><![CDATA[Direcciones IP]]></item>
 		<item name="wcf.acp.option.prune_ip_address"><![CDATA[Período de almacenamiento de direcciones IP]]></item>
 		<item name="wcf.acp.option.prune_ip_address.description"><![CDATA[Las direcciones IP almacenadas se eliminarán después de los días indicados. Usa 0 para desactivar.]]></item>
