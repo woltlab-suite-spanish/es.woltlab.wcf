@@ -1814,7 +1814,7 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.package.installation.packageStatus.delivered"><![CDATA[Proporcionado]]></item>
 		<item name="wcf.acp.package.installation.packageStatus.installed"><![CDATA[Instalado]]></item>
 		<item name="wcf.acp.package.installation.packageStatus.invalidDeliveredPackage"><![CDATA[Entrega de un paquete incorrecta ({$package.deliveredPackage})]]></item>
-		<item name="wcf.acp.package.installation.packageStatus.missing"><![CDATA[Perdido]]></item>
+		<item name="wcf.acp.package.installation.packageStatus.missing"><![CDATA[Ausente]]></item>
 		<item name="wcf.acp.package.installation.packageStatus.missingVersion"><![CDATA[Versión insuficiente ({if $package.existingVersion|isset}versión instalada: {$package.existingVersion}{else}versión entregada: {$package.deliveredVersion}{/if})]]></item>
 		<item name="wcf.acp.package.installation.rollback"><![CDATA[Reversión de instalación]]></item>
 		<item name="wcf.acp.package.installation.step.install"><![CDATA[Instalando “{$packageName}” …]]></item>
