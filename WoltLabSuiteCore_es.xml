@@ -450,7 +450,7 @@
 		<item name="wcf.acp.devtools.project.installPackage.confirmMessage"><![CDATA[¿Realmente quieres instalar el paquete <span class="confirmationObject">{@$packageIdentifier}</span>?]]></item>
 		<item name="wcf.acp.devtools.project.installPackage.error.openRequirements"><![CDATA[El proyecto no puede instalarse porque faltan los siguientes paquetes:]]></item>
 		<item name="wcf.acp.devtools.project.installPackage.openRequirement"><![CDATA[{$openPackage}{if $openRequirement[minversion]|isset} (Versión {$openRequirement[minversion]}){/if}]]></item>
-		<item name="wcf.acp.devtools.project.installPackage.error.openRequirements.title"><![CDATA[Paquetes perdidos]]></item>
+		<item name="wcf.acp.devtools.project.installPackage.error.openRequirements.title"><![CDATA[Paquetes ausentes]]></item>
 		<item name="wcf.acp.devtools.project.packageIdentifier"><![CDATA[Identificador del paquete]]></item>
 		<item name="wcf.acp.devtools.project.requiredPackage.requiredPackage"><![CDATA[<kbd>{$packageIdentifier}</kbd>
 <dl class="plain inlineDataList small">
