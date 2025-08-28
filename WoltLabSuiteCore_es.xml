@@ -3962,7 +3962,7 @@ Archivos adjuntos:
 		<item name="wcf.global.reason"><![CDATA[Motivo]]></item>
 		<item name="wcf.global.reason.optional"><![CDATA[Motivo (opcional)]]></item>
 		<item name="wcf.global.settings"><![CDATA[Ajustes]]></item>
-		<item name="wcf.global.bulkProcessing.warning"><![CDATA[¡Aviso! El procesamiento en masa se realizará <strong>sin confirmación adicional</strong> para todos los elementos que coincidan con tus criterios.]]></item>
+		<item name="wcf.global.bulkProcessing.warning"><![CDATA[¡Atención! El procesamiento en masa se realizará <strong>sin confirmación adicional</strong> para todos los elementos que coincidan con tus criterios.]]></item>
 		<item name="wcf.global.search"><![CDATA[Buscar]]></item>
 		<item name="wcf.global.select"><![CDATA[Seleccionar]]></item>
 		<item name="wcf.global.sorting"><![CDATA[Ordenar]]></item>
