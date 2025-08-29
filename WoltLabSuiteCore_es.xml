@@ -2614,7 +2614,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.rebuildData.wcf_system_worker_SitemapRebuildWorker.description"><![CDATA[Reconstruye el mapa del sitio.]]></item>
 		<item name="wcf.acp.rebuildData.wcf_system_worker_UserActivityPointUpdateEventsWorker"><![CDATA[Reconstruir puntos por actividad]]></item>
 		<item name="wcf.acp.rebuildData.wcf_system_worker_UserActivityPointUpdateEventsWorker.description"><![CDATA[Recalcula los puntos por actividad.]]></item>
-		<item name="wcf.acp.rebuildData.wcf_system_worker_UserActivityPointItemsRebuildDataWorker"><![CDATA[Reconstruir puntos de actividades]]></item>
+		<item name="wcf.acp.rebuildData.wcf_system_worker_UserActivityPointItemsRebuildDataWorker"><![CDATA[Reconstruir actividades de puntos]]></item>
 		<item name="wcf.acp.rebuildData.wcf_system_worker_UserActivityPointItemsRebuildDataWorker.description"><![CDATA[Recalcula el número de actividades por las que los usuarios obtienen puntos y reconstruye las clasificaciones de los usuarios.]]></item>
 		<item name="wcf.acp.rebuildData.offline"><![CDATA[Se recomienda encarecidamente activar el modo de mantenimiento mientras se realiza una reconstrucción de datos.]]></item>
 		<item name="wcf.acp.rebuildData.rebuildAll"><![CDATA[Reconstruir todo]]></item>
