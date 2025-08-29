@@ -2585,7 +2585,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 	</category>
 	<category name="wcf.acp.rebuildData">
 		<item name="wcf.acp.rebuildData"><![CDATA[Reconstruir datos]]></item>
-		<item name="wcf.acp.rebuildData.description"><![CDATA[Para garantizar la coherencia, por ejemplo tras una importación de datos, se recomienda realizar todas las acciones siguientes en su orden correspondiente, empezando de arriba abajo.]]></item>
+		<item name="wcf.acp.rebuildData.description"><![CDATA[Para garantizar la coherencia, por ejemplo, después de una importación de datos, se recomienda encarecidamente realizar todas las acciones que se indican a continuación en el orden correspondiente, de arriba abajo.]]></item>
 		<item name="wcf.acp.rebuildData.cli"><![CDATA[Reconstruir usando la línea de comandos]]></item>
 		<item name="wcf.acp.rebuildData.cli.description"><![CDATA[Los comandos listados pueden ser usados en <kbd>cli.php</kbd> para realizar todas las acciones en el orden correcto.]]></item>
 		<item name="wcf.acp.rebuildData.wcf_system_worker_UserRebuildDataWorker"><![CDATA[Reconstruir usuarios]]></item>
