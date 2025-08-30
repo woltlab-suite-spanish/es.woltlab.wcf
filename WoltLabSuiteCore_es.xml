@@ -4504,7 +4504,7 @@ Archivos adjuntos:
 		<item name="wcf.poll.question"><![CDATA[Pregunta de la encuesta]]></item>
 		<item name="wcf.poll.restrictedResult"><![CDATA[El resultado solo es visible para los participantes.]]></item>
 		<item name="wcf.poll.resultsRequireVote"><![CDATA[Restringir los resultados solo a los participantes]]></item>
-		<item name="wcf.poll.resultsRequireVote.description"><![CDATA[Los resultados son invisibles a menos que la encuesta haya finalizado o el usuario haya votado.]]></item>
+		<item name="wcf.poll.resultsRequireVote.description"><![CDATA[Los resultados no son visibles a menos que la encuesta haya finalizado o el usuario haya votado.]]></item>
 		<item name="wcf.poll.sortByVotes"><![CDATA[Ordenar el resultado por votos]]></item>
 		<item name="wcf.poll.totalVotes"><![CDATA[{#$poll->votes} voto{if $poll->votes != 1}s{/if} en total]]></item>
 		<item name="wcf.poll.endTimeInfo"><![CDATA[La encuesta termina el {@$poll->endTime|plainTime}]]></item>
