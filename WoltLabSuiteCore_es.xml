@@ -5093,7 +5093,7 @@ También has recibido una lista de códigos de recuperación para usar cuando tu
 		<item name="wcf.acp.trophy.description"><![CDATA[Descripción]]></item>
 		<item name="wcf.acp.trophy.isDisabled"><![CDATA[Desactivar trofeo]]></item>
 		<item name="wcf.acp.trophy.awardAutomatically"><![CDATA[Asignar trofeo automáticamente]]></item>
-		<item name="wcf.acp.trophy.revokeAutomatically"><![CDATA[Revocar el trofeo automáticamente si dejan de cumplirse las condiciones]]></item>
+		<item name="wcf.acp.trophy.revokeAutomatically"><![CDATA[Revocar trofeo automáticamente si dejan de cumplirse las condiciones]]></item>
 		<item name="wcf.acp.trophy.type"><![CDATA[Tipo de trofeo]]></item>
 		<item name="wcf.acp.trophy.type.badge"><![CDATA[Insignia]]></item>
 		<item name="wcf.acp.trophy.type.imageUpload"><![CDATA[Imagen]]></item>
