@@ -3480,7 +3480,7 @@ Archivos adjuntos:
 {/foreach}
 </ul>
 {if CONTACT_FORM_PRUNE_ATTACHMENTS}
-<p><small>(Los archivos adjuntos se eliminan después de {if CONTACT_FORM_PRUNE_ATTACHMENTS == 1}un día{else}{CONTACT_FORM_PRUNE_ATTACHMENTS} día{/if}.)</small></p>
+<p><small>(Los archivos adjuntos se eliminan después de {if CONTACT_FORM_PRUNE_ATTACHMENTS == 1}un día{else}{CONTACT_FORM_PRUNE_ATTACHMENTS} días{/if}.)</small></p>
 {/if}
 {/if}]]></item>
 		<item name="wcf.contact.option1"><![CDATA[Asunto]]></item>
