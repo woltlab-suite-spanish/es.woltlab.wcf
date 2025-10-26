@@ -3461,7 +3461,7 @@ Archivos adjuntos:
 {foreach from=$attachments item=attachment}
 - {@$attachment->getTitle()} [URL: {@$attachment->getLink()} ]
 {/foreach}
-{if CONTACT_FORM_PRUNE_ATTACHMENTS}(Attachments are removed after {if CONTACT_FORM_PRUNE_ATTACHMENTS == 1}one day{else}{CONTACT_FORM_PRUNE_ATTACHMENTS} days{/if}.){/if} {* this line ends with a space *}
+{if CONTACT_FORM_PRUNE_ATTACHMENTS}(Los archivos adjuntos se eliminan después de {if CONTACT_FORM_PRUNE_ATTACHMENTS == 1}un día{else}{CONTACT_FORM_PRUNE_ATTACHMENTS} días{/if}.){/if} {* this line ends with a space *}
 {/if}]]></item>
 		<item name="wcf.contact.mail.html"><![CDATA[<h2>Hola,</h2>
 
