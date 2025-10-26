@@ -4042,7 +4042,7 @@ Archivos adjuntos:
 		<item name="wcf.form.field.upload.error.maximumImageWidth"><![CDATA[El archivo “{$file->getFilename()}” puede tener una anchura máxima de {#$maximumImageWidth} píxeles.]]></item>
 		<item name="wcf.form.field.upload.error.minimumImageHeight"><![CDATA[El archivo “{$file->getFilename()}” puede tener una altura mínima de {#$minimumImageHeight} píxeles.]]></item>
 		<item name="wcf.form.field.upload.error.maximumImageHeight"><![CDATA[El archivo “{$file->getFilename()}” puede tener una altura máxima de {#$maximumImageHeight} píxeles.]]></item>
-		<item name="wcf.form.field.upload.error.minimum"><![CDATA[Debe subir al menos {if $minimum > 1}{#$minimum} archivos{else}un archivo{/if}.]]></item>
+		<item name="wcf.form.field.upload.error.minimum"><![CDATA[Debes subir al menos {if $minimum > 1}{#$minimum} archivos{else}un archivo{/if}.]]></item>
 		<item name="wcf.form.field.upload.error.maximum"><![CDATA[Puedes subir un máximo de {if $maximum > 1}{#$maximum} archivos{else}un archivo{/if}.]]></item>
 	</category>
 	<category name="wcf.image">
