@@ -4036,7 +4036,7 @@ Archivos adjuntos:
 		<item name="wcf.form.field.itemList.error.minimumMultiples"><![CDATA[Tienes que introducir al menos {#$minimumCount} entrada{if $maximumCount != 1}s{/if} pero solo has introducido {#$count} entrada{if $maximumCount != 1}s{/if}.]]></item>
 		<item name="wcf.form.field.email"><![CDATA[Dirección de correo electrónico]]></item>
 		<item name="wcf.form.field.email.error.invalidEmail"><![CDATA[El texto introducido no es una dirección de correo electrónico válida.]]></item>
-		<item name="wcf.form.field.email.error.maximumLength"><![CDATA[La dirección de correo electrónico introducida{if $language|isset} para el idioma “{$language}”{/if} contiene {#$length} caracter{if $length !== 1}es{/if} pero no puede ser superior a {#$maximumLength} caracter{if $maximumLength !== 1}es{/if}.]]></item>
+		<item name="wcf.form.field.email.error.maximumLength"><![CDATA[La dirección de correo electrónico introducida{if $language|isset} para el idioma “{$language}”{/if} contiene {#$length} {if $length == 1}carácter{else}caracteres{/if} pero no puede ser superior a {#$maximumLength} {if $maximumLength == 1}carácter{else}caracteres{/if}.]]></item>
 		<item name="wcf.form.field.upload.error.maximumFilesize"><![CDATA[El archivo “{$file->getFilename()}” puede tener un tamaño máximo de {$maximumFilesize|filesize}.]]></item>
 		<item name="wcf.form.field.upload.error.minimumImageWidth"><![CDATA[El archivo “{$file->getFilename()}” puede tener una anchura mínima de {#$minimumImageWidth} píxeles.]]></item>
 		<item name="wcf.form.field.upload.error.maximumImageWidth"><![CDATA[El archivo “{$file->getFilename()}” puede tener una anchura máxima de {#$maximumImageWidth} píxeles.]]></item>
