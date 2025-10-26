@@ -4172,7 +4172,7 @@ Archivos adjuntos:
 		<item name="wcf.media.uploader"><![CDATA[Subido por]]></item>
 		<item name="wcf.media.uploadTime"><![CDATA[Fecha de subida]]></item>
 		<item name="wcf.media.search.noResults"><![CDATA[La búsqueda no ha devuelto ningún resultado.]]></item>
-		<item name="wcf.media.search.info.searchStringThreshold"><![CDATA[El término de búsqueda debe contener al menos {#$minSearchLength} caractere{if $minSearchLength > 1}s{/if}.]]></item>
+		<item name="wcf.media.search.info.searchStringThreshold"><![CDATA[El término de búsqueda debe contener al menos {#$minSearchLength} {if $minSearchLength == 1}carácter{else}caracteres{/if}.]]></item>
 		<item name="wcf.media.setCategory"><![CDATA[Editar categoría]]></item>
 		<item name="wcf.media.downloads"><![CDATA[Descargas]]></item>
 		<item name="wcf.media.lastDownloadTime"><![CDATA[Última descarga]]></item>
