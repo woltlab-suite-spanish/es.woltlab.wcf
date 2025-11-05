@@ -2765,7 +2765,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.updateServer.serverURL.error.nonStandardPort"><![CDATA[La dirección no debe usar un puerto no estándar.]]></item>
 		<item name="wcf.acp.updateServer.serverURL.error.userinfo"><![CDATA[La dirección no debe contener credenciales.]]></item>
 		<item name="wcf.acp.updateServer.serverURL.error.woltlab"><![CDATA[Los servidores oficiales ya están instalados y correctamente configurados.]]></item>
-		<item name="wcf.acp.updateServer.serverURL.error.duplicate"><![CDATA[El servidor introducido ya existe. Puede <a href="{link controller="PackageUpdateServerEdit" id=$errorType[duplicate]->packageUpdateServerID}{/link}"><strong>editar este servidor en su lugar</strong></a>.]]></item>
+		<item name="wcf.acp.updateServer.serverURL.error.duplicate"><![CDATA[El servidor introducido ya existe. Puedes <a href="{link controller="PackageUpdateServerEdit" id=$errorType[duplicate]->packageUpdateServerID}{/link}"><strong>editar este servidor en su lugar</strong></a>.]]></item>
 		<item name="wcf.acp.updateServer.status"><![CDATA[Estado]]></item>
 		<item name="wcf.acp.updateServer.lastUpdateTime"><![CDATA[Último acceso]]></item>
 	</category>
