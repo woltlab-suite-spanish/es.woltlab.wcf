@@ -3996,8 +3996,8 @@ Archivos adjuntos:
 		<item name="wcf.global.form.error.securityToken"><![CDATA[No se ha podido verificar la validez de tu solicitud porque el token XSRF no era válido. Vuelva a enviar el formulario.]]></item>
 		<item name="wcf.global.form.input.maxItems"><![CDATA[Máximo de elementos alcanzados]]></item>
 		<item name="wcf.global.form.required"><![CDATA[Campos obligatorios]]></item>
-		<item name="wcf.global.form.password.button.hide"><![CDATA[Ocultar]]></item>
-		<item name="wcf.global.form.password.button.show"><![CDATA[Mostrar]]></item>
+		<item name="wcf.global.form.password.button.hide"><![CDATA[Ocultar contraseña]]></item>
+		<item name="wcf.global.form.password.button.show"><![CDATA[Mostrar contraseña]]></item>
 	</category>
 	<category name="wcf.form">
 		<item name="wcf.form.field.className"><![CDATA[Clase]]></item>
