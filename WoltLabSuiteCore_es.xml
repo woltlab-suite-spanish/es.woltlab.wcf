@@ -4845,7 +4845,7 @@ no has registrado una cuenta en nuestro sitio web.]]></item>
 		<item name="wcf.user.panel.settings"><![CDATA[Ajustes]]></item>
 		<item name="wcf.user.panel.showAll"><![CDATA[Mostrar todo]]></item>
 		<item name="wcf.user.boxList.description.activityPoints"><![CDATA[{#$boxUser->activityPoints} punto{if $boxUser->activityPoints != 1}s{/if}]]></item>
-		<item name="wcf.user.boxList.description.likesReceived"><![CDATA[{#$boxUser->likesReceived} me gusta{/if}]]></item>
+		<item name="wcf.user.boxList.description.likesReceived"><![CDATA[{#$boxUser->likesReceived} me gusta]]></item>
 		<item name="wcf.user.boxList.description.registrationDate"><![CDATA[{@$boxUser->registrationDate|time}]]></item>
 		<item name="wcf.user.mostOnlineUsers"><![CDATA[Récord de usuarios en línea]]></item>
 		<item name="wcf.user.sortField.activityPoints"><![CDATA[Puntos]]></item>
