@@ -2849,7 +2849,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.style.colors.primaryColor"><![CDATA[Color de fuente (primario)]]></item>
 		<item name="wcf.acp.style.colors.selectCategoryByClick"><![CDATA[Selección directa por categorías]]></item>
 		<item name="wcf.acp.style.colors.tabular"><![CDATA[Listas tabuladas]]></item>
-		<item name="wcf.acp.style.colors.toggleColorPalette"><![CDATA[Alternar vista]]></item>
+		<item name="wcf.acp.style.colors.toggleColorPalette"><![CDATA[Cambiar vista]]></item>
 		<item name="wcf.acp.style.colors.userPanel"><![CDATA[Panel de usuario]]></item>
 		<item name="wcf.acp.style.copyright"><![CDATA[Copyright]]></item>
 		<item name="wcf.acp.style.copyStyle"><![CDATA[Duplicar estilo]]></item>
