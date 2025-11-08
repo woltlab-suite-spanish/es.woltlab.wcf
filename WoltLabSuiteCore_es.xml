@@ -4026,7 +4026,7 @@ Archivos adjuntos:
 		<item name="wcf.form.field.username.error.notUnique"><![CDATA[Este nombre de usuario ya está en uso.]]></item>
 		<item name="wcf.form.fieldValidator.dotSeparatedString.error.invalidSegments"><![CDATA[Los siguientes segmentos no son válidos: {implode from=$invalidSegments key=segmentNumber item=segment}{if $segment !== ''}<kbd>{$segment}</kbd>{else}(empty){/if} (segment {#$segmentNumber + 1}){/implode}.]]></item>
 		<item name="wcf.form.field.url.error.invalid"><![CDATA[El enlace introducido no es válido.]]></item>
-		<item name="wcf.form.field.rating"><![CDATA[Puntuación]]></item>
+		<item name="wcf.form.field.rating"><![CDATA[Calificación]]></item>
 		<item name="wcf.form.field.rating.ratingTitle"><![CDATA[{#$rating}/{#$maximumRating}]]></item>
 		<item name="wcf.form.field.rating.removeRating"><![CDATA[Restablecer calificación]]></item>
 		<item name="wcf.form.field.date.error.format"><![CDATA[El formato del valor introducido no es válido.]]></item>
