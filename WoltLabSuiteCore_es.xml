@@ -230,7 +230,7 @@
 		<item name="wcf.acp.box.linkPageObjectID.error.invalid"><![CDATA[La ID no es válida.]]></item>
 		<item name="wcf.acp.box.lastVersion"><![CDATA[Existen <a href="{link controller='VersionTrackerList' objectType='com.woltlab.wcf.box' objectID=$box->boxID}{/link}">versiones anteriores</a> de esta caja, el último cambio fue realizado por <a href="{link controller='UserEdit' id=$lastVersion->userID}{/link}">{$lastVersion->username}</a> ({@$lastVersion->time|time}).]]></item>
 		<item name="wcf.acp.box.originIsNotSystem"><![CDATA[Solo cajas personalizadas]]></item>
-		<item name="wcf.acp.box.isDisabled"><![CDATA[Desactivar caja]]></item>
+		<item name="wcf.acp.box.isDisabled"><![CDATA[Caja desactivada]]></item>
 		<item name="wcf.acp.box.button.copyBox"><![CDATA[Copiar caja]]></item>
 		<item name="wcf.acp.box.copy"><![CDATA[Copiar caja]]></item>
 		<item name="wcf.acp.box.copy.description"><![CDATA[Los valores introducidos para esta caja se usarán como preajuste para crear una nueva caja. Solo se incluyen los valores editables en este formulario.<br><br>Tendrás que enviar el formulario para guardar la nueva caja. Puedes realizar cambios en la nueva caja editando los valores de ese formulario, ten en cuenta que las nuevas cajas están desactivadas por defecto.]]></item>
@@ -1675,7 +1675,7 @@ Cuando se solicite la URL de notificación para las notificaciones de pago insta
 		<item name="wcf.acp.option.enable_polling"><![CDATA[Activar notificaciones en segundo plano]]></item>
 		<item name="wcf.acp.option.enable_polling.description"><![CDATA[Recupera periódicamente nuevas notificaciones en segundo plano, las solicitudes se envían cada 5 minutos. El intervalo aumenta hasta 15 minutos en caso de inactividad.]]></item>
 		<item name="wcf.acp.option.module_contact_form"><![CDATA[Activar formulario de contacto]]></item>
-		<item name="wcf.acp.option.module_contact_form.description"><![CDATA[Activa el formulario de contacto, una vez activado puedes personalizar los <a href="{link controller='ContactSettings'}{/link}">campos de entrada y destinatarios</a> para que se adapten mejor a tus necesidades.]]></item>
+		<item name="wcf.acp.option.module_contact_form.description"><![CDATA[Activa el formulario de contacto, una vez activado puedes personalizar los <a href="{link controller='ContactOptionList'}{/link}">campos de opciones</a> y <a href="{link controller='ContactRecipientList'}{/link}">destinarios</a> para que se adapten mejor a tus necesidades.]]></item>
 		<item name="wcf.acp.option.module_trophy"><![CDATA[Trofeos]]></item>
 		<item name="wcf.acp.option.category.module.development"><![CDATA[Desarrollo]]></item>
 		<item name="wcf.acp.option.category.module.development.notice"><![CDATA[Estas opciones se usan exclusivamente para desarrollo y depuración, no son adecuadas para su uso en entornos de producción.]]></item>
@@ -2585,7 +2585,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.pip.acpTemplateDelete.application"><![CDATA[App]]></item>
 	</category>
 	<category name="wcf.acp.reactionType">
-		<item name="wcf.acp.reactionType.image"><![CDATA[Archivo de reacción]]></item>
+		<item name="wcf.acp.reactionType.image"><![CDATA[Imagen de reacción]]></item>
 		<item name="wcf.acp.reactionType.isAssignable"><![CDATA[Permitir uso]]></item>
 		<item name="wcf.acp.reactionType.isAssignable.description"><![CDATA[Si no se puede usar una reacción, los usuarios no pueden reaccionar con ella. Si ya se ha reaccionado a un contenido con la reacción, sigue siendo visible para los usuarios.]]></item>
 		<item name="wcf.acp.reactionType.isNotAssignable"><![CDATA[No permitir uso]]></item>
@@ -4099,7 +4099,7 @@ Archivos adjuntos:
 		<item name="wcf.form.option.textarea"><![CDATA[Texto multilínea]]></item>
 		<item name="wcf.form.option.sourceCode"><![CDATA[Código fuente]]></item>
 		<item name="wcf.form.option.url"><![CDATA[Enlace]]></item>
-		<item name="wcf.form.option.wysiwyg"><![CDATA[Wysiwyg]]></item>
+		<item name="wcf.form.option.wysiwyg"><![CDATA[WYSIWYG]]></item>
 		<item name="wcf.form.option.shared.currency"><![CDATA[Moneda]]></item>
 		<item name="wcf.form.option.shared.defaultValue"><![CDATA[Valor predeterminado]]></item>
 		<item name="wcf.form.option.shared.maxLength"><![CDATA[Longitud máxima del texto]]></item>
@@ -4455,6 +4455,7 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<item name="wcf.page.menu.outstandingItems"><![CDATA[({#$menuItemNode->getOutstandingItems()} {if $menuItemNode->getOutstandingItems() == 1}nuevo elemento{else}nuevos elementos{/if})]]></item>
 		<item name="wcf.page.guestTokenDialog.title"><![CDATA[Verificación requerida]]></item>
 		<item name="wcf.page.readingTime"><![CDATA[{#$minutes} minutos de lectura]]></item>
+		<item name="wcf.page.removeFilterTooltip"><![CDATA[Eliminar filtro “{$filterLabel}”]]></item>
 	</category>
 	<category name="wcf.acp.page">
 		<item name="wcf.acp.page.add"><![CDATA[Añadir página]]></item>
