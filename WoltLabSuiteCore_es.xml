@@ -116,7 +116,7 @@
 	</category>
 	<category name="wcf.acp.bbcode">
 		<item name="wcf.acp.bbcode.add"><![CDATA[Añadir BBCode]]></item>
-		<item name="wcf.acp.bbcode.add.userGroupOptionInfo"><![CDATA[Los BBCodes recién creados serán accesibles para todo el mundo. Puede restringir su uso editando los permisos específicos del grupo de usuarios.]]></item>
+		<item name="wcf.acp.bbcode.add.userGroupOptionInfo"><![CDATA[Los BBCodes recién creados serán accesibles para todo el mundo. Puedes restringir su uso editando los permisos específicos del grupo de usuarios.]]></item>
 		<item name="wcf.acp.bbcode.attribute"><![CDATA[Atributo]]></item>
 		<item name="wcf.acp.bbcode.numberedAttribute"><![CDATA[Atributo {#$attributeNumber}]]></item>
 		<item name="wcf.acp.bbcode.attribute.attributeHtml"><![CDATA[Código HTML de atributo]]></item>
