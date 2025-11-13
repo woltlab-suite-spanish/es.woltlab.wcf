@@ -4407,7 +4407,7 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<item name="wcf.page.mainMenu"><![CDATA[Navegación]]></item>
 		<item name="wcf.page.pagePosition"><![CDATA[Página {#$pageNo} de {#$pages}]]></item>
 		<item name="wcf.page.javascriptDisabled"><![CDATA[Tu navegador tiene JavaScript desactivado. Si deseas usar todas las funciones de este sitio, es obligatorio activar JavaScript.]]></item>
-		<item name="wcf.page.requestedPage"><![CDATA[Página requerida]]></item>
+		<item name="wcf.page.requestedPage"><![CDATA[Página solicitada]]></item>
 		<item name="wcf.page.copyright"><![CDATA[<a href="https://www.woltlab.com" rel="nofollow"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Powered by <strong>WoltLab Suite&trade;{if SHOW_VERSION_NUMBER} {@WCF_VERSION}{/if}</strong></a>]]></item>
 		<item name="wcf.page.onlineLocation.com.woltlab.wcf.Article"><![CDATA[Artículo <a href="{$article->getLink()}">{$article->getTitle()}</a>]]></item>
 		<item name="wcf.page.onlineLocation.com.woltlab.wcf.CategoryArticleList"><![CDATA[Categoría de artículo <a href="{$category->getLink()}">{$category->getTitle()}</a>]]></item>
