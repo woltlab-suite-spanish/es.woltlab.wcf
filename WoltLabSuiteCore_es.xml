@@ -4454,7 +4454,7 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<item name="wcf.page.box.edit"><![CDATA[Editar caja]]></item>
 		<item name="wcf.page.menu.outstandingItems"><![CDATA[({#$menuItemNode->getOutstandingItems()} {if $menuItemNode->getOutstandingItems() == 1}nuevo elemento{else}nuevos elementos{/if})]]></item>
 		<item name="wcf.page.guestTokenDialog.title"><![CDATA[Verificación requerida]]></item>
-		<item name="wcf.page.readingTime"><![CDATA[{#$minutes} minutos de lectura]]></item>
+		<item name="wcf.page.readingTime"><![CDATA[{#$minutes} {if $minutes == 1}minuto{else}minutos{/if} de lectura]]></item>
 		<item name="wcf.page.removeFilterTooltip"><![CDATA[Eliminar filtro “{$filterLabel}”]]></item>
 	</category>
 	<category name="wcf.acp.page">
