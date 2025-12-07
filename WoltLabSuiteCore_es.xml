@@ -4126,7 +4126,7 @@ Archivos adjuntos:
 		<item name="wcf.image.coverPhoto.upload.error.uploadFailed"><![CDATA[Ha ocurrido un error desconocido durante la subida.]]></item>
 		<item name="wcf.image.coverPhoto.upload.error.invalidExtension"><![CDATA[La extensión del archivo no es válida.]]></item>
 		<item name="wcf.image.coverPhoto.upload.limits"><![CDATA[Tamaño mínimo de imagen: {$coverPhotoDimensions.min.width} × {$coverPhotoDimensions.min.height} píxeles<br>
-Tamaño máximo de imagen: {$coverPhotoDimensions.max.width} × {$coverPhotoDimensions.max.height} pixels<br>
+Tamaño máximo de imagen: {$coverPhotoDimensions.max.width} × {$coverPhotoDimensions.max.height} píxeles<br>
 Tamaño máximo de archivo: {$__wcf->session->getPermission($coverPhotoPermissionMaxSize)|filesize}<br>
 Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 	</category>
