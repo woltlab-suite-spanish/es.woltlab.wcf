@@ -304,6 +304,7 @@
 		<item name="wcf.acp.cronjob.expressionType.random"><![CDATA[Intervalo de tiempo aproximado]]></item>
 		<item name="wcf.acp.cronjob.expressionRandom"><![CDATA[Intervalo de tiempo]]></item>
 		<item name="wcf.acp.cronjob.description"><![CDATA[Descripción]]></item>
+		<item name="wcf.acp.cronjob.lastExec"><![CDATA[Última ejecución]]></item>
 		<item name="wcf.acp.cronjob.nextExec"><![CDATA[Próxima ejecución programada]]></item>
 		<item name="wcf.acp.cronjob.edit"><![CDATA[Editar cronjob]]></item>
 		<item name="wcf.acp.cronjob.className"><![CDATA[Nombre de clase PHP]]></item>
@@ -3257,8 +3258,8 @@ Tu cuenta en {@PAGE_TITLE|phrase} [URL:{link isEmail=true}{/link}] ha sido aprob
 		<item name="wcf.article.publicationStatus.2"><![CDATA[Este artículo se publicará el {@$publicationDate|plainTime}.]]></item>
 		<item name="wcf.article.like.notification.title"><![CDATA[Reacción a tu artículo]]></item>
 		<item name="wcf.article.like.notification.title.stacked"><![CDATA[{#$count} usuarios han reaccionado a tu artículo]]></item>
-		<item name="wcf.article.like.notification.message"><![CDATA[<strong>{$author}</strong> ha reaccionado a tu artículo <strong>{$article->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="wcf.article.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han reaccionado al artículo <strong>{$article->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="wcf.article.like.notification.message"><![CDATA[<strong>{$author}</strong> ha reaccionado con {unsafe:$reaction->renderIcon()} a tu artículo <strong>{$article->getTitle()}</strong>.]]></item>
+		<item name="wcf.article.like.notification.message.stacked"><![CDATA[{unsafe:$authorList} han reaccionado{if $reaction} con {unsafe:$reaction->renderIcon()}{/if} al artículo <strong>{$article->getTitle()}</strong>.]]></item>
 		<item name="wcf.article.bbcode.type"><![CDATA[Artículo]]></item>
 		<item name="wcf.article.convertToI18n.question"><![CDATA[¿Estás seguro de que deseas activar la internacionalización para este artículo?]]></item>
 		<item name="wcf.article.convertToI18n.description"><![CDATA[Esto hará que los valores actuales se copien a todos los demás idiomas y que se descarte el historial de edición de este artículo.<br><br>Por favor, envía cualquier cambio no guardado antes de ejecutar esta acción.]]></item>
@@ -4085,6 +4086,7 @@ Archivos adjuntos:
 		<item name="wcf.form.field.upload.error.fileExtension"><![CDATA[El archivo “{$filename}” tiene una extensión de archivo no válida. Las permitidas son: {implode from=$allowedFileExtensions item=extension}{$extension}{/implode}.]]></item>
 		<item name="wcf.form.selectOptions.key"><![CDATA[Clave]]></item>
 		<item name="wcf.form.selectOptions.value"><![CDATA[Valor]]></item>
+		<item name="wcf.form.selectOptions.addItem"><![CDATA[Añadir otra opción]]></item>
 		<item name="wcf.form.option.boolean"><![CDATA[Sí/No]]></item>
 		<item name="wcf.form.option.checkboxes"><![CDATA[Selección múltiple]]></item>
 		<item name="wcf.form.option.currency"><![CDATA[Moneda]]></item>
@@ -4287,6 +4289,7 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<item name="wcf.message.toc.hide"><![CDATA[ocultar]]></item>
 		<item name="wcf.message.toc.show"><![CDATA[mostrar]]></item>
 		<item name="wcf.message.user.consent.button.enable"><![CDATA[Mostrar todos los contenidos externos]]></item>
+		<item name="wcf.message.user.consent.button.enable"><![CDATA[Mostrar contenido una vez]]></item>
 		<item name="wcf.message.user.consent.description"><![CDATA[El contenido incrustado de fuentes externas no se mostrará sin tu consentimiento.]]></item>
 		<item name="wcf.message.user.consent.notice"><![CDATA[Al activar el contenido externo, aceptas que tus datos personales puedan ser transferidos a plataformas de terceros. Hemos proporcionado más información al respecto en nuestra política de privacidad.]]></item>
 		<item name="wcf.message.user.consent.title"><![CDATA[Contenido externo]]></item>
@@ -5399,16 +5402,16 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.notification.comment.mail.html"><![CDATA[<p>{@$authorList} ha comentado en <a href="{$owner->getLink()}#wall/comment{@$commentID}">tu muro</a>:</p>]]></item>
 		<item name="wcf.user.notification.comment.like.title"><![CDATA[Reacción a comentario (Muro)]]></item>
 		<item name="wcf.user.notification.comment.like.title.stacked"><![CDATA[{#$count} usuarios han reaccionado a tu comentario (Muro)]]></item>
-		<item name="wcf.user.notification.comment.like.message"><![CDATA[<strong>{$author}</strong> ha reaccionado a tu comentario en {if $owner === null}tu muro{else}el muro de <strong>{$owner}</strong>{/if} ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="wcf.user.notification.comment.like.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han reaccionado a tu comentario en {if $owner === null}tu muro{else}el muro de <strong>{$owner}</strong>{/if} ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="wcf.user.notification.comment.like.message"><![CDATA[<strong>{$author}</strong> ha reaccionado con {unsafe:$reaction->renderIcon()} a tu comentario en {if $owner === null}tu muro{else}el muro de <strong>{$owner}</strong>{/if}.]]></item>
+		<item name="wcf.user.notification.comment.like.message.stacked"><![CDATA[{unsafe:$authorList} han reaccionado{if $reaction} con {unsafe:$reaction->renderIcon()}{/if} a tu comentario en {if $owner === null}tu muro{else}el muro de <strong>{$owner}</strong>{/if}.]]></item>
 		<item name="wcf.user.notification.commentResponse.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha respondido a tu comentario en {if $owner->userID == $__wcf->getUser()->userID}tu muro{else}el muro de <strong>{$owner}</strong>{/if}.]]></item>
 		<item name="wcf.user.notification.commentResponse.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido a tu comentario en {if $owner->userID == $__wcf->getUser()->userID}tu muro{else}el muro de <strong>{$owner}</strong>{/if}.]]></item>
 		<item name="wcf.user.notification.commentResponse.mail.plaintext"><![CDATA[{@$authorList} ha respondido a tu comentario en {if $mailbox->getUser()->userID == $owner->userID}tu muro{else}el muro de {@$owner}{/if} [URL:{@$owner->getLink()}#wall/comment{@$commentID}/response{@$responseID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
 		<item name="wcf.user.notification.commentResponse.mail.html"><![CDATA[<p>{@$authorList} ha respondido a tu comentario en <a href="{$owner->getLink()}#wall/comment{@$commentID}/response{@$responseID}">{if $mailbox->getUser()->userID == $owner->userID}tu muro{else}el muro de {$owner}{/if} </a>:</p>]]></item>
 		<item name="wcf.user.notification.commentResponse.like.title"><![CDATA[Reacción a tu respuesta a un comentario (Muro)]]></item>
 		<item name="wcf.user.notification.commentResponse.like.title.stacked"><![CDATA[{#$count} usuarios han reaccionado tu respuesta a un comentario (Muro)]]></item>
-		<item name="wcf.user.notification.commentResponse.like.message"><![CDATA[<strong>{$author}</strong> ha reaccionado a tu respuesta a un comentario en {if $owner === null}tu muro{else} el muro de <strong>{$owner}</strong>{/if} ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="wcf.user.notification.commentResponse.like.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han reaccionado a tu respuesta a un comentario en {if $owner === null}tu muro{else}el muro de <strong>{$owner}</strong>{/if} ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="wcf.user.notification.commentResponse.like.message"><![CDATA[<strong>{$author}</strong> ha reaccionado con {unsafe:$reaction->renderIcon()} a tu respuesta a un comentario en {if $owner === null}tu muro{else} el muro de <strong>{$owner}</strong>{/if}.]]></item>
+		<item name="wcf.user.notification.commentResponse.like.message.stacked"><![CDATA[{unsafe:$authorList} han reaccionado{if $reaction} con {unsafe:$reaction->renderIcon()}{/if} a tu respuesta a un comentario en {if $owner === null}tu muro{else}el muro de <strong>{$owner}</strong>{/if}.]]></item>
 		<item name="wcf.user.notification.commentResponseOwner.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha respondido a <strong>{$commentAuthor}</strong>’s comment on your wall.]]></item>
 		<item name="wcf.user.notification.commentResponseOwner.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido al comentario de <strong>{$author}</strong> en tu muro.]]></item>
 		<item name="wcf.user.notification.commentResponseOwner.mail.plaintext"><![CDATA[{@$authorList} ha respondido al comentario de {@$commentAuthor} en tu muro [URL:{@$owner->getLink()}#wall/comment{@$commentID}/response{@$responseID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
@@ -5452,8 +5455,8 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.notification.articleComment.mail.html"><![CDATA[<p>{@$authorList} ha comentado en el artículo <a href="{$article->getLink()}#comments/comment{@$commentID}">{$article->getTitle()}</a>:</p>]]></item>
 		<item name="wcf.user.notification.articleComment.like.title"><![CDATA[Reacción a comentario (Artículo)]]></item>
 		<item name="wcf.user.notification.articleComment.like.title.stacked"><![CDATA[{#$count} usuarios han reaccionado a tu comentario (Artículo)]]></item>
-		<item name="wcf.user.notification.articleComment.like.message"><![CDATA[<strong>{$author}</strong> ha reaccionado a tu comentario en el artículo <strong>{$article->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="wcf.user.notification.articleComment.like.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han reaccionado a tu comentario en el artículo <strong>{$article->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="wcf.user.notification.articleComment.like.message"><![CDATA[<strong>{$author}</strong> ha reaccionado con {unsafe:$reaction->renderIcon()} a tu comentario en el artículo <strong>{$article->getTitle()}</strong>.]]></item>
+		<item name="wcf.user.notification.articleComment.like.message.stacked"><![CDATA[{unsafe:$authorList} han reaccionado{if $reaction} con {unsafe:$reaction->renderIcon()}{/if} a tu comentario en el artículo <strong>{$article->getTitle()}</strong>.]]></item>
 		<item name="wcf.user.notification.comment.response.title"><![CDATA[Nueva respuesta ({$typeName})]]></item>
 		<item name="wcf.user.notification.comment.response.mail.title"><![CDATA[Nueva respuesta en "{@$objectTitle}" ({@$typeName})]]></item>
 		<item name="wcf.user.notification.comment.response.title.stacked"><![CDATA[{#$timesTriggered} nuevas respuestas ({$typeName})]]></item>
@@ -5463,8 +5466,8 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.notification.articleComment.response.mail.html"><![CDATA[<p>{@$authorList} ha respondido a un comentario en el artículo <a href="{$article->getLink()}#comments/comment{@$commentID}/response{@$responseID}">{$article->getTitle()}</a>:</p>]]></item>
 		<item name="wcf.user.notification.articleComment.response.like.title"><![CDATA[Reacción a tu respuesta a un comentario (Artículo)]]></item>
 		<item name="wcf.user.notification.articleComment.response.like.title.stacked"><![CDATA[{#$count} usuarios han reaccionado a tu respuesta a un comentario (Artículo)]]></item>
-		<item name="wcf.user.notification.articleComment.response.like.message"><![CDATA[<strong>{$author}</strong> ha reaccionado a tu respuesta a un comentario en el artículo <strong>{$article->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="wcf.user.notification.articleComment.response.like.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han reaccionado a tu respuesta a un comentario en el artículo <strong>{$article->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="wcf.user.notification.articleComment.response.like.message"><![CDATA[<strong>{$author}</strong> ha reaccionado con {unsafe:$reaction->renderIcon()} a tu respuesta a un comentario en el artículo <strong>{$article->getTitle()}</strong>.]]></item>
+		<item name="wcf.user.notification.articleComment.response.like.message.stacked"><![CDATA[{unsafe:$authorList} han reaccionado{if $reaction} con {unsafe:$reaction->renderIcon()}{/if} a tu respuesta a un comentario en el artículo <strong>{$article->getTitle()}</strong>.]]></item>
 		<item name="wcf.user.notification.articleComment.responseOwner.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha respondido a un comentario de <strong>{$commentAuthor}</strong> en tu artículo <strong>{$article->getTitle()}</strong>.]]></item>
 		<item name="wcf.user.notification.articleComment.responseOwner.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido a un comentario de <strong>{$commentAuthor}</strong> en tu artículo <strong>{$article->getTitle()}</strong>.]]></item>
 		<item name="wcf.user.notification.articleComment.responseOwner.mail.plaintext"><![CDATA[{@$authorList} ha respondido al comentario de {@$commentAuthor} en tu artículo “{@$article->getTitle()}” [URL:{@$article->getLink()}#comments/comment{@$commentID}/response{@$responseID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
