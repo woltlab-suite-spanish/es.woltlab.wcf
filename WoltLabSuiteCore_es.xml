@@ -84,6 +84,7 @@
 		<item name="wcf.acp.article.category.sortField"><![CDATA[Orden de presentación]]></item>
 		<item name="wcf.acp.article.category.sortField.publicationDate"><![CDATA[Fecha de publicación]]></item>
 		<item name="wcf.acp.article.category.sortField.title"><![CDATA[Título]]></item>
+		<item name="wcf.acp.article.category.error.noCategories"><![CDATA[Por favor, <a href="{link controller='ArticleCategoryAdd' isACP=true}{/link}">añade una categoría</a> antes de escribir artículos.]]></item>
 		<item name="wcf.acp.article.content"><![CDATA[Contenido]]></item>
 		<item name="wcf.acp.article.enableComments"><![CDATA[Activar comentarios]]></item>
 		<item name="wcf.acp.article.i18n"><![CDATA[Multilingüismo]]></item>
@@ -2899,7 +2900,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.style.globalValues.input"><![CDATA[CSS y SCSS individuales]]></item>
 		<item name="wcf.acp.style.globalValues.input.error"><![CDATA[El código SCSS contiene un error: {$errorType.message}.]]></item>
 		<item name="wcf.acp.style.image"><![CDATA[Vista previa]]></item>
-		<item name="wcf.acp.style.image.description"><![CDATA[Sube una imagen previa para este estilo, los tipos de imagen aceptados son JPG y PNG. Las dimensiones deben ser 102 × 64 píxeles, las imágenes que excedan se escalarán.]]></item>
+		<item name="wcf.acp.style.image.description"><![CDATA[Sube una imagen previa para este estilo, los tipos de imagen aceptados son JPG, PNG y WebP. Las dimensiones deben ser 102 × 64 píxeles, las imágenes que excedan se escalarán.]]></item>
 		<item name="wcf.acp.style.image2x"><![CDATA[Vista previa (HD)]]></item>
 		<item name="wcf.acp.style.image2x.description"><![CDATA[Esta imagen se usa en pantallas de alta resolución como Apple Retina o pantallas 4K/UHD. La imagen debe tener el doble de dimensiones que la imagen normal para que funcione.]]></item>
 		<item name="wcf.acp.style.imagePath"><![CDATA[Ruta de imagen]]></item>
@@ -4250,6 +4251,8 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<item name="wcf.message.bbcode.code.copy"><![CDATA[Copiar contenido]]></item>
 		<item name="wcf.message.bbcode.code.copy.success"><![CDATA[El contenido se ha copiado correctamente.]]></item>
 		<item name="wcf.message.quote.insertQuote"><![CDATA[Insertar cita]]></item>
+		<item name="wcf.message.quote.insertAllQuotes"><![CDATA[Insertar todas las citas]]></item>
+		<item name="wcf.message.quote.deleteAllQuotes"><![CDATA[Eliminar todas las citas]]></item>
 		<item name="wcf.message.quote.quoteSelected"><![CDATA[Guardar cita]]></item>
 		<item name="wcf.message.quote.quoteSelected.success"><![CDATA[Cita guardada]]></item>
 		<item name="wcf.message.quote.quoteAndReply"><![CDATA[Insertar cita]]></item>
@@ -5212,6 +5215,7 @@ También has recibido una lista de códigos de recuperación para usar cuando tu
 		<item name="wcf.user.3rdparty.login.error.httpError"><![CDATA[No se puede comunicar con el servicio externo. Código de error interno: <code>{$exceptionID}</code>.]]></item>
 		<item name="wcf.user.3rdparty.login.error.genericException"><![CDATA[Ha ocurrido un error al procesar tu solicitud de autenticación. Ponte en contacto con el administrador para obtener ayuda. Código de error interno: <code>{$exceptionID}</code>.]]></item>
 		<item name="wcf.user.3rdparty.login.error.stateValidation"><![CDATA[No se ha podido encontrar la solicitud de autenticación. Puede que tu sesión haya expirado.]]></item>
+		<item name="wcf.user.3rdparty.github"><![CDATA[GitHub]]></item>
 		<item name="wcf.user.3rdparty.github.login"><![CDATA[Iniciar sesión con GitHub]]></item>
 		<item name="wcf.user.3rdparty.github.register"><![CDATA[Estás creando una cuenta a través de {icon size='16' name='github' type='brand'}&nbsp;GitHub. Por lo tanto, el nombre de usuario y tu dirección de correo electrónico ya se han introducido.]]></item>
 		<item name="wcf.user.3rdparty.github.connect"><![CDATA[Conectar con tu cuenta de GitHub{if $__wcf->session->getVar('__3rdPartyProvider') === 'github'} “<a href="https://github.com/{$__wcf->session->getVar('__oauthUser')->getUsername()}"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>{$__wcf->session->getVar('__oauthUser')->getUsername()}</a>”{/if}.]]></item>
@@ -5219,6 +5223,7 @@ También has recibido una lista de códigos de recuperación para usar cuando tu
 		<item name="wcf.user.3rdparty.github.connect.error.inuse"><![CDATA[Tu cuenta de GitHub ya está conectada a otro usuario.]]></item>
 		<item name="wcf.user.3rdparty.github.disconnect"><![CDATA[Cancelar conexión con GitHub]]></item>
 		<item name="wcf.user.3rdparty.github.disconnect.success"><![CDATA[Tu cuenta ya no está conectada con GitHub.]]></item>
+		<item name="wcf.user.3rdparty.twitter"><![CDATA[X]]></item>
 		<item name="wcf.user.3rdparty.twitter.login"><![CDATA[Iniciar sesión con X]]></item>
 		<item name="wcf.user.3rdparty.twitter.register"><![CDATA[Estás creando una cuenta a través de {icon size='16' name='x-twitter' type='brand'}&nbsp;X. El nombre de usuario ya ha sido introducido. Ahora introduce tu dirección de correo electrónico y podrás empezar de inmediato.]]></item>
 		<item name="wcf.user.3rdparty.twitter.connect"><![CDATA[Conectar con tu cuenta de X{if $__wcf->session->getVar('__twitterUsername')} “<a href="https://twitter.com/{$__wcf->session->getVar('__twitterUsername')}"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>{$__wcf->session->getVar('__twitterUsername')}</a>”{/if}.]]></item>
@@ -5226,6 +5231,7 @@ También has recibido una lista de códigos de recuperación para usar cuando tu
 		<item name="wcf.user.3rdparty.twitter.connect.error.inuse"><![CDATA[Tu cuenta de X ya está conectada a otro usuario.]]></item>
 		<item name="wcf.user.3rdparty.twitter.disconnect"><![CDATA[Cancelar conexión con X]]></item>
 		<item name="wcf.user.3rdparty.twitter.disconnect.success"><![CDATA[Tu cuenta ya no está conectada a X.]]></item>
+		<item name="wcf.user.3rdparty.facebook"><![CDATA[Facebook]]></item>
 		<item name="wcf.user.3rdparty.facebook.login"><![CDATA[Iniciar sesión con Facebook]]></item>
 		<item name="wcf.user.3rdparty.facebook.register"><![CDATA[Estás creando una cuenta a través de {icon size='16' name='facebook' type='brand'}&nbsp;Facebook. Por lo tanto, el nombre de usuario y tu dirección de correo electrónico ya se han introducido.]]></item>
 		<item name="wcf.user.3rdparty.facebook.connect"><![CDATA[Conectar con tu cuenta de Facebook{if $__wcf->session->getVar('__3rdPartyProvider') === 'facebook'} “{$__wcf->session->getVar('__oauthUser')->getUsername()}”{/if}.]]></item>
@@ -5233,6 +5239,7 @@ También has recibido una lista de códigos de recuperación para usar cuando tu
 		<item name="wcf.user.3rdparty.facebook.connect.error.inuse"><![CDATA[Tu cuenta de Facebook ya está conectada a otro usuario.]]></item>
 		<item name="wcf.user.3rdparty.facebook.disconnect"><![CDATA[Cancelar la conexión con Facebook]]></item>
 		<item name="wcf.user.3rdparty.facebook.disconnect.success"><![CDATA[Tu cuenta ya no está conectada a Facebook.]]></item>
+		<item name="wcf.user.3rdparty.google"><![CDATA[Google]]></item>
 		<item name="wcf.user.3rdparty.google.login"><![CDATA[Iniciar sesión con Google]]></item>
 		<item name="wcf.user.3rdparty.google.register"><![CDATA[Estás creando una cuenta a través de {icon size='16' name='google' type='brand'}&nbsp;Google. Por lo tanto, el nombre de usuario y tu dirección de correo electrónico ya se han introducido.]]></item>
 		<item name="wcf.user.3rdparty.google.connect"><![CDATA[Conectar con tu cuenta de Google{if $__wcf->session->getVar('__3rdPartyProvider') === 'google'} “{$__wcf->session->getVar('__oauthUser')->getUsername()}”{/if}.]]></item>
@@ -5379,7 +5386,7 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.notification.mail.jumpToContent"><![CDATA[Ir al contenido]]></item>
 		<!-- Notifications -->
 		<item name="wcf.user.notification.com.woltlab.wcf.user"><![CDATA[Perfiles de usuarios]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.user.follow.following"><![CDATA[Notificarme nuevos seguidores]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.user.follow.following"><![CDATA[Nuevo seguidor]]></item>
 		<item name="wcf.user.notification.follow.title"><![CDATA[Nuevo seguidor]]></item>
 		<item name="wcf.user.notification.follow.title.stacked"><![CDATA[{#$count} nuevos seguidores]]></item>
 		<item name="wcf.user.notification.follow.message"><![CDATA[<strong>{$author}</strong> ha empezado a seguirte.]]></item>
@@ -5406,24 +5413,24 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.notification.commentResponseOwner.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido al comentario de <strong>{$author}</strong> en tu muro.]]></item>
 		<item name="wcf.user.notification.commentResponseOwner.mail.plaintext"><![CDATA[{@$authorList} ha respondido al comentario de {@$commentAuthor} en tu muro [URL:{@$owner->getLink()}#wall/comment{@$commentID}/response{@$responseID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
 		<item name="wcf.user.notification.commentResponseOwner.mail.html"><![CDATA[<p>{@$authorList} ha respondido al comentario de <strong>{$commentAuthor}</strong> en <a href="{$owner->getLink()}#wall/comment{@$commentID}/response{@$responseID}">tu muro</a>:</p>]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.notification.comment"><![CDATA[Notificarme nuevos comentarios en mi muro]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.response.notification.commentResponse"><![CDATA[Notificarme nuevas respuestas a mis comentarios]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.response.notification.commentResponseOwner"><![CDATA[Notificarme nuevas respuestas a comentarios en mi muro]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.like.notification.like"><![CDATA[Notificarme cuando alguien reaccione a mis comentarios]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.response.like.notification.like"><![CDATA[Notificarme cuando alguien reaccione a mis respuestas a comentarios]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.paidSubscription.user.expiring"><![CDATA[Notificarme antes de que caduque una suscripción]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.userTrophy.notification.received"><![CDATA[Notificarme cuando reciba un trofeo]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.notification.comment"><![CDATA[Nuevo comentario en tu muro]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.response.notification.commentResponse"><![CDATA[Nueva respuesta a tu comentario]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.response.notification.commentResponseOwner"><![CDATA[Nueva respuesta a un comentario en tu muro]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.like.notification.like"><![CDATA[Reacción a tu comentario]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.response.like.notification.like"><![CDATA[Reacción a tu respuesta a un comentario]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.paidSubscription.user.expiring"><![CDATA[Suscripción de pago a punto de caducar]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.userTrophy.notification.received"><![CDATA[Trofeo recibido]]></item>
 		<item name="wcf.user.notification.trophy.received.title"><![CDATA[Trofeo recibido]]></item>
 		<item name="wcf.user.notification.trophy.received.message"><![CDATA[Has recibido el trofeo <strong>{$userTrophy->getTrophy()}</strong>.]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.administration"><![CDATA[Administración]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.moderation"><![CDATA[Moderación]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.moderation.queue.report"><![CDATA[Nuevo reporte]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.moderation.queue.notification.comment"><![CDATA[Notificarme cuando se escriban nuevos comentarios en moderación]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.moderation.queue.response.notification.commentResponse"><![CDATA[Notificarme cuando se escriban nuevas respuestas a comentarios en moderación]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.moderation.queue.notification.comment"><![CDATA[Nuevo comentario en una entrada de moderación]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.moderation.queue.response.notification.commentResponse"><![CDATA[Nueva respuesta a un comentario en una entrada de moderación]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.page"><![CDATA[Páginas]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.page.notification.comment"><![CDATA[Notificarme cuando se escriban nuevos comentarios en las páginas]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.page.response.notification.commentResponse"><![CDATA[Notificarme cuando se escriban nuevas respuestas a comentarios en páginas]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.likeableArticle.notification.like"><![CDATA[Notificarme cuando alguien reaccione a mis artículos]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.page.notification.comment"><![CDATA[Nuevo comentario en una página]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.page.response.notification.commentResponse"><![CDATA[Nueva respuesta a un comentario en una página]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.likeableArticle.notification.like"><![CDATA[Reacción a tu artículo]]></item>
 		<item name="wcf.user.notification.pageComment.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha comentado en la página <strong>{$page->getTitle()}</strong>.]]></item>
 		<item name="wcf.user.notification.pageComment.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han comentado en la página <strong>{$page->getTitle()}</strong>.]]></item>
 		<item name="wcf.user.notification.pageComment.mail.plaintext"><![CDATA[{@$authorList} ha comentado en la página “{@$page->getTitle()}” [URL:{@$page->getLink()}#comment{@$commentID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
@@ -5436,9 +5443,6 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.notification.pageComment.responseOwner.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido a tu comentario en la página <strong>{$page->getTitle()}</strong>.]]></item>
 		<item name="wcf.user.notification.pageComment.responseOwner.mail.plaintext"><![CDATA[{@$authorList} ha respondido a tu comentario en la página “{@$page->getTitle()}” [URL:{@$page->getLink()}#comment{@$commentID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
 		<item name="wcf.user.notification.pageComment.responseOwner.mail.html"><![CDATA[<p>{@$authorList} ha respondido a tu comentario en la página <a href="{$page->getLink()}#comment{@$commentID}">{$page->getTitle()}</a>:</p>]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.article.comment.notification.comment"><![CDATA[Notificarme nuevos comentarios en mis artículos]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.article.comment.response.notification.commentResponse"><![CDATA[Notificarme nuevas respuestas a mis comentarios]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.article.comment.response.notification.commentResponseOwner"><![CDATA[Notificarme las nuevas respuestas a los comentarios en mis artículos]]></item>
 		<item name="wcf.user.notification.comment.title"><![CDATA[Nuevo comentario ({$typeName})]]></item>
 		<item name="wcf.user.notification.comment.mail.title"><![CDATA[Nuevo comentario en "{@$objectTitle}" ({@$typeName})]]></item>
 		<item name="wcf.user.notification.comment.title.stacked"><![CDATA[{#$timesTriggered} nuevos comentarios ({$typeName})]]></item>
@@ -5465,16 +5469,16 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.notification.articleComment.responseOwner.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido a un comentario de <strong>{$commentAuthor}</strong> en tu artículo <strong>{$article->getTitle()}</strong>.]]></item>
 		<item name="wcf.user.notification.articleComment.responseOwner.mail.plaintext"><![CDATA[{@$authorList} ha respondido al comentario de {@$commentAuthor} en tu artículo “{@$article->getTitle()}” [URL:{@$article->getLink()}#comments/comment{@$commentID}/response{@$responseID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
 		<item name="wcf.user.notification.articleComment.responseOwner.mail.html"><![CDATA[<p>{@$authorList} ha respondido al comentario de <strong>{$commentAuthor}</strong> en tu artículo <a href="{$article->getLink()}#comments/comment{@$commentID}/response{@$responseID}">{$article->getTitle()}</a>:</p>]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.article.notification.article"><![CDATA[Notificarme nuevos artículos en categorías suscritas]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.article.notification.article"><![CDATA[Nuevo artículo en una categoría suscrita]]></item>
 		<item name="wcf.user.notification.article.title"><![CDATA[Nuevo artículo]]></item>
 		<item name="wcf.user.notification.article.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha escrito el artículo <strong>{$article->getTitle()}</strong>.]]></item>
 		<item name="wcf.user.notification.article.mail.plaintext"><![CDATA[{@$author} ha escrito el artículo “{@$articleContent->getTitle()}” [URL:{@$articleContent->getLink()}]:]]></item>
 		<item name="wcf.user.notification.article.mail.html"><![CDATA[<p><strong>{$author}</strong> ha escrito el artículo <a href="{$articleContent->getLink()}">{$articleContent->getTitle()}</a>:</p>]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.response.notification.commentResponseOwner"><![CDATA[Notificarme nuevas respuestas a comentarios en mis artículos]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.response.notification.commentResponse"><![CDATA[Notificarme nuevas respuestas a mis comentarios y a los artículos de categorías suscritas]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.notification.comment"><![CDATA[Notificarme nuevos comentarios en mis artículos y en los artículos de categorías suscritas]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.like.notification.like"><![CDATA[Notificarme cuando alguien reaccione a los comentarios de mi artículo]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.response.like.notification.like"><![CDATA[Notificarme cuando alguien reaccione a mis respuestas a los comentarios de un artículo]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.response.notification.commentResponseOwner"><![CDATA[Nueva respuesta a un comentario en tu artículo]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.response.notification.commentResponse"><![CDATA[Nueva respuesta a tu comentario y a artículos en una categoría suscrita]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.notification.comment"><![CDATA[Nuevo comentario a tu artículo y a artículos en una categoría suscrita]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.like.notification.like"><![CDATA[Reacción a tu comentario en un artículo]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.response.like.notification.like"><![CDATA[Reacción a tu respuesta a un comentario]]></item>
 		<item name="wcf.user.notification.pageComment.responseOwner.title"><![CDATA[Nueva respuesta (Página)]]></item>
 		<item name="wcf.user.notification.status.active"><![CDATA[Activa]]></item>
 		<item name="wcf.user.notification.status.email"><![CDATA[Email]]></item>
