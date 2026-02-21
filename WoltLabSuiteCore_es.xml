@@ -787,7 +787,6 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.group.option.category.user.profile.avatar"><![CDATA[Avatares]]></item>
 		<item name="wcf.acp.group.option.category.admin.user.rank"><![CDATA[Rangos de usuarios]]></item>
 		<item name="wcf.acp.group.option.category.user.signature"><![CDATA[Firmas]]></item>
-		<item name="wcf.acp.group.option.user.profile.avatar.allowedFileExtensions"><![CDATA[Extensiones de imagen permitidas]]></item>
 		<item name="wcf.acp.group.option.user.profile.avatar.canSeeAvatars"><![CDATA[Puede ver avatares de usuarios]]></item>
 		<item name="wcf.acp.group.option.user.profile.avatar.canUploadAvatar"><![CDATA[Puede subir su avatar]]></item>
 		<item name="wcf.acp.group.option.user.profile.canChangeEmail"><![CDATA[Puede cambiar su dirección de correo electrónico]]></item>
@@ -4112,6 +4111,7 @@ Archivos adjuntos:
 		<item name="wcf.form.option.shared.selectOptions"><![CDATA[Opciones]]></item>
 		<item name="wcf.form.option.shared.required"><![CDATA[Este campo es obligatorio]]></item>
 		<item name="wcf.form.option.shared.unit"><![CDATA[Unidad]]></item>
+		<item name="wcf.form.option.shared.urlLinkText"><![CDATA[Texto del enlace]]></item>
 		<item name="wcf.form.option.optionType"><![CDATA[Tipo de opción]]></item>
 	</category>
 	<category name="wcf.image">
@@ -5258,7 +5258,7 @@ También has recibido una lista de códigos de recuperación para usar cuando tu
 		<item name="wcf.user.avatar"><![CDATA[Avatar]]></item>
 		<item name="wcf.user.avatar.edit"><![CDATA[Editar avatar]]></item>
 		<item name="wcf.user.avatar.error.disabled"><![CDATA[Los administradores {if $__wcf->user->avatarID}han bloqueado tu avatar y {/if}te han prohibido usar un avatar{if $__wcf->user->disableAvatarReason}: {$__wcf->user->disableAvatarReason}{/if}.]]></item>
-		<item name="wcf.user.avatar.type.custom.description"><![CDATA[Puedes usar las siguientes extensiones de archivo “{"\n"|str_replace:', ':$__wcf->session->getPermission('user.profile.avatar.allowedFileExtensions')}” para tu avatar.<br>Las dimensiones mínimas son 128 × 128 píxeles.]]></item>
+		<item name="wcf.user.avatar.type.custom.description"><![CDATA[Puedes usar las siguientes extensiones de archivo “gif, jpg, jpeg, png, webp” para tu avatar.<br>Las dimensiones mínimas son 128 × 128 píxeles.]]></item>
 	</category>
 	<category name="wcf.user.condition">
 		<item name="wcf.user.condition.activityPoints"><![CDATA[Puntos]]></item>
@@ -5606,6 +5606,7 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.upload.error.delete.unknownError"><![CDATA[Ha ocurrido un error desconocido al eliminar el archivo.]]></item>
 		<item name="wcf.upload.error.delete.permissionDenied"><![CDATA[El archivo no se puede eliminar, usa <strong>Reemplazar</strong> en su lugar para cambiar el archivo.]]></item>
 		<item name="wcf.upload.validation.error.noImage"><![CDATA[El archivo no es una imagen.]]></item>
+		<item name="wcf.upload.validation.error.notSquare"><![CDATA[El archivo no es cuadrado.]]></item>
 		<item name="wcf.upload.validation.error.tooSmall"><![CDATA[El archivo es demasiado pequeño.]]></item>
 		<item name="wcf.upload.single.limits"><![CDATA[Tamaño máximo de archivo: {$maximumSize|filesize}<br>
 Extensiones permitidas: {', '|implode:$allowedFileExtensions}]]></item>
