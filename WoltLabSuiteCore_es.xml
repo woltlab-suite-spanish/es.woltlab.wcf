@@ -365,6 +365,7 @@
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.smiley"><![CDATA[Emoticonos]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.smiley.category"><![CDATA[Categorías]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.article"><![CDATA[Artículos]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.article.attachment"><![CDATA[Archivos adjuntos]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.article.category"><![CDATA[Categorías de artículos]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.article.comment"><![CDATA[Comentarios de artículos]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.article.comment.response"><![CDATA[Respuestas a comentarios de artículos]]></item>
@@ -4624,6 +4625,7 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<item name="wcf.style.colorPicker.lightness"><![CDATA[Brillo]]></item>
 		<item name="wcf.style.colorPicker.changeColor"><![CDATA[Cambiar color]]></item>
 		<item name="wcf.style.colorPicker.changeBackgroundColor"><![CDATA[Cambiar color de fondo]]></item>
+		<item name="wcf.style.colorPicker.opacity"><![CDATA[Opacidad]]></item>
 		<item name="wcf.style.setColorScheme"><![CDATA[Establecer esquema de colores]]></item>
 		<item name="wcf.style.setColorScheme.dark"><![CDATA[Tema oscuro]]></item>
 		<item name="wcf.style.setColorScheme.light"><![CDATA[Tema claro]]></item>
@@ -5256,9 +5258,7 @@ También has recibido una lista de códigos de recuperación para usar cuando tu
 		<item name="wcf.user.avatar"><![CDATA[Avatar]]></item>
 		<item name="wcf.user.avatar.edit"><![CDATA[Editar avatar]]></item>
 		<item name="wcf.user.avatar.error.disabled"><![CDATA[Los administradores {if $__wcf->user->avatarID}han bloqueado tu avatar y {/if}te han prohibido usar un avatar{if $__wcf->user->disableAvatarReason}: {$__wcf->user->disableAvatarReason}{/if}.]]></item>
-		<item name="wcf.user.avatar.type.custom"><![CDATA[Sube tu avatar]]></item>
 		<item name="wcf.user.avatar.type.custom.description"><![CDATA[Puedes usar las siguientes extensiones de archivo “{"\n"|str_replace:', ':$__wcf->session->getPermission('user.profile.avatar.allowedFileExtensions')}” para tu avatar.<br>Las dimensiones mínimas son 128 × 128 píxeles.]]></item>
-		<item name="wcf.user.avatar.type.none"><![CDATA[No usar avatar]]></item>
 	</category>
 	<category name="wcf.user.condition">
 		<item name="wcf.user.condition.activityPoints"><![CDATA[Puntos]]></item>
@@ -5729,5 +5729,7 @@ Extensiones permitidas: {', '|implode:$allowedFileExtensions}]]></item>
 	<item name="wcf.user.option.skype"/>
 	<item name="wcf.user.profileHits"/>
 	<item name="wcf.user.profileHits.hitsPerDay"/>
+	<item name="wcf.user.avatar.type.none"/>
+	<item name="wcf.user.avatar.type.custom"/>
 </delete>
 </language>
