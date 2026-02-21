@@ -3292,6 +3292,7 @@ Tu cuenta en {@PAGE_TITLE|phrase} [URL:{link isEmail=true}{/link}] ha sido aprob
 Tamaño máximo de archivo: {@$attachmentHandler->getMaxSize()|filesize}<br>
 Extensiones permitidas: {', '|implode:$attachmentHandler->getFormattedAllowedExtensions()}]]></item>
 		<item name="wcf.attachment.insert"><![CDATA[Insertar en el mensaje]]></item>
+		<item name="wcf.attachment.inserted"><![CDATA[Insertado]]></item>
 		<item name="wcf.attachment.insertAll"><![CDATA[Insertar todo]]></item>
 		<item name="wcf.attachment.insertFull"><![CDATA[Imagen completa]]></item>
 		<item name="wcf.attachment.insertThumbnail"><![CDATA[Miniatura]]></item>
