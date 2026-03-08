@@ -1036,7 +1036,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.language.item.oldValue"><![CDATA[Contenido original]]></item>
 		<item name="wcf.acp.language.item.oldValue.description"><![CDATA[Su valor personalizado se basaba en el contenido original que ha cambiado{if $item->languageCustomItemDisableTime} el {$item->languageCustomItemDisableTime|date}{/if}.]]></item>
 		<item name="wcf.acp.language.item.recentlyDisabledCustomValues"><![CDATA[Valores personalizados desactivados recientemente (últimos 7 días)]]></item>
-		<item name="wcf.acp.language.item.hasRecentlyDisabledCustomValues"><![CDATA[{if $recentlyDisabledCustomValues == 1}Una frase personalizada ha sido{else}{#$recentlyDisabledCustomValues} frases personalizadas han sido{/if} <a href="{link controller='LanguageItemList' hasRecentlyDisabledCustomValue=1}{/link}">automáticamente desactivada{if $recentlyDisabledCustomValues > 1}s{/if}</a> recientemente.]]></item>
+		<item name="wcf.acp.language.item.hasRecentlyDisabledCustomValues"><![CDATA[{if $recentlyDisabledCustomValues == 1}Una frase personalizada ha sido{else}{#$recentlyDisabledCustomValues} frases personalizadas han sido{/if} <a href="{link controller='LanguageItemList'}filters[hasRecentlyDisabledCustomValue]=1{/link}">automáticamente desactivada{if $recentlyDisabledCustomValues > 1}s{/if}</a> recientemente.]]></item>
 		<item name="wcf.acp.language.item.languageCategoryID"><![CDATA[Categoría de idioma]]></item>
 		<item name="wcf.acp.language.item.languageCategoryID.mode"><![CDATA[Modo de categoría de idioma]]></item>
 		<item name="wcf.acp.language.item.languageCategoryID.mode.automatic"><![CDATA[Determinado automáticamente en función del identificador]]></item>
@@ -1875,7 +1875,7 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.package.update.errorCode.401"><![CDATA[Tus credenciales no son válidas, por favor, verifica {if $updateServer->requiresLicense()}la licencia y el número de serie{else}}el nombre de usuario y la contraseña{/if}.]]></item>
 		<item name="wcf.acp.package.update.errorCode.402"><![CDATA[{if $updateServer->requiresLicense()}La licencia y el número de serie{else}El nombre de usuario y la contraseña{/if} han sido aceptados por el servidor, pero no le conceden el permiso para descargar este producto comercial.]]></item>
 		<item name="wcf.acp.package.update.errorCode.403"><![CDATA[No tienes permiso para acceder a este paquete.]]></item>
-		<item name="wcf.acp.package.update.authInsufficient"><![CDATA[Las credenciales son válidas, pero no permiten la descarga de este paquete.]]></item>
+		<item name="wcf.acp.package.update.authInsufficient"><![CDATA[Las credenciales son válidas, pero no permiten la descarga {if $packageName}del paquete “<strong>{$packageName}</strong>”{else}de este paquete{/if}.]]></item>
 		<item name="wcf.acp.package.update.licenseNo"><![CDATA[Número de licencia]]></item>
 		<item name="wcf.acp.package.update.password"><![CDATA[Contraseña]]></item>
 		<item name="wcf.acp.package.update.saveCredentials"><![CDATA[Guardar credenciales]]></item>
