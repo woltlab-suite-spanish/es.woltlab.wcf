@@ -2009,7 +2009,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.package.availableUpgradeVersion"><![CDATA[La nueva WoltLab Suite {$version} está disponible para su instalación. Hemos proporcionado una guía con las instrucciones para la actualización en nuestro <a href="https://manual.woltlab.com/en/updates/#upgrading-woltlab-suite-55-to-60" class="externalURL">manual</a>.<br>
 <br>
 <a href="{link controller='PackageEnableUpgradeOverride' application='wcf'}{/link}">Validar los requisitos del sistema para iniciar la actualización</a>]]></item>
-		<item name="wcf.acp.package.upgradeOverrideEnabled"><![CDATA[La actualización a WoltLab Suite {$version} ya está lista. Por favor, haz click en el botón “Buscar actualizaciones” para iniciar la actualización.<br>
+		<item name="wcf.acp.package.upgradeOverrideEnabled"><![CDATA[La actualización a WoltLab Suite {$version} ya está lista. Por favor, haz clic en el botón “Buscar actualizaciones” para iniciar la actualización.<br>
 <br>
 <a href="{link controller='PackageEnableUpgradeOverride' application='wcf'}{/link}">Cancelar la actualización</a>]]></item>
 		<item name="wcf.acp.package.quickInstallation"><![CDATA[Instalación a través de StoreCode]]></item>
