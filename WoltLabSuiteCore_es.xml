@@ -3077,6 +3077,7 @@ Si <strong>ya has comprado las licencias de las aplicaciones de la lista</strong
 		<item name="wcf.acp.user.option.labeledUrl"><![CDATA[URL]]></item>
 		<item name="wcf.acp.user.option.labeledUrl.description"><![CDATA[Si el tipo de campo es “labeledUrl”, la URL a enlazar debe introducirse aquí. Usa <span class="inlineCode">%s</span> como marcador de posición para la entrada del usuario.]]></item>
 		<item name="wcf.acp.user.option.labeledUrl.error.invalid"><![CDATA[La URL no contiene el marcador de posición <span class="inlineCode">%s</span>.]]></item>
+		<item name="wcf.acp.user.option.labeledUrl.error.invalidScheme"><![CDATA[La URL debe empezar por <span class="inlineCode">http://</span> o <span class="inlineCode">https://</span>.]]></item>
 		<item name="wcf.acp.user.option.optionType"><![CDATA[Tipo de opción]]></item>
 		<item name="wcf.acp.user.option.optionType.description"><![CDATA[Los nombres de las opciones suelen ser iguales a la etiqueta HTML usada como elemento de entrada.]]></item>
 		<item name="wcf.acp.user.option.askDuringRegistration"><![CDATA[Campo visible durante el registro]]></item>
@@ -5216,6 +5217,7 @@ También has recibido una lista de códigos de recuperación para usar cuando tu
 		<item name="wcf.user.3rdparty.login.error.httpError"><![CDATA[No se puede comunicar con el servicio externo. Código de error interno: <code>{$exceptionID}</code>.]]></item>
 		<item name="wcf.user.3rdparty.login.error.genericException"><![CDATA[Ha ocurrido un error al procesar tu solicitud de autenticación. Ponte en contacto con el administrador para obtener ayuda. Código de error interno: <code>{$exceptionID}</code>.]]></item>
 		<item name="wcf.user.3rdparty.login.error.stateValidation"><![CDATA[No se ha podido encontrar la solicitud de autenticación. Puede que tu sesión haya expirado.]]></item>
+		<item name="wcf.user.3rdparty.login.error.unknownError"><![CDATA[El servicio externo ha devuelto un error que no se ha podido interpretar: <kbd>{$errorCode}</kbd>]]></item>
 		<item name="wcf.user.3rdparty.github"><![CDATA[GitHub]]></item>
 		<item name="wcf.user.3rdparty.github.login"><![CDATA[Iniciar sesión con GitHub]]></item>
 		<item name="wcf.user.3rdparty.github.register"><![CDATA[Estás creando una cuenta a través de {icon size='16' name='github' type='brand'}&nbsp;GitHub. Por lo tanto, el nombre de usuario y tu dirección de correo electrónico ya se han introducido.]]></item>
