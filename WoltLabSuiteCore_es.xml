@@ -576,7 +576,7 @@
 		<item name="wcf.acp.devtools.project.instructions.error.missingInstructions"><![CDATA[No se han añadido instrucciones.]]></item>
 		<item name="wcf.acp.devtools.project.instructions.edit"><![CDATA[Editar instrucciones]]></item>
 		<item name="wcf.acp.devtools.project.instruction.edit"><![CDATA[Editar instrucción]]></item>
-		<item name="wcf.acp.devtools.project.instruction.language.error.missingFiles"><![CDATA[El directorio <kbd>{$directory}<kdb> no contiene archivos XML.]]></item>
+		<item name="wcf.acp.devtools.project.instruction.language.error.missingFiles"><![CDATA[El directorio <kbd>{$directory}<kbd> no contiene archivos XML.]]></item>
 		<item name="wcf.acp.devtools.project.instruction.error.noXmlFile"><![CDATA[El archivo introducido no es un archivo XML.]]></item>
 		<item name="wcf.acp.devtools.project.instruction.delete.confirmMessages"><![CDATA[¿Realmente quieres borrar esta instrucción?]]></item>
 		<item name="wcf.acp.devtools.project.add.info"><![CDATA[Los paquetes en conflicto, las instrucciones de instalación y las instrucciones de actualización solo pueden añadirse al editar un proyecto existente.]]></item>
@@ -3329,7 +3329,7 @@ Extensiones permitidas: {', '|implode:$attachmentHandler->getFormattedAllowedExt
 		<item name="wcf.bbcode.spoiler.simplified"><![CDATA[(Contenido oculto)]]></item>
 	</category>
 	<category name="wcf.button">
-		<item name="wcf.button.delete.confirmMessage"><![CDATA[¿Realmente quieres eliminar <strong>{$objectTitle}</strong>?]]></item>
+		<item name="wcf.button.delete.confirmMessage"><![CDATA[¿Realmente quieres eliminar <span class="confirmationObject">{$objectTitle}</span>?]]></item>
 	</category>
 	<category name="wcf.captcha">
 		<item name="wcf.captcha.useNoCaptcha"><![CDATA[(Sin Captcha)]]></item>
@@ -3449,7 +3449,7 @@ Extensiones permitidas: {', '|implode:$attachmentHandler->getFormattedAllowedExt
 		<item name="wcf.contact.mail.subject"><![CDATA[Nuevo mensaje a través del formulario de contacto]]></item>
 		<item name="wcf.contact.mail.plaintext"><![CDATA[Hola,
 
-“{unsafe:$name}” te ha enviado un mensaje en {unsafe:PAGE_TITLE|phrase} a través del formulario de contacto:
+“{unsafe:$name}” te ha enviado un mensaje en {unsafe:PAGE_TITLE|phrase} [URL:{link isEmail=true}{/link}] a través del formulario de contacto:
 
 Correo electrónico: {unsafe:$emailAddress} {* this line ends with a space *}
 {foreach from=$options item=option}
@@ -4322,8 +4322,6 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<item name="wcf.moderation.notification.comment.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han comentado en la entrada de moderación <strong>{$moderationQueue}</strong>.]]></item>
 		<item name="wcf.moderation.notification.comment.mail.plaintext"><![CDATA[{@$authorList} ha comentado en la entrada de moderación {@$moderationQueue->getTitle()} [URL:{@$moderationQueue->getLink()}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
 		<item name="wcf.moderation.notification.comment.mail.html"><![CDATA[<p>{@$authorList} ha comentado en la entrada de moderación <a href="{$moderationQueue->getLink()}">{$moderationQueue->getTitle()}</a>:</p>]]></item>
-		<item name="wcf.moderation.notification.commentResponse.title"><![CDATA[Nueva respuesta (Moderación)]]></item>
-		<item name="wcf.moderation.notification.commentResponse.title.stacked"><![CDATA[{#$timesTriggered} nuevas respuestas (Moderación)]]></item>
 		<item name="wcf.moderation.notification.commentResponse.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha respondido a un comentario de <strong>{$commentAuthor}</strong> en la entrada de moderación <strong>{$moderationQueue}</strong>.]]></item>
 		<item name="wcf.moderation.notification.commentResponse.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido a comentarios en la entrada de moderación <strong>{$moderationQueue}</strong>.]]></item>
 		<item name="wcf.moderation.notification.commentResponse.mail.plaintext"><![CDATA[{@$authorList} ha respondido al comentario de {@$commentAuthor} en la entrada de moderación {@$moderationQueue->getTitle()} [URL:{@$moderationQueue->getLink()}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
@@ -4363,8 +4361,6 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<item name="wcf.moderation.activation.notification.comment.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han comentado en <strong>{$moderationQueue}</strong> a la espera de aprobación.]]></item>
 		<item name="wcf.moderation.activation.notification.comment.mail.plaintext"><![CDATA[{@$authorList} ha comentado en {@$moderationQueue->getTitle()} [URL:{@$moderationQueue->getLink()}] waiting for approval{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
 		<item name="wcf.moderation.activation.notification.comment.mail.html"><![CDATA[<p>{@$authorList} ha comentado una entrada de moderación <a href="{$moderationQueue->getLink()}">{$moderationQueue->getTitle()}</a> a la espera de aprobación:</p>]]></item>
-		<item name="wcf.moderation.activation.notification.commentResponse.title"><![CDATA[Nueva respuesta (Aprobación)]]></item>
-		<item name="wcf.moderation.activation.notification.commentResponse.title.stacked"><![CDATA[{#$timesTriggered} nuevas respuestas (Aprobación)]]></item>
 		<item name="wcf.moderation.activation.notification.commentResponse.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha respondido a un comentario de <strong>{$commentAuthor}</strong> en <strong>{$moderationQueue}</strong> a la espera de aprobación.]]></item>
 		<item name="wcf.moderation.activation.notification.commentResponse.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido a comentarios en <strong>{$moderationQueue}</strong> a la espera de aprobación.]]></item>
 		<item name="wcf.moderation.activation.notification.commentResponse.mail.plaintext"><![CDATA[{@$authorList} ha respondido a un comentario de <strong>{$commentAuthor}</strong> en {@$moderationQueue->getTitle()} [URL:{@$moderationQueue->getLink()}] a la espera de aprobación{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
@@ -4380,8 +4376,6 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<item name="wcf.moderation.report.notification.comment.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han comentado en el reporte <strong>{$moderationQueue}</strong>.]]></item>
 		<item name="wcf.moderation.report.notification.comment.mail.plaintext"><![CDATA[{@$authorList} ha comentado en el reporte {@$moderationQueue->getTitle()} [URL:{@$moderationQueue->getLink()}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
 		<item name="wcf.moderation.report.notification.comment.mail.html"><![CDATA[<p>{@$authorList} ha comentado en el reporte <a href="{$moderationQueue->getLink()}">{$moderationQueue->getTitle()}</a>:</p>]]></item>
-		<item name="wcf.moderation.report.notification.commentResponse.title"><![CDATA[Nueva respuesta (Reporte)]]></item>
-		<item name="wcf.moderation.report.notification.commentResponse.title.stacked"><![CDATA[{#$timesTriggered} nuevas respuestas (Reporte)]]></item>
 		<item name="wcf.moderation.report.notification.commentResponse.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha respondido a un comentario de <strong>{$commentAuthor->username}</strong> en el reporte <strong>{$moderationQueue}</strong>.]]></item>
 		<item name="wcf.moderation.report.notification.commentResponse.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido a comentarios de en el reporte <strong>{$moderationQueue->getTitle()}</strong>.]]></item>
 		<item name="wcf.moderation.report.notification.commentResponse.mail.plaintext"><![CDATA[{@$authorList} ha respondido al comentario de {@$commentAuthor} en el reporte {@$moderationQueue->getTitle()} [URL:{@$moderationQueue->getLink()}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
@@ -4837,7 +4831,7 @@ no has registrado una cuenta en nuestro sitio web.]]></item>
 		<item name="wcf.user.guest"><![CDATA[Invitado]]></item>
 		<item name="wcf.user.signature"><![CDATA[Firma]]></item>
 		<item name="wcf.user.signature.current"><![CDATA[Firma actual]]></item>
-		<item name="wcf.user.signature.error.disabled"><![CDATA[Los administradores {if $__wcf->user->signature}han bloqueado tu firma y {else}te han prohibido usar una firma{/if}{if $__wcf->user->disableSignatureReason}: {$__wcf->user->disableAvatarReason}{/if}.]]></item>
+		<item name="wcf.user.signature.error.disabled"><![CDATA[Los administradores {if $__wcf->user->signature}han bloqueado tu firma y {else}te han prohibido usar una firma{/if}{if $__wcf->user->disableSignatureReason}: {$__wcf->user->disableSignatureReason}{/if}.]]></item>
 		<item name="wcf.user.activityPoint"><![CDATA[Puntos]]></item>
 		<item name="wcf.user.activityPoint.showActivityPoints"><![CDATA[Mostrar puntos de {$user->username}]]></item>
 		<item name="wcf.user.activityPoint.objects"><![CDATA[Cuenta]]></item>
@@ -5441,12 +5435,12 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.notification.pageComment.mail.html"><![CDATA[<p>{@$authorList} ha comentado en la página <a href="{$page->getLink()}#comment{@$commentID}">{$page->getTitle()}</a>:</p>]]></item>
 		<item name="wcf.user.notification.pageComment.response.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha respondido al comentario de <strong>{$commentAuthor}</strong> en la página {$page->getTitle()}.]]></item>
 		<item name="wcf.user.notification.pageComment.response.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido al comentario de <strong>{$commentAuthor}</strong> en la página {$page->getTitle()}.]]></item>
-		<item name="wcf.user.notification.pageComment.response.mail.plaintext"><![CDATA[{@$authorList} ha respondido al comentario de {@$commentAuthor} en la página “{@$page->getTitle()}” [URL:{@$page->getLink()}#comment{@$commentID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
-		<item name="wcf.user.notification.pageComment.response.mail.html"><![CDATA[<p>{@$authorList} ha respondido al comentario de {$commentAuthor} en la página <a href="{$page->getLink()}#comment{@$commentID}">{$page->getTitle()}</a>:</p>]]></item>
+		<item name="wcf.user.notification.pageComment.response.mail.plaintext"><![CDATA[{@$authorList} ha respondido al comentario de {@$commentAuthor} en la página “{@$page->getTitle()}” [URL:{@$page->getLink()}#comment{@$commentID}/response{@$responseID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+		<item name="wcf.user.notification.pageComment.response.mail.html"><![CDATA[<p>{@$authorList} ha respondido al comentario de {$commentAuthor} en la página <a href="{$page->getLink()}#comment{@$commentID}/response{@$responseID}">{$page->getTitle()}</a>:</p>]]></item>
 		<item name="wcf.user.notification.pageComment.responseOwner.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha respondido a tu comentario en la página <strong>{$page->getTitle()}</strong>.]]></item>
 		<item name="wcf.user.notification.pageComment.responseOwner.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido a tu comentario en la página <strong>{$page->getTitle()}</strong>.]]></item>
-		<item name="wcf.user.notification.pageComment.responseOwner.mail.plaintext"><![CDATA[{@$authorList} ha respondido a tu comentario en la página “{@$page->getTitle()}” [URL:{@$page->getLink()}#comment{@$commentID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
-		<item name="wcf.user.notification.pageComment.responseOwner.mail.html"><![CDATA[<p>{@$authorList} ha respondido a tu comentario en la página <a href="{$page->getLink()}#comment{@$commentID}">{$page->getTitle()}</a>:</p>]]></item>
+		<item name="wcf.user.notification.pageComment.responseOwner.mail.plaintext"><![CDATA[{@$authorList} ha respondido a tu comentario en la página “{@$page->getTitle()}” [URL:{@$page->getLink()}#comment{@$commentID}/response{@$responseID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+		<item name="wcf.user.notification.pageComment.responseOwner.mail.html"><![CDATA[<p>{@$authorList} ha respondido a tu comentario en la página <a href="{$page->getLink()}#comment{@$commentID}/response{@$responseID}">{$page->getTitle()}</a>:</p>]]></item>
 		<item name="wcf.user.notification.comment.title"><![CDATA[Nuevo comentario ({$typeName})]]></item>
 		<item name="wcf.user.notification.comment.mail.title"><![CDATA[Nuevo comentario en "{@$objectTitle}" ({@$typeName})]]></item>
 		<item name="wcf.user.notification.comment.title.stacked"><![CDATA[{#$timesTriggered} nuevos comentarios ({$typeName})]]></item>
@@ -5483,7 +5477,6 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.notification.comment"><![CDATA[Nuevo comentario a tu artículo y a artículos en una categoría suscrita]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.like.notification.like"><![CDATA[Reacción a tu comentario en un artículo]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.articleComment.response.like.notification.like"><![CDATA[Reacción a tu respuesta a un comentario]]></item>
-		<item name="wcf.user.notification.pageComment.responseOwner.title"><![CDATA[Nueva respuesta (Página)]]></item>
 		<item name="wcf.user.notification.status.active"><![CDATA[Activa]]></item>
 		<item name="wcf.user.notification.status.email"><![CDATA[Email]]></item>
 		<item name="wcf.user.notification.enableDesktopNotifications"><![CDATA[Activa las notificaciones de escritorio para recibir alertas de nuevas notificaciones.]]></item>
@@ -5734,5 +5727,12 @@ Extensiones permitidas: {', '|implode:$allowedFileExtensions}]]></item>
 	<item name="wcf.user.avatar.type.none"/>
 	<item name="wcf.user.avatar.type.custom"/>
 	<item name="wcf.acp.attachment.button.goToContent"/>
+	<item name="wcf.moderation.activation.notification.commentResponse.title"/>
+	<item name="wcf.moderation.activation.notification.commentResponse.title.stacked"/>
+	<item name="wcf.moderation.notification.commentResponse.title"/>
+	<item name="wcf.moderation.notification.commentResponse.title.stacked"/>
+	<item name="wcf.moderation.report.notification.commentResponse.title"/>
+	<item name="wcf.moderation.report.notification.commentResponse.title.stacked"/>
+	<item name="wcf.user.notification.pageComment.responseOwner.title"/>
 </delete>
 </language>
