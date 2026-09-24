@@ -1073,6 +1073,7 @@ Puedes acceder al registro de errores en: {link controller='ExceptionLogView' is
 		<item name="wcf.acp.license.package.outdated"><![CDATA[Hasta la versión {$accessibleVersion}]]></item>
 		<item name="wcf.acp.license.package.version"><![CDATA[Versión]]></item>
 		<item name="wcf.acp.license.error.parsingFailed"><![CDATA[No se han podido recuperar los datos de la licencia. Por favor, <a href="{link controller="LicenseEdit"}{/link}">verifica y actualiza las credenciales de licencia</a>.{if $licenseData !== null}<br><br>Los datos de la licencia se actualizaron por última vez el {time type='plainTime' time=$licenseData->creationDate}.{/if}]]></item>
+		<item name="wcf.acp.license.error.upgradeOverrideEnabled"><![CDATA[Los productos con licencia no pueden mostrarse mientras la actualización a la siguiente versión está en curso.]]></item>
 	</category>
 	<category name="wcf.acp.menu">
 		<item name="wcf.acp.menu.link.management"><![CDATA[Gestión]]></item>
