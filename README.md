@@ -4,9 +4,9 @@ Idioma español para **WoltLab Suite Core**, desarrollado por [WoltLab GmbH](htt
 
 ## 🔎 Estado de la traducción
 
-- **Última revisión:** 24.09.2026
-- **Versión del software:** 6.2.8
-- **Estado:** Actualizado a la versión 6.2.8
+- **Última revisión:** 03.11.2026
+- **Versión del software:** 6.2.9
+- **Estado:** Actualizado a la versión 6.2.9
 
 ## 📥 Archivos de idioma disponibles
 * [WoltLab Suite Core](https://github.com/woltlab-suite-spanish/es.woltlab.wcf)
@@ -26,9 +26,9 @@ Idioma español para **WoltLab Suite Core**, desarrollado por [WoltLab GmbH](htt
 * [WoltLab Suite Database](https://github.com/woltlab-suite-spanish/es.woltlab.wsdb)
 
 ## ✏️ Notas de la traducción
-1. La traducción utiliza como referencia el archivo de idioma inglés `en.xml`  proporcionado por el desarrollador. 
+1. La traducción utiliza como referencia el archivo de idioma inglés `en.xml`  proporcionado por el desarrollador.
 2. Versiones anteriores de la traducción pueden contener fallos corregidos en versiones más recientes.
-  
+
 ## ⚙️ Cómo instalar un archivo de idioma
 
 1. Descarga el archivo de idioma `es.xml` desde el repositorio correspondiente.
