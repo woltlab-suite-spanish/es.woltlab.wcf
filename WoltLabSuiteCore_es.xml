@@ -1873,9 +1873,11 @@ La base de datos se mantiene cuidadosamente, pero siempre habrá un margen de er
 		<item name="wcf.acp.package.update.credentials.description"><![CDATA[Puedes encontrar tu licencia y número de serie en el <a class="externalURL" href="https://www.woltlab.com/license-list/"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>área de clientes en woltlab.com</a>.]]></item>
 		<item name="wcf.acp.package.update.error.listNotFound"><![CDATA[No se ha podido recuperar la lista de paquetes.]]></item>
 		<item name="wcf.acp.package.update.error.outstandingUpdates"><![CDATA[Por favor, instala todas las actualizaciones pendientes antes de intentar migrar a una versión más reciente.]]></item>
+		<item name="wcf.acp.package.update.errorCode"><![CDATA[El servidor de paquetes ha rechazado la solicitud (código de estado HTTP {$responseStatusCode}).]]></item>
 		<item name="wcf.acp.package.update.errorCode.401"><![CDATA[Tus credenciales no son válidas, por favor, verifica {if $updateServer->requiresLicense()}la licencia y el número de serie{else}}el nombre de usuario y la contraseña{/if}.]]></item>
 		<item name="wcf.acp.package.update.errorCode.402"><![CDATA[{if $updateServer->requiresLicense()}La licencia y el número de serie{else}El nombre de usuario y la contraseña{/if} han sido aceptados por el servidor, pero no le conceden el permiso para descargar este producto comercial.]]></item>
 		<item name="wcf.acp.package.update.errorCode.403"><![CDATA[No tienes permiso para acceder a este paquete.]]></item>
+		<item name="wcf.acp.package.update.errorCode.404"><![CDATA[No se ha podido encontrar el paquete solicitado en el servidor de paquetes.]]></item>
 		<item name="wcf.acp.package.update.authInsufficient"><![CDATA[Las credenciales son válidas, pero no permiten la descarga {if $packageName}del paquete “<strong>{$packageName}</strong>”{else}de este paquete{/if}.]]></item>
 		<item name="wcf.acp.package.update.licenseNo"><![CDATA[Número de licencia]]></item>
 		<item name="wcf.acp.package.update.password"><![CDATA[Contraseña]]></item>
@@ -4545,7 +4547,7 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<item name="wcf.poll.endTime"><![CDATA[Fin de la encuesta (opcional)]]></item>
 		<item name="wcf.poll.endTime.error.invalid"><![CDATA[La fecha introducida no es válida.]]></item>
 		<item name="wcf.poll.isChangeable"><![CDATA[Los votos pueden ser cambiados]]></item>
-		<item name="wcf.poll.isPublic"><![CDATA[Mostrar participantes]]></item>
+		<item name="wcf.poll.isPublic"><![CDATA[Los participantes son visibles]]></item>
 		<item name="wcf.poll.management"><![CDATA[Encuesta]]></item>
 		<item name="wcf.poll.maxVotes"><![CDATA[Máximo de votos de la encuesta]]></item>
 		<item name="wcf.poll.maxVotes.error.invalid"><![CDATA[El número máximo de votos permitidos supera el número de opciones disponibles.]]></item>
@@ -5599,7 +5601,6 @@ tus notificaciones en <a href="{link isHtmlEmail=true}{/link}">{PAGE_TITLE|phras
 		<item name="wcf.upload.error.fileExtensionNotPermitted"><![CDATA[El tipo de archivo “{$filename}” no está permitido.]]></item>
 		<item name="wcf.upload.error.fileSizeTooLarge"><![CDATA[El archivo es demasiado grande.]]></item>
 		<item name="wcf.upload.error.maximumCountReached"><![CDATA[Solo se puede subir {plural value=$maximumCount 1='un archivo' other='# archivos'}.]]></item>
-		<item name="wcf.upload.error.adopt"><![CDATA[El archivo "{$filename}" no puede ser asignado.]]></item>
 		<item name="wcf.upload.error.image.tooSmall"><![CDATA[La imagen es demasiado pequeña. Debe tener un tamaño mínimo de {$width} x {$height} píxeles.]]></item>
 		<item name="wcf.upload.error.delete.unknownError"><![CDATA[Ha ocurrido un error desconocido al eliminar el archivo.]]></item>
 		<item name="wcf.upload.error.delete.permissionDenied"><![CDATA[El archivo no se puede eliminar, usa <strong>Reemplazar</strong> en su lugar para cambiar el archivo.]]></item>
@@ -5738,5 +5739,6 @@ Extensiones permitidas: {', '|implode:$allowedFileExtensions}]]></item>
 	<item name="wcf.moderation.report.notification.commentResponse.title"/>
 	<item name="wcf.moderation.report.notification.commentResponse.title.stacked"/>
 	<item name="wcf.user.notification.pageComment.responseOwner.title"/>
+	<item name="wcf.upload.error.adopt"/>
 </delete>
 </language>
